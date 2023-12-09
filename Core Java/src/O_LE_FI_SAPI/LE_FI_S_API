@@ -1,0 +1,42 @@
+Date:08/12/2023
+----------------
+Java 8 version Features
+------------------------
+Lambda Expressions
+----------------------
+            - The Expression through which we can represent an anonymous method
+            - Anonymous method which does not have any name
+
+syntax
+-------
+        Parameter       Expression      body
+            ()              ->          SOP("Lambda);
+
+Function Interface
+        - The Interface which contains only one abstract method but can have multiple
+            default and static methods is called as function interface
+        - @FunctionalInterface annotation is used to mark an interface as function interface
+
+                Example:
+                        - Runnable -> run()
+                        - comparable -> comareTo()
+                        - Comparator -> comare()
+
+                Refer Program LambdaDemo.java
+
+Java Stream API
+-------------------
+        - Java Stream API is used to operate on the source data structure(collection/ array)
+            and product pipelined data that we can use to perform specific operations like
+            we can create a Stream from the list and filter it based on the given condition
+         - Java Stream API is used to increase the performance of application
+         - Java Stream API is present in java.util.stream package
+
+          Refer Program StreamapiDemo.java
+
+Filreting using stream API
+----------------------------
+         - filter() is an intermediate operation that reads the data from a stream and
+           returns a new stream after tramsforming the data based on the given conditions
+
+           Refer program StreamDemo2.java

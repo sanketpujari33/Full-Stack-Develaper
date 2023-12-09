@@ -1,0 +1,64 @@
+Date:05/12/2023
+---------------
+Full stack Java
+----------------
+- Core Java/ Java SE
+	- Java SE Stand for Java Standard Edition
+	- Used to develop Standalone/ desktop application
+		- javaIroduction
+		- Java Features
+		- Download and Install Java 19 version
+		- Developing a Java Appliction in Eclipse IDE
+		- JAva Basics
+			- Keywords, variables, data types, operators, if, switch case;,
+			  while loop, do... whlile loop, for loop
+		- Array
+		- Java OOP(Object Oriented Programming)
+		    - Class, object, methods, function, construct,static keyword, package, inheritance,
+		      polymorphism, final keyword, inner classes, access modifiers,
+		      encapsulation, abstract classes, interfaces, etc;
+		- lang package
+		    - Object class, string class, StringBuffer class, stringBuilder class,
+		      Math class, Wrapper class
+		- Exception Handling
+		- Multithreading
+		- Collections
+		- Lambda Expressions, Functions Interface, Stream API
+		- IO Package
+		- SQL concepts/DataBase concepts using MYSQL Database
+		- JDBC (Java Data Base Connectivity)
+
+- Web Technologies / UI Design / Front End Design
+        - HTML (Hypertext Markup Language)
+        - CSS (Cascading Style Sheet Language)
+        - JavaScript
+        - TypeScript
+        - XML
+        - JSON
+        - Angular
+
+- Advanced Java / Java EE
+        - Java EE stands for Java Enterprise Edition
+        - Used to develop web applications
+            - Servlets
+            - JSP (Java Server Pages)
+
+- Frameworks
+       - Hibernate Framework
+       - Web Services
+       - Spring Framework
+            - Spring Core/Bean Module
+            - Spring DAO Module
+                - Spring JDBC Module
+                - Spring ORM Module (Hibernate)
+                - Spring data module
+            - Spring MVC Module --> Used to develop web applications
+            - Sprin Boot Module
+            - Spring REST Module
+            - Microservices Using Spring Boot
+- Real time tools
+    - Maven
+    - GitHub
+    - Log4j
+    - Lombok
+    - Postman

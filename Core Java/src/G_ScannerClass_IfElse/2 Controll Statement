@@ -1,0 +1,133 @@
+Date:05/12/2023
+---------------
+Control Statements
+-------------------
+
+These statement are used to control the flow of excution of program
+    Type
+    -----
+       - If statement / if.....else Statement
+       - switch statement
+       - while loop
+       - do..while loop
+       - for loop
+       - break and continue
+
+If statement / if.....else Statement
+------------------------------------
+            It is used to execute the set of statements when the condition is true.
+            if the condition is false it will execute the set of statements present
+            in else part
+      syntax
+      -------
+            if(condition)
+            {
+                    statements-1;
+                    statements-2;
+                    ...
+                    statements-n;
+            }
+            else
+            {
+                    statements-1;
+                    statements-2;
+                    ...
+                    statements-n;
+            }
+
+Point on if Statement
+--------------------------
+        - For if, else is optional
+        - For else, if is mandatory
+        - If {} are not used then if considers only one statement means for one statemrnt
+           using {} is optional
+
+           Example:
+                    int n1 = 10;
+                    int n2 = 5;
+                     if(n1 > n2)
+                      SOP("Big = "+n1);
+                     else
+                       SOP("Big = "+n2);
+                    Output
+                    --------
+                    Big = 10;
+
+           Example:
+                    int n1 = 10;
+                    int n2 = 15;
+                     if(n1 > n2)
+                      SOP("Big = "+n1);
+                     else
+                      SOP("Big = "+n2);
+                    Output
+                    --------
+                    Big = 15;
+
+1.WAP to Check Whether the given number is Even or old ?
+        Refer Program EvenOdd.java
+
+Nested if
+--------------
+        if within if is called as nested if
+Syntax
+-------
+        if(condition)
+        {
+            statements;
+        }
+        else if (condition2)
+        {
+            statements;
+        }
+        else if (condition3)
+        {
+            statements;
+        }
+        ...
+        ...
+        else if (condition)
+        {
+            statements;
+        }else
+        {
+            statements;
+        }
+
+2.WAP to check the whether the given number is positive or negative or zero
+        Refer program CheckNumber.java
+3.WAP to  Find biggest of given three numbers
+    n1, n2, n3
+    Refer program BigThree.java
+
+ 4. WAP to find area of a circle
+        double PI = 3.14;
+        area = PI * radius * radius;
+      Refer program CircleAreaCalculator.java
+
+ 5. WAP to check whether the given age is major or minor
+        Note: if the given age is < 0 than display "Invalid age"
+        Refer program AgeChecker.java
+
+ 6. WAP to find biggest of given three number using conditional operator(?)
+            Refer program BiggestNumberFinder.java
+
+ 7. WAP to accept item number, item name, rate and quantity, find price (rate * qty)
+    Calculate discount as follows
+            if(price >= 1000 and <2000)
+            discount is 10% on price
+            if(price >= 2000 and < 3000)
+            discount is 15% on price
+            if(price >= 3000 and < 5000)
+             discount is 20% on price
+             if(price >= 5000)
+             discount is 25% on price
+
+             calculate net price (price-discount)
+             Display item number, item name, price, discount and net price
+            program
+            --------
+                if(price >=1000 && <2000)
+                 discount = o.10 * price
+
+                Refer program ItemPricing.java

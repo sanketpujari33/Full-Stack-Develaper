@@ -1,0 +1,81 @@
+Date:06/12/2023
+---------------
+  Static keyword
+ --------------
+        - Static keyword can be used for data members, methods and inner classes (a class within a class)
+        - Static Keyword can be used for top level class (outer classes)
+
+        Example:
+                static class MyClass{}; // error message
+
+        -static keyword cannot be used for local variables (declared within a method)
+
+        Example:
+                class MyClass
+                {
+                    void xxx()
+                    {
+                       static int n;//error- local variable n canot be static
+                    }
+
+                }
+        - Static members are accessible directly with the class without creating objects
+        - object can also access static members
+        - A static method can access only other static members directly
+        - A static variable acts as a global variable within class means all objects
+            of the class can access static variable memory
+
+            Refer program StaicDemo.java
+
+Package
+---------
+        - A package is a collection of related classes (.class files)
+        - A package keyword is used to create a package
+        Example:
+                package mypack;
+
+        - Package statement should be the frist statement in source code file
+        Example:
+                X.java
+                ------
+                        package mypack;
+                        import ....;
+                        import ....;
+                        class A{};
+                        class B{};
+        - In a source code file, We can have only one package statement with multiple
+            import and class declaration
+        - The class under the package are stored in a folder whose name is same as the
+            package name
+        - only public classes are accessible outside of the package
+        - To use the classes of one package into another we need to import the package
+            Example:
+                    import mypack.A;
+                    import mypack.B;
+                            or
+                    import mypack.*;//* indicates all classes under the package
+
+   Example Application:
+   ---------------------
+                - Create  a package "mypack2" in myProject
+                    Right click on the myProject -> new -> package
+
+                        Name: mypack2
+                        and then click finish
+                - Create a class "CalculatorTest" in mypack2 package
+                       Right click on the mypack2 -> new -> class
+
+                      Name: CalculatorTest
+                      make check mark to main()
+                      and then click finish
+                      Refer program CalculatorTest.java (Run)
+
+                 package com.oop.program;
+                        creates s folder "com" with a subfolder "oop" and with a subfolder "program"
+                        under "oop" folder
+                        - com
+                            - oop
+                                - program
+                                \
+           import java.util.Scanner;
+                Scanner is .class file present in "util" folder which is subfolder of "java" folder

@@ -1,0 +1,115 @@
+Date:07/12/2023
+-----------------
+Try with Multiple catch blocks
+-------------------------------
+              - It is used to provide proper message to the user based on exception type
+
+                    syntex
+                        try
+                        {
+                            st-1;
+                            st-2;
+                            ...
+                            st-n;
+                        }
+                        catch (ExceptionType1 e)
+                        {
+                                //handle
+                        }
+                        catch (ExceptionType2 e)
+                        {
+                             //handle
+                        }
+                         catch (ExceptionTypen e)
+                         {
+                              //handle
+                         }
+                     Refer Program MultipleCatchDemo.java
+       Note
+       -----
+              -  In try with multiple catch blocks the order of catch blocks cnnot be from
+                  super class to subclass
+
+       Finally block
+      -----------------
+                - Finally block is execute irrespective of exception present in try block
+
+               syntax
+               -------
+                    try
+                    {
+                          statement;
+                    }
+                    catch (Exception e)
+                    {
+                     //handle
+                    }
+                    finally
+                    {
+                        statement;
+                    }
+
+                    Example:
+
+                            try
+                            {
+                                con = //database connection
+
+                                trans-1;
+                                trans-2;
+                                trans-3;
+                                ...
+                                trans-n;
+
+                            }
+                            catch (Exception e)
+                            {
+                               //handle
+                            }
+                            finally
+                            {
+                                 con.close();
+                            }
+              - Finally block is generally used to do the closing operations
+
+ toString();
+ ------------
+         - When an object is displayed is SOP(), toString() is invoked implicitly
+         - toString() belongs to object class
+         - toString() of object class returns the className along with the hashcode of object
+         - To represent the object value in String/readable format we need to override toString()
+             in class
+        Refer program ToStringDemo.java
+
+Method of Throwable class
+---------------------------
+    - String toString() --> represents the object value in String/readable format
+    - String getMassage() --> returns the Message of exception
+    - void printStackTrace() --> Display the root cause of exception
+
+ User Defind Exception / Custom Exceptions
+ ------------------------------------------
+                        - User Defind Exception are created by creating a class  which is subclass of
+                            Exceptions class
+
+                          Example:
+
+                                class MyException extends Exception
+                                {
+                                    MyException(String message)
+                                    {
+                                      super(message);
+                                     }
+                                     MyException(){};
+                                }
+                        - Create a user defined exception "AgeException".
+                        - Create a class "Customer" with a method "setAge()" which takes "age" as argument
+                            If the age < 18 or > 60 then it should throw "AgeException" with the message
+                            "Age should be between 18 and 60"
+
+                         - Refer program CustomExceptionDemo.java
+
+  1. Create a user defind exception "WithrawException".
+    create a class "Account" with a method "withdraw()" which takes "amount" and
+    "balance" as arguments. if the amount > balance then it should throw
+    "WithdrawException" with the message "Insufficient balance"

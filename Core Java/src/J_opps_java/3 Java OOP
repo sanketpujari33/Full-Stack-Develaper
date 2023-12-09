@@ -1,0 +1,97 @@
+Date:06/12/2023
+---------------
+  Inheritance
+ --------------
+            - The process of creating new classes from the existing classes is colled as inheritance
+            - In Java, extends keywords is used to create new class from the existing class
+                Example:
+                        class Vehicle // Base class or Super class or Parent class
+                        {
+                            ...
+                            ...
+                        }
+                        class Car extends Vehicle // Derived class or sub class or child class
+                        {
+                             ...
+                             ...
+                        }
+            - Through inheritance we can achieve reusalility of the code
+            - Java does not support multiple inheritance due to ambiguites means in java a class
+                can extend only one class
+
+                Example:
+                    class A
+                    {}
+                    class B
+                    class C extends A, B{}// error -does not support multiple inheritance
+
+                Example:
+                 Vehicle (Car, Bike, Bus)
+                 Furniture (Chair, Tabble)
+                 Fruit (Apple, Mango)
+                 Account (Saving Account, Current Account)
+
+            - Inheritance is "is-a"  relationship
+
+                Example:
+                        class Employee{};
+                        claas Department extends Employee{};// not good initialisation
+
+                        class Department //Department has Employee
+                        {
+                                Employee emp;                        // good initialisation
+                        };
+
+                        Refer program InheritanceDemo1.java
+
+
+ Polymorphism
+ ---------------
+            - Polymorphism means many forms
+             Types
+             ------
+                    - Compile time Polymorphism
+                        - Method Overloading
+
+                    - Run time Polymorphism
+                         - Method Overriding
+
+             Methods Overloading
+             --------------------
+                   - Method name is same but the signature is different
+                          signatures-->number of arguments/type of arguments
+
+                               Example:
+                                        area(int , int, int){}
+                                        area(int , int){}
+                                        area(float, float){}
+
+                    -Applicable within the same class as well as subclasses
+
+              Method overriding
+              -----------------
+                        - Method name is same and signature is also same
+                        - Applicable only in subbclass
+
+                                Example:
+                                        class Vehicle
+                                        {
+                                                void drive(){...}
+                                        }
+                                        class Car extends Vehicle
+                                        {
+                                                void drive(int speed){...}//overload method
+                                                void drive(){...}//overriding method
+                                        }
+                                        Car c =new Car();
+                                        c.drive();// invoke drive() of car
+
+                        - If a subclass object invoke the overridden method then it will invode the
+                            method present in subclass
+
+
+
+             Super Reference
+             ----------------
+                            Super reference is used to refer to the Base class member from Derived class Method
+                            Refer program InheritanceDemo2.java

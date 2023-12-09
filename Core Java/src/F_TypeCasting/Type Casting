@@ -1,0 +1,235 @@
+Date:05/12/2023
+---------------
+ Primitive Data Type
+-------------------------
+
+---------------------------------------------------    Declaration of Variables
+|   Data Type  |  Size (in bits)  |  Default Value | ----------------------------
+---------------------------------------------------    - In order to allocate memory space for variables we
+|    byte      |        8 (1byte) |       0        |       need to declare the variable
+|    short     |       16 (2byte) |       0        |    Syntax
+|    int       |       32 (4byte) |       0        |    -------
+|    long      |       64 (8byte) |      0L        |    Ex:                  |--------------------|---------------|
+|    float     |       32 (4byte) |     0.0f       |        int a,b;         | c/c++     garbage  | java   Default|
+|    double    |       64 (8byte) |     0.0d       |        char c;          |  int n;  /  or     |  int /  value |
+|    char      |       16 (2byte) |   '\u0000'     |        float f;         |    |3465|  unknown |  | 0 |        |
+|    boolean   |   not precisely  |     false      |        boolean b1=true  |      n      value  |    n          |
+|              |   defined(1byte) |                |        boolean b2=false |____________________|_______________|
+---------------------------------------------------     Default value  |----- -128 to 127 (range)
+                                                       --------------  |    |---- -32768 to 32767 (range)
+                                                       Integral Type: byt, short, int, long --> 0
+                                                       floating Type: float, double --> 0.0
+                                                       char: ''
+                                                       boolean: false
+
+
+Points on data Type
+---------------------
+   -Default value are applicable only to the data members(declared within a class) of
+    the class not for local variables (declared within a method)
+       Example:
+           class sample
+           {
+                int m; // data member
+                    void xxx()
+                    {
+                        int n;// local variable
+                        SOP(n);// error - local variable n should be initialized
+                    }
+                    main()
+                    {
+                    smaple s=new Sample();
+                    SOP(s.m);// 0
+                    s.xxx():
+            }
+         SOP --> System.out.println()--> to Display messages or the value of variables or both
+
+- Local Variables need to be initialized
+
+- Memory allocation for reference data type is done during runtime using new operator
+-  Default value for reference data type is null
+      Example:
+                String s; //data member
+                SOP(s); // null
+
+
+Type Casting
+----------------
+  - Converting from one primitive data type into another primitive data type or
+     converting from one reference data type to into another reference data type
+     is colled as Type Casting
+
+Type of Casting
+----------------
+     - Implicit Casting
+     - Explicit Casting
+
+Implicit casting
+-----------------
+    Converting from lower data types into higher data types
+       -Example
+                int n=100;
+                long x=n;
+                SOP(x);//100
+       -Example:
+                byte b=35;
+                double d=b;
+                SOP(d);//35.0
+       -Example:
+                char c='A';
+                int n=c;
+                SOP(n)://65 (UNICODE OF CHARECTER 'A');
+
+        Note:
+        -----
+        - C/C+ supports ASCII Codes (256 symbols).
+        - Java/.NET/ PHP/Python supports UNICODEs (65536 symbols).
+        - ASCII Codes are subset of UNICODEs
+
+Exlicit Casting
+-----------------
+    Converting higher data type into lower data type
+   Example:
+            long x=100;
+            int n=x;//error
+            int n= (int)x;
+            SOP(n);//100
+   Example:
+            int n=65;
+            char c=n;//error
+            char c=(char)n;
+            SOP(c);//A
+   Example:
+           float f=3.14; //error - since in java a value with decimal point is double data type
+           float f= (float)3.14;
+           or
+           float f=3.14f;
+           or
+           float f=3.14F;
+
+Jshell tool
+------------
+       -JShell tool is added in java 9 version
+       -Jshell tool is an interactive tool to execute tha java statement
+
+ To open Jshell
+ ---------------
+        Open command prompt/terminal
+        C:\> jshell;
+        jshell> System.out.println("Welcome to JShell");
+        Welcome to JShell
+
+        TO Exit
+        ---------
+                jshell>/exit
+
+Operators
+----------
+        - Arithmetic Operator --> + , -, *, /, % (Modulus - Remainder)
+                 + --> Addition
+                 - --> Subtraction
+                 * --> Multiplication
+                 / --> Division
+                 % --> modulus
+            Example:
+                    5 / 2 = 2 (quotient)
+                    5 % 2 = 1 (remainder)
+
+                    5.0 / 2 = 2.5
+                    5 / 2.0 = 2.5
+                    5.0 / 2.0 = 2.5
+                    5.0 % 2.0 = 1.0
+
+        - Relational Operator --> >, <, >=, <=, ==, != (not equal)
+              - used to from the conditions (Comparisions)
+               Example:
+                    int age = 10;
+                        (age <= 20) // condition
+               -A condition can be either true or false but cannot be both
+               (age == 10) // checks for equality
+
+        - Logical Operator --> && (AND), || (OR), ! (NOT)
+             - Used To join condition
+             Example:
+             ((m1 >= 40) && (m2 >= 40) && (m3 >= 40))
+                        result --> "Pass";
+             Example:
+             (m1 < 40) || (m2 < 40) || (m3 < 40)
+                        result --> "Fail";
+               - In case of && all conditions should be true
+               - In case of || any one condition should br true
+
+        - Assignment Operator --> =, += , -=, *=, /=, %=
+                - Shortcut/ shorthand operators
+                Example:
+                    int x=5;
+                    x=x+5;//x=5+5=10
+                    using shorthand
+                    x += 5;
+
+                Example:
+                    int y = 10;
+                    y= y * 20; // y=10 * 20 = 200
+                    using shorthand
+                     Y *= 20;
+        - Conditinal Operator --> ? (Terinary Operator)
+                Syntax
+                -------
+                        (condition) ? expression1 : expression2;
+
+                        it is used to check a condition and if the condition is true it will execute
+                        expression1 else if the condition is false it will execute expression2
+
+                        Example:
+                            int n1 = 10;
+                            int n2 = 5;
+                            int big= (n1 > n2) ? n1 : n2
+                            SOP(big); //10
+
+                         Example:
+                                int n1 = 10;
+                                int n2 = 15;
+                                int big= (n1 < n2) ? n1 : n2
+
+        - Increment and Decrement Operator --> ++, --,
+
+                        - Increment --> ++ --> value of variable is incremented by 1
+                        - Decrement --> -- --> value of variable is decremented by 1
+
+                        Example:
+                                int x = 5;
+                                    x++;
+                                    SOP(x);//6
+
+                        Example:
+                                int x = 5;
+                                    x--;
+                                    SOP(x);//4
+
+        Type
+        ------
+        - Pre
+        - Post
+                Refer Pre Vs Post
+
+                ----------------------------------------------
+                |    Pre-increment    vs     Post-increment  |
+                ----------------------------------------------
+                |    ++variable            variable++       |
+                |    ^^^^^^^^^^            ^^^^^^^^^^        |
+                |    Increment             Increment         |
+                |    happens               happens after     |
+                |    before the            the value of      |
+                |    value is              variable is       |
+                |    used or               used or assigned  |
+                |    assigned              in the expression |
+                |                                            |
+                |    Example:                                |
+                |    int num = 5;                            |
+                |                                            |
+                |    Pre-increment:         Post-increment:  |
+                |    int result = ++num;  int result = num++;|
+                |    Result: 6              Result: 5        |
+                |    Num: 6                      Num: 6      |
+                |--------------------------------------------|
+

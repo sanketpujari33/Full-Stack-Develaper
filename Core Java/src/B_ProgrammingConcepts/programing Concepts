@@ -1,0 +1,90 @@
+Date:05/12/2023
+---------------
+Full stack Java
+---------------
+ Programing Concepts
+ --------------------
+ Program
+ ---------
+        - A Program is a collection of statements used to do a specific task
+
+ comments
+ ---------
+       - Comments are used to document a program and ignored by the proframming language
+
+ Type Of Comments
+ --------------------
+        - Single Line comments (//)
+            - Example
+                // To find area of a reactangle
+
+        - Multiline comment (/*.....*/)
+            - Example
+                /*
+                    To Find Gross salary
+                    and net salary of
+                    an employee
+                */
+
+Keywords
+---------
+    A Keyword is a reserved word/predefined word whose maaning is known to the
+    language directly
+
+    - Example
+        int, float, double, if, else, char, while, do, for, class, public, private,
+
+ Variable
+ --------
+      A variable is an identifier which allocates some memory space and stores the variable
+        Example
+            empNum, studentName, grossSalary, itemPrice
+
+Datatype
+---------
+      Tpe of data the variable holds is called as datatype
+
+      Example
+        int
+        char
+        float
+        String --> Collection of Characters
+
+Declaration of a variable
+----------------------------
+        In order to allocate memory space for variable we need to declare the variable
+
+syntax (Rules of the language)
+------------------------------
+        Datatype var1, var2,....., varn;
+        Example
+        int a, b;
+        char c;
+        float f;
+        String name;
+
+ Method/ function
+ ------------------
+    A Method is a subprogram which is used to do a specific task
+   Example
+
+       {int} areaRect(int length, int breadth)// Length and breadth are arguments / parameters
+        {
+                int area;
+                area=length*breadth
+                return area;
+        }
+        // Calling the method
+       int a= areaRect(10,p);
+       print(a); //50
+       the return type of areaRect() Method is int
+
+        {void} areaRect(int length, int breadth)// Length and breadth are arguments / parameters
+               {
+                       int area;
+                       area=length*breadth;
+                       print(aarea);
+               }
+                // Calling the method
+               int a= areaRect(10,p);
+          Void means no return type

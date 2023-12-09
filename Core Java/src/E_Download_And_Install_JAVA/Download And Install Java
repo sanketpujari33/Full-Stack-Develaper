@@ -1,0 +1,16 @@
+Date:05/12/2023
+---------------
+Download and install Java
+-------------------------
+        Refer document Download and Install Java
+        C:\Program Files\Java\ jdk-version } JAVA_HOME
+
+        java.exe and javac.exe commands are present in JAVA_HOME\bin folder
+
+        Download and install java on macOS
+        ----------------------------------
+        http://www.youtube.com/watch?v=45eteIKCCTA
+
+        Developing a java application at terminal on macOs
+        ----------------------------------------------------
+        http://www.youtube.com/watch?v=54qu9Su2Gos

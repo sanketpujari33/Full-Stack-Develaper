@@ -1,0 +1,44 @@
+Date:06/12/2023
+---------------
+ - 3. For loop
+ ---------------
+     syntax
+    --------
+     for (initialization; condition; expression)
+     {
+            st-1;
+            st-2;
+            ...
+            st-n;
+     }
+     Note: if no {} then it considers only one stargument
+
+     Example:
+            1 2 3 ... 9 10
+            for(int i = 1; i <= 10; i++)
+            {
+                SOP(i);
+            }
+
+     Example:
+            for(int i = 1; i <= 10; i++);
+                 SOP(i);
+            output
+           --------
+            Error - connot find symbol variable i;
+
+     Example:
+            int i;
+            for(i = 1; i <= 10; i++);
+                 SOP(i);
+            output
+           --------
+              11;
+  WAP to find the factorial of a given number
+        5! = 5 * 4 * 3 * 2 * 1 =120
+        f=1
+        Refer program Factorial.java
+
+   WAP to display multiplication table for a given number
+       n=5
+       Refer program MTable.java

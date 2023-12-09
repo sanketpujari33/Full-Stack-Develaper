@@ -1,0 +1,235 @@
+Date:07/12/2023
+-----------------
+  Constructor in Inheritance
+ ----------------------------
+           - super(){}; is the frist statement added to every constructor implicitly which
+              invokes Base class default constructor
+           - To call Parameterized constructor of Base class from Derived class constructor,
+              Call it explicitly
+           - call to super() must be first statement in constructor
+
+                    Refer program InheritanceDemo3.java
+ Final Keyword
+ --------------
+            final keyword can be used for the following
+                - variables (data members/ local variables)
+                - methods
+                - classes
+
+            final variable
+            --------------
+                    - it is constant it means the value of the variable cannot be modified
+
+                       Example:
+                                 final int MAX_VALUE =100;
+                                 Max_VALUE = 200; //error
+
+                       Example:
+                                  final double PI =3.14;
+
+            final method
+            -------------
+                        It cannot be overridden
+
+                       Example:
+                                   class Base
+                                   {
+                                       final void xxx(){...};
+                                   }
+                                   class Drived extends Base
+                                   {
+                                             void xxx(){...};// error
+                                   }
+
+            final class
+            ------------
+                        - It cannot be subclassed
+
+                       Example:
+                                final class Base{}
+                                class Drived extends Base{}//error
+
+            Predefined final classes
+            ------------------------
+                System
+                String
+                Math
+
+            Wrapper classes
+            ----------------
+                Byte
+                Short
+                character
+                Integer
+                Long
+                Float
+                Double
+                Boolean
+
+            What is the output
+                    class Sample extends String{}// Error -String is final cannot be subclassed
+
+
+
+            Inner classes
+            --------------
+                        - A class within a class is called as inner class
+
+                        Example:
+                                   class Outer
+                                   {
+                                        class Inner
+                                        {
+                                            ...
+                                        }
+                                   }
+                        Refer programs InnerDemo.java
+
+Access Modifiers
+-----------------
+                - private
+                    - A class cannot be private
+                        Example:
+                                private class MyClass{}//error
+                    - private keyword can be used for data members, methods and inner classes
+                    - private members are accessible only withen the some class
+                            Example:
+                                    class A
+                                    {
+                                        private int n;
+                                        void xx()
+                                        {
+                                             n = 10;//valid
+                                        }
+                                    }
+                                    class B
+                                    {
+                                        void yyy()
+                                        {
+                                            A a=new A();
+                                            a.n =20; //error -n is not visible (private)
+                                        }
+                                    }
+
+                - default (no need to specify)
+                            - A class can be default
+                            - accessible only within the same package
+                                Example:
+                                        package pack1;
+                                        class A
+                                        {
+                                            int n; //default specifier
+                                        }
+                                        class B
+                                        {
+                                            void xxx()
+                                            {
+                                                A a =new A();
+                                                a.n =10; //valid
+                                            }
+                                        }
+                                     ----------------------
+                                     package pack2;
+                                     import pack1.A;
+                                     class C
+                                     {
+                                        void yy()
+                                        {
+                                            A a =new A();
+                                            a.n =20;// error - n is not visible (default)
+                                        }
+                                     }
+
+                - protected
+                        - A class cannot be protected
+                             Example:
+                                    protected class MyClass{}// error
+                        - protected keyword is used for data members, methods and inner classes
+                        - protected members are accessible within the same package sand subclass of another package
+                                Example:
+                                        package pack1;
+                                       public class A
+                                        {
+                                             protected int n; //default specifier
+                                        }
+                                        class B
+                                        {
+                                            void xxx()
+                                            {
+                                                A a =new A();
+                                                a.n =10; //valid
+                                            }
+                                        }
+                                     ----------------------
+                                     package pack2;
+                                     import pack1.A;
+                                     class C
+                                     {
+                                        void yy()
+                                        {
+                                            A a =new A();
+                                            a.n =20;// error - n is not visible (protected)
+                                        }
+                                     }
+                                     class D extends A
+                                     {
+                                         void zzz()
+                                         {
+                                            n = 30;// valid
+                                         }
+                                     }
+                - public
+                        - A class can be public
+                        - Accessible everywhere
+                        - if the class is public then the name of the source code file should be some
+                          as the class name
+                          Example:
+                                MyClass.java
+                                --------------
+                                public class MyClass
+                                {
+
+                                }
+                        - In a source code file we can have only one public class
+                        Example:
+                                A.java
+                                -------
+                                public class A
+                                {}
+                                public class b
+                                {}
+                Summary
+                --------
+                        - private --> accessible only with in the some class
+                        - default --> accessible only with in the some package
+                        - protected --> accessible within the some package + subclass of another package
+                        - public --> accessible everywhere
+Non Access Modifiers
+----------------------
+                - static
+                - final
+                - abstract
+                - synchronized
+                - transient
+
+        Note:
+        -----
+            - Only final modifier   is allowed for local variables
+
+Encapsulation
+-------------
+            - The wrapping (binding) upof data members and method together into a container
+              called class and by providing security to data is called as encapsulation
+
+                Example:
+                        class Employee
+                        {
+                            int age;
+                            void set_age(int a)
+                            {
+                                age = a;
+                            }
+                        }
+                        Employee e=new Employee();
+                        e.age=20;
+                        e.set_age(30);

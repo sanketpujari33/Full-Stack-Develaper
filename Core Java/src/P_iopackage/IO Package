@@ -1,0 +1,132 @@
+Date:08/12/2023
+-----------------
+IO Package
+------------
+            - IO stand for input output
+            - IO package is used for the following
+                        - Creating new data files
+                        - Writing data onto the data file
+                        - opening existing data files
+                        - reading data from the data file
+                        - closing the file
+
+Stream
+-------
+        flow of data is called as stream
+
+     Type of Stream
+     ---------------
+                      - bytes streams
+                      - char streams
+
+
+     Io Hierarchy
+     -------------
+                    Refer Diagram IO hierarchy
+
+                                         IO hierarchy
+                                            Stream
+                                               |
+                     -+------------------------+---------------------------+-
+                      |                                                    |
+                byte stream                                              Char stream
+                      |                                                    |
+       -+-------------+----------------+-                        -+--------+--------+-
+        |                              |                          |                  |
+    [InputStream]               [OutputStream]                [Reader]           [Writer]
+        |                              |                          |                  |
+        +-FileInputStream              +-FileOutputStream         +-FileReader       +-FileWriter
+        |                              |                          |                  |
+        +-BufferedInputStream          +-BufferedOutputStream     +-BufferedReader   +-BufferedWriter
+        |                              |                          |                  |
+        +-DataInputStream              +-DataOutputStream
+        |                              |
+        +-ObjectInputStream            +-ObjectOutputStream
+        |                              |
+
+     - The Top most two abstract classes under byte stream are
+        - InputStream
+        - OutputStream
+
+     - The top most two abstract classes under char stream are
+        - Reader
+        - Writer
+
+ Subclasses under InputStream
+ -----------------------------
+                -FileInputStream
+                            - to open existing file and read data from the file
+
+                - BufferedInputStream
+                            - To increase the performance of read operations
+
+                - DataInputStream
+                            - To read different type of data like int, float, double, String etc.,
+                                from the data file
+
+                - ObjectInputStream
+                            - To read an object from the data file
+
+                         Refer programs
+                                - FileInputStreamDemo.java
+                                - DataInputStreamDemo.java
+
+Subclasses under OutputStream
+------------------------------
+                - FileOutputStream
+                            - To create a new file and write data onto the file
+
+                - BufferedOutputStream
+                            - To increase performance of write operations
+
+                - DataOutputStream
+                            - To write different type of data like int, float, double, String etc.,
+                               from the data file
+
+                - ObjectOutputStream
+                             - To write an object from the data file
+
+                        Refer programs
+                                - FileOutputStreamDemo.java
+                                - DataOutputStreamDemo.java
+
+  Note
+  -----
+       - When we use DataOutputStream to write data onto the file then we need to use DataInputStream to
+         read the data from the file
+
+  Subclasses under Reader
+  -------------------------
+                - FileReader
+                            - To open existing file and read the data from the file
+
+                - BufferedReader
+                            - To increase the performance of read operations
+
+                        Refer programs
+                                - FileReaderDemo.java
+
+  Subclasses under Writer
+  -------------------------
+                - FileWriter
+                        - To cereate a new file and write the data onto the file
+
+                - BufferedWriter
+                         - To increase the performance of write operations
+
+
+                         Refer programs
+                                    - FileWriterDemo.java
+
+Serialization
+---------------
+         - The process of writing objects onto the data file in called as serialization
+         - The process of reading objects from the data file in called as deserialization
+         - objectOutputStream class is used to write an object onto the data file using the writeObect();
+         - ObjectInputStream class is used to read an object from the data file using the readObject();
+         - In order to serialize an object of a class, the class should implement Serialization
+            Interface else it will throw "NotSerializableException"
+         - Serializable interface is a Marker interface
+         - Marker interfaces does not contain any methods
+
+            Refer programs SerializationDemo.java

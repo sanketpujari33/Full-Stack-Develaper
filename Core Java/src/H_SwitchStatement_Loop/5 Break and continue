@@ -1,0 +1,51 @@
+Date:06/12/2023
+---------------
+  Break and continue
+ --------------------
+        - break is used to come out of loop
+        - continue is used to continue the loop
+
+    Example:
+            while(condition)
+            {
+                ...
+                break;
+                ...
+            }
+            while(condition)
+            {
+                ...
+                continue;
+                ...
+            }
+
+     1.   WAP to accept the number from user until the user enters zero and find the
+        sum of these numbers
+            refer program BreakDemo.java
+       2.  WAP to display the following output
+        1 2 3 4 6 7 8 9 10
+        refer program ContinueDemo.java
+
+        3. WAP to display the following output
+
+                -----------------------
+                 Number     Factorial
+                ------------------------
+                  1             1
+                  2             2
+                  3             6
+                  4             24
+                  5             120
+                -----------------------
+                          sum = 153
+                -----------------------
+                refer program FactorialSumTable.java
+
+     4. WAP to display Multiplication tables from 1 to 10
+         refer program MultiplicationTables.java
+
+     5. WAP to check whether the given number is prime or not
+              refer program PrimeChecker.java
+
+     6. WAP to find sum of prime numbers from 2 to 100
+            refer program SumOfPrimes.java

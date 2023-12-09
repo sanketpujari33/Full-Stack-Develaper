@@ -1,0 +1,39 @@
+Date:06/12/2023
+---------------
+ - 2. while loop
+ ---------------
+     syntax
+     -----
+                do
+                {
+                    st-1;
+                    st-2;
+                    ...
+                    st-n;
+                }
+             while (condition)
+              Note: if no {} then it considers only one stargument
+
+        In case of while loop the condition  is checked before the statements where as
+            in case of do...while loop the condition is checked after the statements
+
+         Example:
+            1 2 3 ... 9 10
+            int i = 1;
+            do{
+                SOP(i);
+                i++;
+                }
+                while(i<=10);
+
+               WAP to accept the current balance and display the following options/ menu
+                        1. Deposit
+                        2. Withdraw
+                        3. Display Balance
+                        4. Exit
+
+                    The menu shold display repeatedly until the user chooses Exit
+                    Refer Program Bank.java
+
+                If the value of condition is accepted in the loop statements then it is suggested
+                to use do..while loop

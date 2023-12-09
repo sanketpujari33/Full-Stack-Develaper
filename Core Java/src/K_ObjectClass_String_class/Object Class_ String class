@@ -1,0 +1,281 @@
+Date:07/12/2023
+-----------------
+Java.lang package
+-----------------
+                - java.lang package is imported to all java program implicity
+
+Classes Under java.lang package
+-------------------------------
+    - Object
+    - String
+    - StringBuffer
+    - StringBuilder
+    - Math
+    - System
+
+Wrapper Classes
+----------------
+    - Byte
+    - Short
+    - Character
+    - Integer
+    - Long
+    - Float
+    - Double
+    - Boolean
+
+Object class
+------------
+        - Object class is the top most class in java Hierarchy
+        - Any class in java is a subclass of object class
+            Example:
+                class A [extends Object]
+                {}
+                class B extend A
+                {}
+
+ String class
+ -------------
+        - A string is a collection of characters
+        - In Java, String is immutable (like a constant)
+
+            Refer Digram String
+
+
+                                  String Class
+
+                                +-------------------+
+                                |   String class    |     <--- Representation of the String class in Java
+                                +-------------------+
+
+                                  Heap Memory
+
+                                +-------------------+
+                                |   String object 1 |     <--- String object 1 stored in the heap
+                                +-------------------+
+                                |   String object 2 |     <--- String object 2 stored in the heap
+                                +-------------------+
+                                |        ...        |     <--- Other String objects in the heap
+                                +-------------------+
+
+Methods of String class
+------------------------
+
+- Basic String Manipulation:
+                            length(): Returns length of the string.
+                            charAt(int index): Returns character at specified index.
+                            substring(int beginIndex): Returns substring from specified index.
+                            substring(int beginIndex, int endIndex): Returns substring within specified range.
+                            concat(String str): Concatenates specified string to invoking string.
+                            toUpperCase(): Converts string to uppercase.
+                            toLowerCase(): Converts string to lowercase.
+                            trim(): Removes whitespace from both ends.
+                            replace(char oldChar, char newChar): Replaces all occurrences of a character.
+
+
+- String Comparison:
+                           equals(Object another): Compares string to another object.
+                           equalsIgnoreCase(String another): Compares string to another ignoring case.
+                           compareTo(String another): Compares two strings lexicographically.
+
+- Searching and Retrieval:
+
+                           indexOf(int ch): Returns index of first occurrence of specified character.
+                           indexOf(String str): Returns index of first occurrence of specified substring.
+                           lastIndexOf(int ch): Returns index of last occurrence of specified character.
+                           startsWith(String prefix): Checks if string starts with specified prefix.
+                           endsWith(String suffix): Checks if string ends with specified suffix.
+
+
+- String Manipulation and Splitting:
+
+                          split(String regex): Splits string around matches of given regular expression.
+                          join(CharSequence delimiter, CharSequence... elements): Joins multiple strings using delimiter.
+                          valueOf(int value): Converts different types to strings.
+
+- String Representation:
+
+                        toString(): Returns string representation of the object.
+
+
+
+                - charAt()
+                        - Used to return the char at the given index
+                        eg:
+                            String s= "Hello";
+                            SOP(s.charAt(1));//e
+
+                - CompareTo()
+                        - Used to compare one string with another string
+                        ex:
+                            String s1= "abc";
+                            String s2= "xyz";
+
+                            if((s1.compareTo(s2)) < 0 )
+                                SOP(s1+ " is less than"+ s2);
+                            else
+                            if((s1.compareTo(s2)) > 0 )
+                                 SOP(s1+ " is greater than"+ s2);
+                            else
+                                 SOP(s1+ " is equal than"+ s2);
+                        Output
+                        ------
+                         abc is less than xyz
+
+                - concat()
+                        - Used to join/ concate one string with another string
+                            ex:
+                                String s1 = "Hello";
+                                String s2 = "World";
+                                SOP(s1.concat(s2));
+                           Output
+                           ------
+                           Helloworld (s1 =s1+s2)
+                           In the above code, three string objects will be created
+                           and "Hello" object will be ready for garbage collection
+
+                - contains()
+                           - Used to check whether a substring is present in the given string
+                           ex:
+                                String s = "Welcome";
+                                SOP(s.contains("come"));//true
+
+                - endWith() amd startWith()
+                           ex:
+                                String s = "Welcome";
+                                SOP(s.endWith("come"));//true
+                                SOP(s.startWith("Wel"));//true
+
+                - equals() and equalsIngnoreCase()
+                             -Used to check for the equality of two strings
+                                - equals() --> case sensitive
+                                - equalsIngnoreCase() --> not case sensitive
+                            ex:
+                                 String s1 = "HeLLo";
+                                 String s2 = "hello";
+                                 SOP(s1.equals(s2));//false
+                                 SOP(s1.equalsIngnoreCase(s2));//true
+                - indexOf()
+                            - Used to return the index of given substring from the given string
+                            ex:
+                                String s1 = "Welcome";
+                                SOP(s1.indexOf("come"));//3
+                                SOP(s1.indexOf("xyz"));//-1
+
+                - length()
+                        - Used to return the number of Characters from the given string
+                        ex:
+                            String s1 = "Welcome";
+                            SOP("Length =" + s1.length());// length = 7
+
+                - split()
+                        - Used to divide the given string into substrings based on the given
+                            delimeter (space, comma, colon, semicolon, etc)
+                            ex:
+                                String s1 = "Java is oo programming language";
+                                String[] strArray = s1.split(" ");
+                                for(String s: strArray)
+                                        SOP(s);
+                                 Output
+                                 -------
+                                 Java
+                                 is
+                                 oo
+                                 programming
+                                 language
+
+                - toCharArray()
+                        - used to convert the given string into char Array
+                            ex:
+                                String s1 = "Hello";
+                                    char[] charArray= s.toCharArray();
+                                    charArray --> {'H','e','l','l','o'}
+                - toLowerCase() and toUpperCase()
+                            ex:
+                                String s= "Hello";
+                                SOP(s.toLowerCase());//hello
+                                SOP(s.toUpperCase());//HELLO
+
+                - trim()
+                            - used to remove the white space before and end of the string
+                            ex:
+                                String s = " Hello World ";
+                                SOP(s.trim());//Hello World
+                - valueOf()
+                            - used to convert other data types into a string type
+                            ex:
+                                 int n = 245;
+                                 String s = String.valueOf(n);
+                                 SOP(s);// "245"
+
+                            ex:
+                                  double d =35.5;
+                                  String s = String.valueOf(d);
+                                  SOP(s);// "35.5"
+
+StringBuffer Class
+--------------------
+            - StringBuffer in mutable
+            - The method present in StringBuffer class are synchronized
+
+StringBuilder class
+--------------------
+            - StringBuilder is mutable
+            - The method present in StringBuilder class are not synchronized
+
+Generating Random Numbers
+---------------------------
+                - Random  numbers are used to generate OTPs (One Time Password)
+                - Math.random() is used to generate OTPs (One Time Password)
+                        0.0 --> Math.random() < 1.0
+
+                        refer programs OTPGenerator.java
+Task
+----
+        - Browse API of Math class
+          google : math class in java
+
+Wrapper Classes
+----------------
+           - For every primitive type there is a corresponding reference data type
+             called as wrapper class
+           - Wrapper class are immutable
+             ex:
+                    Integer n = 100
+                            n = 200;
+                     - In the above code, two Interger object will be created and the
+                       object (100) is ready for garbage collection
+           - Wrapper class are final means we cannot create subclasses for wrapper classes
+                ex:
+                    class MyClass extends Interger {}// error
+            - Wrapper classes are used to convert reference type into primitive type
+                called as parsing
+                ex:
+                        String s1 = "245";
+                            int n = Integer.parseInt(s);
+                            SOP(n); // 245
+                ex:-
+                    String s2 = "45.5";
+                    double d = Double.parseDouble(s2);
+                        SOP(d); // 45.5
+
+                ex:-
+                    String s3 = "ture";
+                    boolean b = Boolean.parseBoolean(s3);
+                    SOP(b); // ture
+
+
+          1. WAP to count number of vowels, consonants and words from the given the line of text
+                    refer program TextAnalyzer.java
+
+          2. WAP to check whether the give string is palindrome or not
+           ex:
+                madam, liril
+                refer program PalindromeChecker.java
+
+           3. WAP to reverse every word from the given the line of text (hint: split());
+            ex:
+                 I/P : Java is simple
+                 O/P : avaj si elpmis
+
+                    refer program ReverseWords.java

@@ -1,0 +1,97 @@
+Date:08/12/2023
+---------------
+Methods of List interface
+-------------------------
+            - boolean add(object) -> add an element at last
+            - void add(int,object) -> add an element at thr given index
+            - void set(int,object) -> modify/update an element at thr given index
+            - boolean remove(object) -> delete the given element
+            - object remove(int) -> delete the element at given index
+            - object set(int) -> return the element at given index
+            - int size() -> return the number of elements
+
+            Refer program ArrayListDemo.java
+
+
+Additional methods in LinkedList class
+---------------------------------------
+            - addFrist()
+            - addLast()
+            - removeFirst()
+            - removeLast()
+
+ Traversing and Iterating
+  -------------------------
+              -  Accessing every element of List/set is called as Traversing
+
+Generics in Collections
+-----------------------
+              - Generics are added in java 5 version
+              - Generics are used to different data type
+              - When Generics are used in collections we can ensure that only similar type of
+                elements are present in the collection
+              - When Generics are used in collections we can traverse that element using
+                Enhanced for loop (foreach)
+
+                Refer program GenericsCollection.java
+Set Interface
+---------------
+        - Set is unordered collection of elements
+        - Set does not allow duplicate elements
+
+Classes under Set interface
+----------------------------
+        - HashSet - unordered and no duplicate elements
+        - LinkedHashSet - ordered and no duplicate elements
+        - TreeSet - sorted and no duplicate elements
+
+        Refer program SetDemo.java
+
+WAP to remove duplicate moblie number from the given list of moblie numbers
+        Refer program RemoveDuplicate.java
+
+
+
+Map interFace
+--------------
+            - Map is used to collect tje elements in the form of key-value pairs
+            - map does not allow duplicate keys
+
+Class under Msp Interface
+--------------------------
+            - HashMap --> unordered based on keys and no duplicate keys
+            - LinkedHashMap --> ordered based on keys and no duplicate keys
+            - TreeMap --> sorted based on keys and no duplicate keys
+
+       Refer program MapDemo.java
+
+ Traversing and Iterating Map
+  ---------------------------
+            - Get the keys of Map into a set
+              Example:
+                    HashMap<String, Integer> hm = new HashMap<String, Integer>();
+                    Set<String> keys =hm.keySet();
+            - Iterate the keys present in set
+                 for(String key : keys)
+                 SOP(key+":"+ hm.grt(key));
+
+                 - hm.get(key) -> return the value of the given key
+
+                 Refer program IterateMapDemo.java
+
+   WAP to do the following LinkedList operations
+
+    1. Add element at last
+    2. Add element at first
+    3. Add element at the given index
+    4. Update element at the given index
+    5. Delete the first element
+    6. Delete the last element
+    7. Delete the given element
+    8. Delete the element at given index
+    9. Display the elements
+    10. Exit
+
+        - The menu should display repeatedly until the user chooses Exit
+        - The element value and index need to be accepted during runtime using Scanner class
+                Refer program LinkedListOperations.java

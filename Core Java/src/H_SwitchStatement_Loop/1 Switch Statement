@@ -1,0 +1,55 @@
+Date:06/12/2023
+---------------
+Switch Statement
+-----------------
+        - It is used to choose an option among the given set of options
+        - It is mainly used for menu driven applications
+
+  syntax
+  ------
+        switch (expression)
+            {
+            case opt1: statement;
+                        break;
+            case opt2: statement;
+                        break;
+            case opt3: statement;
+                        break;
+            case optn: statement;
+                        break;
+               default: statement;
+             }
+Point on switch statement
+-------------------------
+        - If expression is not matching with anyone of the options then it will execute
+            the statement present in default
+        - Default is optional
+        - Default can be anywhere in between the options
+        - Break is used to come out of switch
+        - If break is not used then it will execute the statement present in other
+          options until break
+        - Expression should be of type int (byte/ short/ char)
+        - From Java 7 version, expression can be of type String
+
+        Example:
+            String fruit= "apple";
+            switch (fruit)
+            {
+            case "apple" : SOP("Apple");
+                            break;
+            case "mango" : SOP("Mango");
+                            break;
+            };
+
+1. WAP to accept two numbers and display the following options/menu
+        1.Add
+        2.Subtract
+        3.Multiply
+        4.Divide
+        Display result based on the user choice
+        Example:
+                n1=10, n2=5, ch=1 result =15
+                n1=10, n2=5, ch=3 result =50
+                n1=10, n2=5, ch=8 result =Invalide Choice
+
+                Refer program Calculator.java
