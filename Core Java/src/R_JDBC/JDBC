@@ -83,3 +83,7 @@ PreparedStatement interface
                     - PreparedStatement is dynamic means during runtime we can pass values to the
                         SQL command
                             Refer program JdbcPreparedStatementDemo.java
+
+
+
+
