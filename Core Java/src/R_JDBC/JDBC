@@ -29,6 +29,57 @@ Steps in JDBC
 
     Example:
             Statement st1=con.createStatement();
-            PreparedStatement st2=con.prepareStatement("select * from bboks");
+            PreparedStatement st2=con.prepareStatement("select * from books");
 
-    Execute statement
+    Execute The Statement
+    ---------------------
+                        - boolean execute();            - create, alter, drop (DDL)
+                        - int executeUpdate();          - insert, update, delete (DML)
+                        - ResultSet executeQuery();     - select (DQL)
+
+          Example:
+                   str1.executeQuery(select * from books");
+                   str2.executeQuery();
+
+          Note:
+          -------
+               We can use any method to execute any SQL command, but to manage the
+               return type we need to use the specific method
+
+   6. close the Statement
+               st1.close();
+               st2.close();
+
+   7. Close the connection
+            con.close();
+
+                    Refer program  JdbcStatementDemo.java
+
+   Download mysql-connector-java-8.0.30.jar
+   ----------------------------------------
+                Google : mysql connector java Download
+
+    In order to connect to mysql database we need to set the classpath/buildpath
+    to "mysql-connector-java-8.2.0.jar" into the project as follows
+            Right click on MyProject -> Build Path -> configure Build Path ->
+            Click the tab Labraries -> select ClassPath -> Click add External jars ->
+            Select "mysql-connector-java-8.2.0.jar" from the folder -> click open ->
+            Click Apply and close
+
+   jar -> java archive -> which is a collection of .class files in compressed format
+
+
+   CRUD Operations
+   ----------------
+   C - create -> insert command
+   R - Read   -> Select command
+   U - Update -> Update command
+   D - Delete -> Delete command
+
+PreparedStatement interface
+----------------------------
+                    - If the some SQL command is executed multiple times in the program than it is
+                        suggested to use PreparedStatement
+                    - PreparedStatement is dynamic means during runtime we can pass values to the
+                        SQL command
+                            Refer program JdbcPreparedStatementDemo.java
