@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+#id1{
+  text-align: center;
+  color:  red;
+}
+.right {
+  text-align: right;
+  color:  blue;
+}

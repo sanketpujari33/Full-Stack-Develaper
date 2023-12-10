@@ -1,0 +1,18 @@
+<libray>
+  <!-- root tags -->
+  <books>
+    <bno>111</bno>
+    <bname>Java</bname>
+    <price>500</price>
+  </books>
+  <books>
+    <bno>222</bno>
+    <bname>XML</bname>
+    <price>800</price>
+  </books>
+  <books>
+    <bno>333</bno>
+    <bname>HTML</bname>
+    <price>400</price>
+  </books>
+</libray>

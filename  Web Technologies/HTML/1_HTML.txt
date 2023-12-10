@@ -1,0 +1,215 @@
+Date:09/12/2023
+---------------
+HTML
+-----
+        - HTML stands for Hypertext Markup Language
+        - HTML is used to develap static web pages
+        - A HTML file is a collection of tags/elements
+        - A Tag contains a open tag and close tag
+
+        syntax
+        -------
+               <tagname> -> open tag
+               </tagname> -> close tag
+
+               Examle:
+                    <b>Welcome</b> -> Welcome is presented as bold on broweser
+
+Structure of a HTML file
+-------------------------
+                <html> <!-- root tag - comment -->
+                      <head>
+                            <title>....</title> <!-- to display title for browser window -->
+                      </head>
+                      <body>
+                            content of web page
+                      </body>
+                </html>
+
+Text Editors
+-------------
+    - notepad
+    - notepad++
+    - editplus
+    - eclipse
+    - sublime text
+    - Visual studio code
+
+Download Visual Studio Code
+----------------------------
+ Google: visual studio code download
+
+<body bgcolor="pink" text="blue"> -> sets the background color of web page as pink and text color blue
+<br> -> used to break the line (new line)
+<hr> -> used to draw a horizontal line
+
+            Refer programs Welcome.html
+
+Heading Tags
+-------------
+            - <h1> to <h6> tags are used to create heading
+             <h1> -> big size
+             <h2> -> small size
+             Refer programs Headings.html
+
+Paragraph tag
+--------------
+              <p> tag is used to create paragraphs
+               using <p> tag we can align the text to left (default), center and right using align attribute
+                    Refer programs Paragraphs.html
+
+Fromatting tags
+-----------------
+            <b> -> bold
+            <i> -> italic
+            <u> -> underline
+            <sup> -> superscript
+            <strike> -> to strike the text
+            <sup> -> subscript
+            <font> -> to set the font style, size and color of the text
+            <pre>  -> preformatted text
+
+                Refer programs Fromatting.html
+
+list
+----
+        Unordered List:
+        Item 1
+        Item 2
+
+        Subitem 2.1
+        Subitem 2.2
+
+        Item 3
+        Item 4
+
+
+         syntax
+         -------
+                    <ol type ="1|l|i|A|a"> default is 1
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                    </ol>
+                    ol -> ordered list
+                    li -> list item
+
+        Ordered List:
+        First item
+        Second item
+
+        Subitem 2.1
+        Subitem 2.2
+
+        Third item
+        Fourth item
+
+            Disc Style:
+            • Item 1
+            • Item 2
+            • Item 3
+
+            Square Style:
+            ▪ Item 1
+            ▪ Item 2
+            ▪ Item 3
+
+            Circle Style:
+            ◦ Item 1
+            ◦ Item 2
+            ◦ Item 3
+
+        syntax
+        -------
+                    <ul type ="disc|square|circle"> default is circle
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                    </ul>
+                    ul -> unordered list
+                    li -> list item
+
+            Refer program List.html
+
+ Inserting Images
+ -----------------
+                <img> tag is used to insert an image with the specified width and height
+
+                Refer program Image.html
+
+ Creating HyperLinks/Hypertexts
+ -------------------------------
+                        A hyperlink is a text/image when clicked opens another HTML file
+                        - <a> , anchor tag is used to cereate the hyperlinks
+                        Example:
+                                <a href="Page2.html"Pag2</a>
+
+                             Page2 is a Hyperlink when clicked opens page2.html
+
+                             href -> hyper reference
+
+                             refer program
+                                    - Page1.html
+                                    - Page2.html
+ Creating Tables
+ ----------------
+            A table is a collection of data in the from of rows and columns
+                    Refer diagram Tables
+
+                    -------------------------------------------------
+                    |    Header 1    |    Header 2    |   Header 3   |
+                    -------------------------------------------------
+                    |    Row 1, Col 1|  Row 1, Col 2  | Row 1, Col 3 |
+                    |    Row 2, Col 1|  Row 2, Col 2  | Row 2, Col 3 |
+                    |    Row 3, Col 1|  Row 3, Col 2  | Row 3, Col 3 |
+                    -------------------------------------------------
+
+        <table> -> Used to create a table
+        <tr> -> Used to create a table row
+        <th> -> Used to create a table heading/cell (bold)
+        <td> -> Used to create a table  data/cell (not bold)
+
+            Refer program Table.html
+
+HTML froms
+----------
+        HTML froms are used to accept the user input
+        <from> tag is used to create a html from
+
+        Refer diagram HTML From
+
+
+        +----------------------------------------+
+        |             HTML Form                  |
+        +----------------------------------------+
+        |    Action: /submit                     |
+        |    Method: POST                        |
+        |                                        |
+        |    First Name:  [       ]              |
+        |    Last Name:   [       ]              |
+        |    Age:         [       ]              |
+        |    Email:       [       ]              |
+        |    Password:    [       ]              |
+        |    Gender:      ( ) Male   ( ) Female  |
+        |                                        |
+        |    Select a vehicle:                   |
+        |    [Car]  [Bike]  [Truck]              |
+        |                                        |
+        |    [Submit]                            |
+        +----------------------------------------+
+
+       HTML Form Diagram:
+
+       <form action="/submit" method="post">
+           First Name: [______________]
+           Last Name: [______________]
+           Age: [______]
+           Email: [______________]
+           Password: [______________]
+           Gender: [ ] Male  [ ] Female
+           Select a vehicle:
+           [▼ Car ▼]
+           Submit Button: [Submit]
+       </form>
+
+Reference for Web Technologies
+-------------------------------
+        www.w3school.com

@@ -1,0 +1,12 @@
+Date: 10/12/2023
+-----------------
+JSON
+-----
+     - JSON stands for Javascript Object Notation
+     - JSON is lightweight data interChange format
+     - JSON is easy to read and write than XML
+     - JSON is language independent
+     - JSON is open standard for exchanging data on the web
+     - In JSON, data is represented in key/value pairs enclosing in between {} braces
+            Refer program
+                        library.json

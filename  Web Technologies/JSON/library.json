@@ -1,0 +1,7 @@
+{
+  "books": [
+    {"bno": "111", "bname": "java", "price": "500"},
+    {"bno": "222", "bname": "xml", "price": "800"},
+    {"bno": "333", "bname": "HTML", "price": "400"}
+  ]
+}
