@@ -1,0 +1,177 @@
+Date: 10/12/2023
+------------------
+ Advance Java/ Java EE
+ -----------------------
+                - Java EE stands for Java Enterprise Edition
+                - java EE is used to Develop web applications and Enterprise applications
+
+Components of Java EE
+-----------------------
+    - Web Components
+        - used to develop web applications
+            - Servlets
+            - JSP (Java Server Pages)
+
+    - Enterprise Components
+        - Used to develop enterprise applications (Secured, distributed, transaction Management)
+                - EJB (Enterprise Java Beans)
+
+    - Java EE applications are used by multiple clients(users) and in order to make
+      the Java EE application to be used by multiple clients we need tp deploy(copy).
+      the application   onto the server
+
+Types of Servers
+------------------
+        - Web server
+                - Used to Develop web applications only
+                    - Servlets and JSP
+                    Example:
+                            - Apache Tomcat
+                            - Adobe JRun
+                            - Jetty
+
+        - Application server
+                - Used to Develop Web applications and Enterprise applications
+                        - Servlets and JSP and EJB
+
+                        Example:
+                                - Oracle GlassFish
+                                - Oracle WebLogic
+                                - IBM WebSphere
+                                - RedHat JBOSS
+
+ Servlets
+ ---------
+       - Servlets  are java programs which are used to develop server side dynamic web applications
+
+ Technologies used to develop server side dynamic web applications
+ -----------------------------------------------------------------
+ - Servlets
+ - JSP
+ - ASP.NET
+ - PHP
+ - Django (using python)
+
+ Servlets Hierarchy
+ -------------------
+            Refer diagram Servlets Hierarchy
+                                     <<Servlet>> Interface
+                                                 |    Implements
+              +----------------------------------------------------------+
+              |                                                          |
+      Servlet Interface Methods(abstract)                         GenericServlet class
+      - int()                                                       |    |
+      - service()                                                   |    +- All methods of Servlet interface
+      - destroy()                                                   |    |   are overridden, except service()
+      - getServletInfo()                                     extend |    |
+      - getServletConfig()                                          |    +- service() is abstract
+      - getServletContext()                                         |
+                                                                    |
+                                                                  HttpsServlet class
+                                                                    |
+                                                                    +- service() is overridden
+                                                                    |
+                                                                    +- doGet() and doPost()
+                                                                    |
+
+
+
+      Servlet Architecture
+     -----------------------
+                refer diagram Servelet Architecture
+
+                                +------------------------------------+
+                                |           Client (Browser)         |
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |    HTTP Request over the Internet  |
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |     Web Server / Servlet Container |
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |       Servlet (extends HttpServlet)|
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |       Servlet Lifecycle Methods    |
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |    Processing Request and Sending  |
+                                |           HTTP Response            |
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |   HTTP Response back over Internet |
+                                +------------------------------------+
+                                                |
+                                +------------------------------------+
+                                |         Client (Browser)           |
+                                +------------------------------------+
+
+
+Servlet Lifecycle
+---------------------
+            - Life cycle is a collection of methods which are executed in an order automatically
+                by the servlet container (server)
+                - init()
+                    - called only once when servlet is loaded
+                    - generally we establish data base connections
+
+                - service()
+                     - called for every request
+
+                - destroy()
+                        - called only once when servlet is destroyed
+                        - generally we close database connections
+
+creating a servlet
+---------------------
+            - By creating a class which extends Generic Servlet class
+                    or
+             - By creating a class extends HttpServlet class
+
+ Using GenericServlet class
+ ----------------------------
+
+                    Public class WelcomeServlet extends GenericServlet
+                    {
+                            public void service(ServletRequest request, ServletResponse response)
+                                Throws ServletException, IOSException
+                                {
+                                        //Handle the request
+                                }
+                     }
+ Using HttpServlet class
+ ------------------------
+                    public class WelcomeServlet extends HttpServlet
+                    {
+                        public void doGet(ServletRequest request, ServletResponse response)
+                            throws ServletException, IOSException
+                            {
+                                    //Handel the request
+                            }
+                    }
+ Note:
+ -----
+       - interface HttpServletRequest extends ServletRequest{}
+       - interface HttpServletResponse extends ServletResponse{}
+
+ Note:
+      class to class -> extends
+      class to interface -> implements
+      interface to interface -> extends
+      interface to class -> Error
+
+ GenericServlet vs HttpServlet
+ ------------------------------
+                   - GenericServlet is used for different protocols like ftp, smtp,http etc.
+                   - where as httpServlet is used for http protocol only
+
+                   ftp -> file transfer protocol
+                   smtp -> simple mail transfer protocol
+                   http -> hypertext transfer protocol
