@@ -1,0 +1,66 @@
+Date: 11/12/2023
+-----------------
+Login Application
+-----------------
+
+            -  Create table user in MySQL
+                    mysql> create table users (name varchar(10), username varchar(10), password varchar(10));
+
+            - Create a Welcome page "Login.jsp" in WebProj
+                    Refer program Login.jsp
+
+             Create a JSP File "SignUp.jsp" in WebProj
+                    Refer program SignUp.jsp
+
+            - Create a Servlet "RegisterServer.java" in WebPro
+                    refer program RegisterServer.java
+
+            - Create a Servlet "LoginServer.java" in WebPro
+                     refer program LoginServer.java
+
+            Refer Diagram Login Application
+
+                      +----------------------+               +----------------------+
+                      |    Login Page        |               |   Signup Page        |
+                      |                      |               |                      |
+                      |   +--------------+   |               |   +--------------+   |
+                      |   | Form Fields  |   |               |   | Form Fields  |   |
+                      |   +--------------+   |               |   +--------------+   |
+                      |   |  Username:   |<----(POST)------->|   |  Username:   |   |
+                      |   |  [________]  |   |               |   |  [________]  |   |
+                      |   |  Password:   |<----(POST)------->|   |  Password:   |   |
+                      |   |  [________]  |   |               |   |  [________]  |   |
+                      |   |  [Login]Btn  |   |               |   |  [Signup]Btn |   |
+                      |   +--------------+   |               |   +--------------+   |
+                      +----------|-----------+               +-----------|----------+
+                                 |                                          |
+                                 +--------------------+---------------------+
+                                                      |
+                                         +-------------------------+
+                                         |      Server-side        |
+                                         |      (Java Servlets)    |
+                                         +-------------------------+
+                                         |                         |
+                                         |    LoginServlet:        |
+                                         |    - Authentication     |
+                                         |    - Redirect / Error   |
+                                         |                         |
+                                         |    SignupServlet:       |
+                                         |    - Validation         |
+                                         |    - Account Creation   |
+                                         |    - Redirect / Error   |
+                                         |                         |
+                                         +-------------------------+
+
+
+            - Run The application
+
+Setting for Login Application
+-----------------------------
+            copy "mysql -connector-java-8.0.30.jar"  into WEB-INF/bin folder
+
+
+
+
+
+

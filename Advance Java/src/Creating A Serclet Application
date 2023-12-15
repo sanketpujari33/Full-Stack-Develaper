@@ -1,0 +1,47 @@
+Date: 10/12/2023
+-----------------
+Creating Servlet Application
+-----------------------------
+ Download and Install Apache Tomcat Server v9
+--------------------------------------------
+        Google: tomcat 9 Download
+           url: https://tomcat.apache.org/download-90.cgi
+
+Tomcat Installation/Home/Root Directory (Or) CATALINA_HOME
+-----------------------------------------------------------
+C:\Program Files\Apache Software Foundation\Tomcat 9.0
+
+Creating a Server in Eclipse using Apache Tomcat Server v9
+-----------------------------------------------------------
+- Configure Tomcat server in eclipse workspace
+
+        Click on window -> preference -> server -> Runtime environment ->
+        Click on add -> Select Apache -> Apache Tomcat Server v9.0 -> click next ->
+        click Browse -> Select Tomcat Installation Directory
+        (C:\Program Files\Apache Software Foundation\Tomcat 9.0) -> click selecte Folder->
+        Click Finish -> Click Applay and Close
+
+        - Create a Dynamic Web Project
+        Click on File -> New -> Dynamic Web Project
+            or
+        Click on File -> New -> Other -> Web -> Dynamic Web Project
+        Project Name: WebProj
+        DynamicWeb Module Version:2.5(Select)
+        Click Finish
+
+- Create a Servlet in MyProj
+
+        Right click on WebProj -> new -> Servlet
+
+        classname : WelcomeServlet
+
+            and click finish
+
+            Refer program WelcomeServlet.java
+
+   - Ren The Servlet
+            Right click on welcomeServlet.java -> Run As-> Run on Server
+            select Apache -> Apache Tomcat Server v9 -> click finish
+            which starts the tomcat server and opens a browser with the following client url
+            http://localhost:8080/WebProj/WelcomeServlet
+            and displays "Welcome to Servlet" onto the browser
