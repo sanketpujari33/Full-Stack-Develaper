@@ -1,0 +1,27 @@
+Date: 16/12/2023
+------------------
+Apache Maven Tool
+------------------
+            - Maven is a powerful project management tool
+            - Maven is used to build projects
+            - Maven is used to add the project dependency jar files into the project
+            - Maven is used to create the right project structure
+            - Maven is used to build and deploy the project
+
+Creating a Maven Project in Eclipse
+------------------------------------
+             click on file -> new -> Maven Project
+
+                 click next
+             In Catalog Select: Internal
+             In Artifact Id Select : maven-archetype-quickstart
+
+             click
+
+             Group Id: maven
+             Arifact id: FirstMavenProj (Project Name)
+             Package : com.maven
+
+             click finish
+
+ pom

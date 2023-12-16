@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		<from action="BGColor.jsp">
+		Enter a color: <input type="text" name="bgcolor"/><br>
+		<input type="submit" value="Submit"/>
+		</from>
+</body>
+</html>
