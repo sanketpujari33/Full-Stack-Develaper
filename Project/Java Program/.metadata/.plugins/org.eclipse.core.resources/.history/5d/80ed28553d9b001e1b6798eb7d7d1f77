@@ -1,0 +1,2 @@
+
+<h3>Current Date and Time : <%= new java.util.date() %></h3>

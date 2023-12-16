@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Login Page</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container styles */
+        .container {
+            width: 400px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Header styles */
+        h1 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        /* Form styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            text-align: left;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* New User button styles */
+        .new-user-btn {
+            margin-top: 20px;
+        }
+
+        .new-user-btn a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .new-user-btn a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Login Page</h1>
+        <form name="f1" action="/WebProj/LoginServlet" method="post" onSubmit="return validate()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <input type="submit" value="Login">  
+        </form>
+        <div class="new-user-btn">
+            <a href="SignUp.jsp">New User? Sign Up</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    			function validate(){
+    				 var username = document.getElementById("username").value;
+    		         var password = document.getElementById("password").value;
+
+    		            if (username.trim() === '' || password.trim() === '') {
+    		                alert("Username and password are required");
+    		                return false; // Prevent form submission
+    		            }
+    		            return true; // Allow form submission
+    			}
+    </script>
+</body>
+</html>
