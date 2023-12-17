@@ -1,0 +1,52 @@
+Date: 17/12/2023
+----------------
+CRUD Operations
+----------------
+            - C - create -> Insert command - StudentInsert.java
+            - R - Read   -> Select command - StudentList.java
+            - U - Update -> Update command - StudentUpdate.java
+            - D - Delete -> Delete command - StudentDelete.java
+
+
+ Using Annotations in Hibernate
+--------------------------------
+        when Annotation are used in Hibernate, we need not create hibernate XML mapping file
+
+ Basic Hibernate Annotations
+-------------------------------
+        @Entity
+        @ID
+        @Table
+        @Column
+        Refer Program
+                - Employee.java
+                - Hibernate.cfg.xml (updated) (<mapping class="com.hibernate.Employee"/>)
+                - EmployeeTest.java (Run)
+
+ Generating Primary keys
+--------------------------
+            @GeneratedValue annotation is used for the primary key generation Strategies like the following
+                - GenerationType.AUTO
+                - GenerationType.IDENTITY
+
+GenerationType.AUTO
+-------------------
+     @GeneratedValue(strategy=GenerationType.AUTO)
+    -------------------------------------------------
+            - This will give the primary key values like 1, 2, 52, 102 etc
+            - This will create a sequence with the name "employeeinfo_seq"
+            - T create a custom name for the sequence, use the following annotation
+                    @GeneratedValue (strategy=GenerationType.AUTO,generator="empid_generator")
+
+                 Now the name of the sequence is "empid_generator"
+
+            - To generate the primary keys in an order like 1,2,3 ..etc use the following annotation
+                    @SequenceGenerator(name="empid_generator",initialValue=1,allocationSize=1)
+
+ GenerationType.IDENTITY
+ ------------------------
+        used to generate the primary key values starting from 1,2,3 etc(auto increment)
+        @GeneratedValue(starategy=GenerationType.IDENTITY)
+    Note
+   -------
+   Sequence table will not get created when we use IDENTITY

@@ -20,5 +20,6 @@
  		<!-- to use exising table -->
  		<property name="hibernate.hbm2ddl.auto">update</property>
  		<mapping resource="student.hbm.xml"/>
+ 		<mapping class="com.hibernate.Employee"/>
 		</session-factory>
    </hibernate-configuration>

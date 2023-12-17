@@ -1,0 +1,48 @@
+Date:18/12/2023
+------------------
+Spring Framework
+----------------
+            Spring Framework is used to develop robust web and enterprise application very easily
+            and rapidly
+
+ dependency Injection
+ --------------------
+            Spring is mostly identified with dependency injection which is flavor of inversion of control (IOC)
+
+            Ex:
+                        class Employee
+                        {}
+                        class Department
+                        {
+                            Employee emp =new Employee();
+                        }
+                        Department dept= new Department():
+
+                        In the above code emp object and dept object are tightly coupled
+
+            Ex:
+                        class  Employee
+                        {}
+                        class Department
+                        {
+                            Employee emp; //property
+                            Department(Employee amp) // constructor injection
+                            {
+                                this.emp=emp;
+                            }
+                            void setEmp(Employee emp) //setter injection
+                           {
+                                this.emp=emp;
+                           }
+                        }
+                        Employee emp = new Employee();
+                        Department dept= new Department(emp);
+                                    ^                     |
+                                    |                     |
+                                    --------<-------<-------
+                                    dependency Injection (lose coupled Application)
+
+ Life cycle of an Object
+-------------------------
+                    Object Creation -> Object Usage -> Object Destruction\
+

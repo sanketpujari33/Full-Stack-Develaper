@@ -10,9 +10,9 @@ public class StudentInsert {
 		Session s=sf.openSession();
 		Transaction tx=s.beginTransaction();
 		Student stud=new Student();
-		stud.setSno(333);
-		stud.setSname("sita");
-		stud.setMarks(011010);
+		stud.setSno(555);
+		stud.setSname("Kirishan");
+		stud.setMarks(1000);
 		s.persist(stud);// insert into StudentInfo value (?,?,?)
 		tx.commit();
 		s.close();
