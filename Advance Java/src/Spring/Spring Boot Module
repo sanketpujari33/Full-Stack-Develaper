@@ -1,0 +1,58 @@
+ Date:19/12/2023
+-----------------
+Spring Boot Module
+------------------
+            - It is Spring Module which Rapid Application Development (RAD) features
+                to spring Framework
+            -It is used to avoid writing spring bean xml configuration file
+            - Automatically configure spring by adding the project dependencies(starters)in pom.xml file
+            - Enbedded tomcat server
+
+Spring Boot IDE (Spring Tool Suite)
+------------------------------------
+               Google: sts downloading
+                url : https://spring.io/tools
+
+Project Lombok tool
+---------------------
+                    - Project Lombok is a java library tool that is used to minimize the boiler plate code
+                     and save the time of developers during development by just using some annotations
+
+                        Ex:
+                                @NoArgsConstructor
+                                @AllArgsConstructor
+                                @Setter
+                                @Getter
+                                @ToString
+                                 @ Data //@Setter , @Getter, @ToString
+                                Public class Employee
+                                {
+                                    private int emoId;
+                                    private String empName;
+                                    private Double salary;
+                                    //constructors
+                                    //setters
+                                    //getters
+                                    //toString()
+                                    }
+
+Download lombok
+----------------
+url: http://projectlombok.org/download
+
+Developing a Spring boot application in STS
+--------------------------------------------
+                    - Create a table "Product" in My Sql
+                        mysql> create table Product(pid int(3),pname varchar(10), price int(4));
+
+                    - Create a Spring Starter Project in STS
+                            Click on File -> new -> Spring Starter
+                                Name : SpringBootProj
+                                Type : Maven
+                                Java version: 8
+                                Group: springboot
+                                Artifact : SpringBootProj
+                                Package: com.spring.boot
+                                click next
+
+                                In Available search for

@@ -53,7 +53,7 @@ Full stack Java
                 - Spring ORM Module (Hibernate)
                 - Spring data module
             - Spring MVC Module --> Used to develop web applications
-            - Sprin Boot Module
+            - Spring Boot Module
             - Spring REST Module
             - Microservices Using Spring Boot
 - Real time tools
