@@ -1,0 +1,171 @@
+Date:19/12/2023
+----------------
+Spring Data JPA Module (Java Persistence API)
+------------------------------------------------
+        Interface StudentDAO
+        {
+            CRUD operations;
+        }
+        public class StudentDAOImpl implements StudentDAO
+        {
+              //implement interface methods
+              //overridden CRUD operations
+        }
+        interface EmployeeDAO
+        {
+            CRUD operations;
+        }
+        public class EmployeeDAOImpl implements EmployeeDAO
+        {
+             //implement interface methods
+             //overridden CRUD operations
+        }
+        20 DAO interface - 20 DAO implementation classes
+
+
+  Spring Data JPA (Java Persistence API)
+ ----------------------------------------
+          JpaRepository interface is used for spring Data JPA Module
+
+          EX:
+                interface EmployeeDAO extends JpaRepository<Employee, Integer>{}
+                interface StudentDAO extends JpaRepository<Student, Integer>{}
+
+                Note
+               -------
+                        Hibernate is an implementation of of JPA
+
+Spring DATA JPA methods
+------------------------
+                    - save();
+                    - delete();
+                    - findById() => primary key
+                    - findAll()
+
+Spring REST Module
+------------------
+            - REST stand for Representational State Transfer
+            - Spring REST Module is used to create REST APIs
+
+ REST APIs are used to develop distributed applications which are used to interact
+ one application with another application
+
+ @RestController annotation is used to  mark the class as a REST controller class
+
+
+ Spring REST Annotations
+ ------------------------
+ @PostMapping   (Insert Operation)
+ @PutMapping    (Update Operation)
+ @DeleteMapping (Delete Operation)
+ @GetMapping    (Get Operation)
+
+
+ Spring Boot REST CRUD Application with POSTMAN Client
+ ------------------------------------------------------
+    Refer documentation Spring Boot REST CRUD Application with POSTMAN Client
+
+Create a Spring Starter Project in STS
+--------------------------------------
+
+                    - Create a table "ticket" in My Sql
+                        - create table ticket (ticket_id int(3),passenger_name varchar(10), source_station varchar(15),
+                                    dest_station varchar(15), email varchar(20));
+
+                    - Create a Spring Starter Project in STS
+
+                            Name : SpringBootRESTCRUDProj
+                            Type: Maven Project
+                            Java Version: 8
+                            Group : com.rest.springboot
+                            Artifact: RestSpringBootCRUDProj
+                            Package : com.rest.springboot
+
+                            Click Next
+                   - Add the following project dependencies
+                        - Spring Web
+                        - Spring Data JPA
+                        - MySQL Driver
+                        - Lombok
+
+                        Click Finish
+
+                   - Create a package "com.rest.springboot.entities” in src/main/java folder
+
+                   - Create a Java Bean class "Ticket" in "com.rest.springboot.entities"package
+                        Refer Program Ticket.java
+
+                   - Create a package "com.rest.springboot.dao" in src/main/java folder
+
+                   - Create an interface "TicketBookingDAO" in com.rest.springboot.dao package
+                        Refer Program TicketBookingDAO.java
+
+                   - Create a package "com.rest.springboot.service" in src/main/java folder
+
+                    - Create a Service class “TicketBookingService” in com.rest.springboot.service package
+                        Refer Program TicketBookingService.java
+
+                    - Create a package “com.rest.springboot.controller” in src/main/javafolder
+
+                    - Create a Rest Controller class "TicketBookingController” in com.rest.springboot.controller package
+                        Refer Program TicketBookingController.java
+
+                    - Update application.properties file of src/main/resources folder
+                        Refer Program application.properties
+
+                    - Run the project
+                        Right click on RestSpringBootCRUDProj -> Run As -> Spring Boot App
+                            Refer source code in SpringBootRESTCRUDProj
+
+
+POSTMAN Tool
+------------
+            - Postman is an interactive and automatic tool for verifying the APIs of the project.
+            - Postman is a Google Chrome App for interacting with HTTP APIs
+
+            - Download POSTMAN
+                        - url: https://www.postman.com/downloads
+HTTP Methods
+------------
+                   - GET - Read Operation (Select Command)
+                   - POST - Write / Create Operation (Insert Command)
+                   - PUT - Update Operation (Update Command)
+                   - DELETE - Delete Operation (Delete Command)
+                   - Create table "ticket" in MySQL
+                   - Create table "ticket" in MySQL
+
+Test the application using POSTMAN
+----------------------------------
+            - Open POSTMAN and do the following requests
+
+            - Create Request
+                     POST: http://localhost:8080/api/tickets/create
+                     In Body, Select Raw and Select JSON
+                {"ticketId":"1", "passengerName":"Raj","sourceStation":"Hyderabad",
+                "destStation":"Delhi","email":"raj@gmail.com"}
+
+             - Click Send
+
+            - Add some more records
+                {"ticketId":"2", “passengerName":"Ramu","sourceStation”:”Chennai”,
+                 “destStation”:”Mumbai","email":"ramu@gmail.com"}
+                {"ticketId":"3", “passengerName":"Ramya”,”sourceStation”:”Kochi”,
+                 “destStation”:”Hyderabad","email":"ramya@gmail.com"}
+
+            - GET by Id Request
+                        GET: http://localhost:8080/api/tickets/ticket/1
+                        GET: http://localhost:8080/api/tickets/ticket/2
+
+            - GET All Tickets Request
+                        GET: http://localhost:8080/api/tickets/ticket/alltickets
+
+            - DELETE by Id Request
+                        DELETE: http://localhost:8080/api/tickets/ticket/1
+                        DELETE: http://localhost:8080/api/tickets/ticket/1
+
+            - UPDATE Request
+                      PUT: http://localhost:8080/api/tickets/ticket/2/ramu new@gmail.com
+
+
+
+
