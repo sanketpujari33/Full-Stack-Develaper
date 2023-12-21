@@ -4,7 +4,7 @@ Try with Multiple catch blocks
 -------------------------------
               - It is used to provide proper message to the user based on exception type
 
-                    syntex
+                    syntax
                         try
                         {
                             st-1;
@@ -109,7 +109,7 @@ Method of Throwable class
 
                          - Refer program CustomExceptionDemo.java
 
-  1. Create a user defind exception "WithrawException".
+  1. Create a user defined exception "WithdrawException".
     create a class "Account" with a method "withdraw()" which takes "amount" and
     "balance" as arguments. if the amount > balance then it should throw
     "WithdrawException" with the message "Insufficient balance"

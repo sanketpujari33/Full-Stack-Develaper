@@ -47,8 +47,8 @@ Synchronization
             ----------------------------------   -----------------------------------
 
  - When two or more Threads access the some resource then there is a chance of
-    getting concurreny problems
- - Synchronization is used for concurreny problems
+    getting concurrency problems
+ - Synchronization is used for concurrency problems
  - Synchronized Keywords are used for Synchronization
  - Synchronized Keywords are used for Method or block of statements only
 

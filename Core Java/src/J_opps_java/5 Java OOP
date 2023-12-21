@@ -41,16 +41,19 @@ Abstract classes
                             void yyy(){..};
                             void zzz(){...};
                         }
-                        class Sample2 extends Sample
+                        abstract class Sample2 extends Sample
                         {
                             void ppp(){...};
                         }
             - We cannot create objects for abstract classes but we can create references
                referring to the subclass object
+               Example:
+                        Sample s= new Sample();// error
+                        Sample s1= new Sample1();// valid
 
             - Forces "is-a" relationship
 
-                     refer program AbdtractDemo.java
+                     refer program AbstractDemo.java
 
 InterFaces
 _______________
@@ -105,30 +108,30 @@ _______________
 
 Note:
 ------
-        - From java 8 version, we can define methods in interfaces using defualt keyword
-        - Feom Java 8 version, we can define  staic methods in interface
+        - From java 8 version, we can define methods in interfaces using default keyword
+        - From Java 8 version, we can define  static methods in interface
         - From java 9 version, we can define private methods in interface
 
                 Refer program InterfaceDemo.java
 Note:
 ------
-        - Abstract and final are illegel combination of modifiers
+        - Abstract and final are illegal combination of modifiers
 
             Example:
-                    abstract final class Base{};// Error - abstarct and final aree illegal combination
+                    abstract final class Base{};// Error - abstract and final are illegal combination
 
 Java Coding Standards
 ---------------------
 - CLass Name:
-            - Frist letter of every word is capital
+            - First letter of every word is capital
                 Example:
-                        System, RuntimeExcepq, ArrayIndexOutOfBoundsException, EmployeeTest
+                        System, RuntimeException, ArrayIndexOutOfBoundsException, EmployeeTest
 - Variable:
-            - Frist letter of first word is small and the remaining words first letter is capital
+            - First letter of first word is small and the remaining words first letter is capital
                 Example:
-                        out, stadentMarks, empSalary, empNetSalary
+                        out, studentMarks, empSalary, empNetSalary
 - Method:
-            - Frist letter of first word is small and the remaining words first letter is capital
+            - First letter of first word is small and the remaining words first letter is capital
                 Example:
                         printLn(), nextInt(), printStackTrace(), calculateTotal()
 - Final variables:

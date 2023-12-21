@@ -34,9 +34,9 @@ Java Stream API
 
           Refer Program StreamapiDemo.java
 
-Filreting using stream API
+Filtering using stream API
 ----------------------------
          - filter() is an intermediate operation that reads the data from a stream and
-           returns a new stream after tramsforming the data based on the given conditions
+           returns a new stream after transforming the data based on the given conditions
 
            Refer program StreamDemo2.java

@@ -2,7 +2,7 @@ Date:06/12/2023
 ---------------
   Inheritance
  --------------
-            - The process of creating new classes from the existing classes is colled as inheritance
+            - The process of creating new classes from the existing classes is called as inheritance
             - In Java, extends keywords is used to create new class from the existing class
                 Example:
                         class Vehicle // Base class or Super class or Parent class
@@ -27,11 +27,14 @@ Date:06/12/2023
 
                 Example:
                  Vehicle (Car, Bike, Bus)
-                 Furniture (Chair, Tabble)
+                 Furniture (Chair, Table)
                  Fruit (Apple, Mango)
                  Account (Saving Account, Current Account)
 
             - Inheritance is "is-a"  relationship
+
+            has-a relationship
+            ------------------
 
                 Example:
                         class Employee{};
@@ -86,7 +89,7 @@ Date:06/12/2023
                                         Car c =new Car();
                                         c.drive();// invoke drive() of car
 
-                        - If a subclass object invoke the overridden method then it will invode the
+                        - If a subclass object invoke the overridden method then it will invoke the
                             method present in subclass
 
 
