@@ -1,0 +1,110 @@
+data: 21/12/2023
+----------------
+   Angular Framework
+-----------------------
+                - Angular is a typescript based open source front end web application platform
+                - TypeScript is a superScript of javascript
+
+                Javascript vs typeScript
+               -----------------------------
+                 - JavaScript does not support Data types where as in TypeScript support data types;
+
+                            Example:
+                                    JavaScript
+                                   ------------
+                                        var n=10; //n is number data type
+                                        var name = "Sanket"; // name is string data type
+                                        var flag = true; // flag is boolean data type
+
+                                   TypeScript
+                                  ------------
+                                         n : number = 10;
+                                         name : string = "Sanket"
+                                         flag : boolean = true;
+
+                 - JavaScript is object environment (predefined Object) scripting programming language
+                    where as TypeScript is object Oriented (user define classes and objects) programming language
+
+                 - Angular is developed by Google
+                 - It is a complete rewrite from the same team that built Angular JS
+                        Note: Angular and Angular js are Different
+                 - It is used to design Single Page Applications (SPA) using Routing
+
+Angular Setup
+--------------
+        - Node js
+                - used to develop and run Angular Application
+                To download
+                -------------
+                uel: nodejs.org
+
+                To Verify Node js
+                -------------------
+                            Open command prompt/ terminal
+                            c:\> node -v
+                                        -v -> version
+                            c:\>npm -v
+                                    npm-> node package manager-> used to install Angular?CLI
+                                        - Sublime Text
+                                        - Visual Studio code
+
+                                       To download Visual Studio code
+                                       ------------------------------
+                                            url: https://code.visualstudio.com/download
+
+                - Angular/ CLI
+                ----------------
+                            - CLI Stand for command Line Interface
+                            - Angular/ CLI makes easy to create an application that already works
+                            url: https://angular.io/cli
+
+               Installation Angular/ CLI
+               --------------------------
+                    Open command Line Interface / Terminal
+                      C:\>npm install -g @angular/cli
+                            -g -> to install globally so that we can work in any folder
+
+                    To install a specific version of Angular/CIL
+                    ----------------------------------------------
+                        C:\>npm install -g @angular/cli@11.2.2
+
+                    To Verify
+                    ---------
+                    c:>ng version
+
+               Creating an Angular Project
+               ----------------------------
+                    Open command prompt or terminal
+
+                    c:\> md Angular
+                    c:\> cd Angular
+                    C:\>Angular> ng new Angular-Project
+
+               Run Angular Project
+               ---------------------
+               C:\Angular>cd Angular-Project
+               C:\Angular>Angular-Project> ng serve
+
+               After successfully compilation, open browser and type the following url
+                http://localhost:4200
+
+                Work flow of Angular Project
+                -----------------------------
+
+                Open Angular-Project folder in visual Studio code
+
+                - When a request is made to an Angular Project, the Server loads index.html file
+                - In index.html file, using the element <app-root>, it loads app component(app.component.ts)
+                - app component is the root component for Angular Project
+                - The presentation of app component is done is app.component.html file
+                - The styling of app component is done is app.component.css file
+
+                {{}} -> Data Binding -> used to access the value of the variables/properties from the component
+                    into HTML file
+                    Refer Program
+                            - app.component.ts
+                            - app.component.html
+                            - app.component.css
+
+
+                    To Terminate the compilation -> ctrl + C
