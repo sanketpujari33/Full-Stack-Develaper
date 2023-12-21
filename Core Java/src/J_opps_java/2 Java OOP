@@ -25,7 +25,7 @@ Date:06/12/2023
         - A static variable acts as a global variable within class means all objects
             of the class can access static variable memory
 
-            Refer program StaicDemo.java
+            Refer program StaticDemo.java
 
 Package
 ---------

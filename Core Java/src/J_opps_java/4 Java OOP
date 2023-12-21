@@ -2,11 +2,12 @@ Date:07/12/2023
 -----------------
   Constructor in Inheritance
  ----------------------------
-           - super(){}; is the frist statement added to every constructor implicitly which
-              invokes Base class default constructor
-           - To call Parameterized constructor of Base class from Derived class constructor,
-              Call it explicitly
-           - call to super() must be first statement in constructor
+           - super(){};
+                - is the first statement added to every constructor implicitly which
+                        invokes Base class default constructor
+                - To call Parameterized constructor of Base class from Derived class constructor,
+                        Call it explicitly
+                - call to super() must be first statement in constructor
 
                     Refer program InheritanceDemo3.java
  Final Keyword
@@ -92,7 +93,7 @@ Access Modifiers
                         Example:
                                 private class MyClass{}//error
                     - private keyword can be used for data members, methods and inner classes
-                    - private members are accessible only withen the some class
+                    - private members are accessible only within the some class
                             Example:
                                     class A
                                     {
@@ -214,7 +215,7 @@ Non Access Modifiers
 
         Note:
         -----
-            - Only final modifier   is allowed for local variables
+            - Only final modifier is allowed for local variables
 
 Encapsulation
 -------------
@@ -224,12 +225,12 @@ Encapsulation
                 Example:
                         class Employee
                         {
-                            int age;
+                           private int age;
                             void set_age(int a)
                             {
                                 age = a;
                             }
                         }
                         Employee e=new Employee();
-                        e.age=20;
+                        e.age=20; //error
                         e.set_age(30);
