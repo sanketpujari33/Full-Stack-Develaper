@@ -1,5 +1,12 @@
 package Patterns;
 
+/*
+1. Print the Pattern
+           *
+           **
+           ***
+           ****
+ */
 public class HalfPyramid {
     public static void main(String[] args) {
         int n=4;
