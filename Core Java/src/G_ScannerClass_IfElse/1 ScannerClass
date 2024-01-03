@@ -35,7 +35,7 @@ Scanner class methods
                            p.age = 20;
                            p.eat();
 -------------------------------------------------------------------------------------------------------------
-  1. Write a Program (WAP) to find area of a reactangle
+  1. Write a Program (WAP) to find area of a rectangle
     Refer program Rectangle.java
 
    2. WAP to accept roll Number, name and marks in three subjects.

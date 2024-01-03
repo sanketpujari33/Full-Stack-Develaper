@@ -3,7 +3,7 @@ Java Introductions
 --------------------
        - Java is an object oriented programming language developed by the James Gosling
          at the Sun Microsystems
-       - The Sun Micosystems is acquired by the Oracle Corporation in 2010
+       - The Sun Microsystems is acquired by the Oracle Corporation in 2010
 
  Object Oriented Concepts / Feature
  ----------------------------------
@@ -26,14 +26,14 @@ Java Introductions
      /
     /                      |- Make--------|
    i10                     |- Model       |
-   Car ----state-----------|- color       | DataMember/Variableproperties/DataMenbers/fields/ Attribute
+   Car ----state-----------|- color       | DataMember/Variable-properties/DataMenbers/fields/ Attribute
     \                      |- Price       |
      \                     |- Capacity--- |
       \
        \
         \                 |-drive() ------|
-         \                |-apllyBreack() |
-          Behavior--------|-changeGear()  | Methods/ functions/ Oprerations
+         \                |-applyBreak() |
+          Behavior--------|-changeGear()  | Methods/ functions/ Operations
                           |-revertGears() |
                           |-stop()--------|
 

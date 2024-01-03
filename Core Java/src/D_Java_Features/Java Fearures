@@ -3,7 +3,7 @@ Date:05/12/2023
 Java Features
 --------------
     1- Simple
-        - Java is simple as it contains losts of APIs (Application Programming Interface)/ Libraries
+        - Java is simple as it contains most's of APIs (Application Programming Interface)/ Libraries
         - Example:- Arrays.sort(N)
 
     2- object Oriented
@@ -29,7 +29,7 @@ Java Features
          |       X.java(Source Code)                         | >java x.java                                        |
          |                                                   |   - creates A.class, B.class and C.class            |
          |       Class A                                     |   - these class files are called as Byte code       |
-         |       {                                           |   - these Bytee Codes are Platform Independent      |
+         |       {                                           |   - these Byte Codes are Platform Independent      |
          |        Void main(){...}                           |- To run a java program at least one class should    |
          |       }                                           |  contain main Method                                |
          |       class B                                     |- main() is the entry point to run a java program.   |
@@ -68,7 +68,7 @@ Java Features
             int n=10;
             int *p =&n;// of n variable
 
-        8- Multithreded
+        8- Multithreading
             - A thread is a light weight process under execution within process
             - Multithreading is used to increase the performance of the Application
 

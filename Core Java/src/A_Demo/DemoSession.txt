@@ -5,13 +5,13 @@ Full stack Java
 - Core Java/ Java SE
 	- Java SE Stand for Java Standard Edition
 	- Used to develop Standalone/ desktop application
-		- javaIroduction
+		- javaIntroduction
 		- Java Features
 		- Download and Install Java 19 version
-		- Developing a Java Appliction in Eclipse IDE
+		- Developing a Java Application in Eclipse IDE
 		- JAva Basics
 			- Keywords, variables, data types, operators, if, switch case;,
-			  while loop, do... whlile loop, for loop
+			  while loop, do... while loop, for loop
 		- Array
 		- Java OOP(Object Oriented Programming)
 		    - Class, object, methods, function, construct,static keyword, package, inheritance,

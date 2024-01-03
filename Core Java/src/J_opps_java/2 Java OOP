@@ -15,7 +15,7 @@ Date:06/12/2023
                 {
                     void xxx()
                     {
-                       static int n;//error- local variable n canot be static
+                       static int n;//error- local variable n cannot be static
                     }
 
                 }
@@ -34,7 +34,7 @@ Package
         Example:
                 package mypack;
 
-        - Package statement should be the frist statement in source code file
+        - Package statement should be the first statement in source code file
         Example:
                 X.java
                 ------
@@ -71,11 +71,11 @@ Package
                       Refer program CalculatorTest.java (Run)
 
                  package com.oop.program;
-                        creates s folder "com" with a subfolder "oop" and with a subfolder "program"
+                        creates s folder "com" with a sub-folder "oop" and with a sub-folder "program"
                         under "oop" folder
                         - com
                             - oop
                                 - program
                                 \
            import java.util.Scanner;
-                Scanner is .class file present in "util" folder which is subfolder of "java" folder
+                Scanner is .class file present in "util" folder which is sub-folder of "java" folder

@@ -74,7 +74,7 @@ Date:06/12/2023
               Method overriding
               -----------------
                         - Method name is same and signature is also same
-                        - Applicable only in subbclass
+                        - Applicable only in sub-class
 
                                 Example:
                                         class Vehicle

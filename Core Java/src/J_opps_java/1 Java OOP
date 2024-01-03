@@ -2,7 +2,7 @@ Date:06/12/2023
 ---------------
   Java OOP
  -----------
-        -OOP stand for Object Orianted Programming
+        -OOP stand for Object Oriented Programming
 
  class
  ------
@@ -22,7 +22,7 @@ Date:06/12/2023
                     {
                         ...
                     }
-                    void dispEmpDetails()
+                    void distEmpDetails()
                     {
                         ...
                     }

@@ -10,13 +10,13 @@ Full stack Java
 
  comments
  ---------
-       - Comments are used to document a program and ignored by the proframming language
+       - Comments are used to document a program and ignored by the programming language
 
  Type Of Comments
  --------------------
         - Single Line comments (//)
             - Example
-                // To find area of a reactangle
+                // To find area of a rectangle
 
         - Multiline comment (/*.....*/)
             - Example
@@ -28,7 +28,7 @@ Full stack Java
 
 Keywords
 ---------
-    A Keyword is a reserved word/predefined word whose maaning is known to the
+    A Keyword is a reserved word/predefined word whose meaning is known to the
     language directly
 
     - Example
@@ -83,7 +83,7 @@ syntax (Rules of the language)
                {
                        int area;
                        area=length*breadth;
-                       print(aarea);
+                       print(area);
                }
                 // Calling the method
                int a= areaRect(10,p);

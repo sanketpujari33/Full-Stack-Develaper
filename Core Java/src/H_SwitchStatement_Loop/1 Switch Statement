@@ -50,6 +50,6 @@ Point on switch statement
         Example:
                 n1=10, n2=5, ch=1 result =15
                 n1=10, n2=5, ch=3 result =50
-                n1=10, n2=5, ch=8 result =Invalide Choice
+                n1=10, n2=5, ch=8 result =Invalided Choice
 
                 Refer program Calculator.java
