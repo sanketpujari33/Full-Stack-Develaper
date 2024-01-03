@@ -12,7 +12,7 @@ Date:06/12/2023
                     st-n;
                 }
              while (condition)
-              Note: if no {} then it considers only one stargument
+              Note: if no {} then it considers only one argument
 
         In case of while loop the condition  is checked before the statements where as
             in case of do...while loop the condition is checked after the statements
@@ -32,7 +32,7 @@ Date:06/12/2023
                         3. Display Balance
                         4. Exit
 
-                    The menu shold display repeatedly until the user chooses Exit
+                    The menu should display repeatedly until the user chooses Exit
                     Refer Program Bank.java
 
                 If the value of condition is accepted in the loop statements then it is suggested

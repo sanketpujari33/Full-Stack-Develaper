@@ -3,24 +3,24 @@ Date:05/12/2023
  Primitive Data Type
 -------------------------
 
----------------------------------------------------    Declaration of Variables
-|   Data Type  |  Size (in bits)  |  Default Value | ----------------------------
----------------------------------------------------    - In order to allocate memory space for variables we
-|    byte      |        8 (1byte) |       0        |       need to declare the variable
-|    short     |       16 (2byte) |       0        |    Syntax
-|    int       |       32 (4byte) |       0        |    -------
-|    long      |       64 (8byte) |      0L        |    Ex:                  |--------------------|---------------|
-|    float     |       32 (4byte) |     0.0f       |        int a,b;         | c/c++     garbage  | java   Default|
-|    double    |       64 (8byte) |     0.0d       |        char c;          |  int n;  /  or     |  int /  value |
-|    char      |       16 (2byte) |   '\u0000'     |        float f;         |    |3465|  unknown |  | 0 |        |
-|    boolean   |   not precisely  |     false      |        boolean b1=true  |      n      value  |    n          |
-|              |   defined(1byte) |                |        boolean b2=false |____________________|_______________|
----------------------------------------------------     Default value  |----- -128 to 127 (range)
-                                                       --------------  |    |---- -32768 to 32767 (range)
-                                                       Integral Type: byt, short, int, long --> 0
-                                                       floating Type: float, double --> 0.0
-                                                       char: ''
-                                                       boolean: false
+ ---------------------------------------------------    Declaration of Variables
+ |   Data Type  |  Size (in bits)  |  Default Value | ----------------------------
+ ---------------------------------------------------    - In order to allocate memory space for variables we
+ |    byte      |        8 (1byte) |       0        |       need to declare the variable
+ |    short     |       16 (2byte) |       0        |    Syntax
+ |    int       |       32 (4byte) |       0        |    -------
+ |    long      |       64 (8byte) |      0L        |    Ex:                  |--------------------|---------------|
+ |    float     |       32 (4byte) |     0.0f       |        int a,b;         | c/c++     garbage  | java   Default|
+ |    double    |       64 (8byte) |     0.0d       |        char c;          |  int n;  /  or     |  int /  value |
+ |    char      |       16 (2byte) |   '\u0000'     |        float f;         |    |3465|  unknown |  | 0 |        |
+ |    boolean   |   not precisely  |     false      |        boolean b1=true  |      n      value  |    n          |
+ |              |   defined(1byte) |                |        boolean b2=false |____________________|_______________|
+ ---------------------------------------------------     Default value  |----- -128 to 127 (range)
+                                                        --------------  |    |---- -32768 to 32767 (range)
+                                                        Integral Type: byt, short, int, long --> 0
+                                                        floating Type: float, double --> 0.0
+                                                        char: ''
+                                                        boolean: false
 
 
 Points on data Type
@@ -38,7 +38,7 @@ Points on data Type
                     }
                     main()
                     {
-                    smaple s=new Sample();
+                    sample s=new Sample();
                     SOP(s.m);// 0
                     s.xxx():
             }
@@ -78,15 +78,15 @@ Implicit casting
        -Example:
                 char c='A';
                 int n=c;
-                SOP(n)://65 (UNICODE OF CHARECTER 'A');
+                SOP(n)://65 (UNICODE OF CHARACTER 'A');
 
         Note:
         -----
         - C/C+ supports ASCII Codes (256 symbols).
-        - Java/.NET/ PHP/Python supports UNICODEs (65536 symbols).
-        - ASCII Codes are subset of UNICODEs
+        - Java/.NET/ PHP/Python supports UNICODE's (65536 symbols).
+        - ASCII Codes are subset of UNICODE's
 
-Exlicit Casting
+Explicit Casting
 -----------------
     Converting higher data type into lower data type
    Example:
@@ -107,21 +107,21 @@ Exlicit Casting
            or
            float f=3.14F;
 
-Jshell tool
+JShell tool
 ------------
        -JShell tool is added in java 9 version
-       -Jshell tool is an interactive tool to execute tha java statement
+       -JShell tool is an interactive tool to execute tha java statement
 
- To open Jshell
+ To open JShell
  ---------------
         Open command prompt/terminal
-        C:\> jshell;
-        jshell> System.out.println("Welcome to JShell");
+        C:\> JShell;
+        JShell> System.out.println("Welcome to JShell");
         Welcome to JShell
 
         TO Exit
         ---------
-                jshell>/exit
+                JShell>/exit
 
 Operators
 ----------
@@ -141,7 +141,7 @@ Operators
                     5.0 % 2.0 = 1.0
 
         - Relational Operator --> >, <, >=, <=, ==, != (not equal)
-              - used to from the conditions (Comparisions)
+              - used to from the conditions (Comparisons)
                Example:
                     int age = 10;
                         (age <= 20) // condition
@@ -172,7 +172,7 @@ Operators
                     y= y * 20; // y=10 * 20 = 200
                     using shorthand
                      Y *= 20;
-        - Conditinal Operator --> ? (Terinary Operator)
+        - Conditional Operator --> ? (Trinary Operator)
                 Syntax
                 -------
                         (condition) ? expression1 : expression2;
