@@ -10,9 +10,9 @@ Date:07/12/2023
                          {
                              void drive(){..};
                          }
-                         class Car extends Vehivle
+                         class Car extends Vehicle
                          {
-                            void drive(){..};// overriddn method
+                            void drive(){..};// overridden method
                             void changeGear(){..};
                          }
                          Vehicle v=new Vehicle();
@@ -57,7 +57,7 @@ Abstract classes
 
 InterFaces
 _______________
-            - It is used to from the rules/ spcifications
+            - It is used to from the rules/ specifications
             - Does ont force "is-a" relationship
             - In an interface all data member are public, static and final by default
             - In an interface all Method are public, static and abstract by default
