@@ -1,6 +1,6 @@
 package Recursion;
 
-public class Recursion1 {
+public class PrintNumber5To1 {
     public static void printNumber(int n){
         if(n==0)
             return;
