@@ -9,6 +9,7 @@ public class PrintFactorialNumber {
         int fact_nm1=clacfactorial(n-1);
         int fact_n =n * fact_nm1;
         return fact_n;
+
     }
 
     public static void main(String[] args) {
