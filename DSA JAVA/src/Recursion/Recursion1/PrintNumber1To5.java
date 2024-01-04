@@ -1,15 +1,15 @@
-package Recursion;
+package Recursion.Recursion1;
 
-public class PrintNumber5To1 {
+public class PrintNumber1To5 {
     public static void printNumber(int n){
-        if(n==0)
+        if(n==6)
             return;
         System.out.print(n+" ");
-        printNumber(n-1);
+        printNumber(n+1);
     }
     public static void main(String[] args) {
-            int n=5;
-            printNumber(n);
+        int n=1;
+        printNumber(n);
 
     }
 }

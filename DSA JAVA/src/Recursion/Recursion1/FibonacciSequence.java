@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Recursion1;
 
 public class FibonacciSequence {
     public static void fibSeqTillnth(int a, int b, int n){

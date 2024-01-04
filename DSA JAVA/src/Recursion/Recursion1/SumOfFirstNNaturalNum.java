@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Recursion1;
 
 public class SumOfFirstNNaturalNum {
     public static void printSum(int i, int n, int sum){

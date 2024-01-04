@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Recursion1;
 
 public class XnStackHeightLogn {
     public static  int calcPower(int x, int n){
