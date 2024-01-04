@@ -1,6 +1,6 @@
 package Recursion;
 
-public class XnStackHeight {
+public class XnStackHeightN {
     public static  int calcPower(int x, int n){
         if(n==0) {
             return 1;
