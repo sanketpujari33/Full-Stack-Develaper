@@ -13,8 +13,8 @@ public class LinearSearch {
         return -1;
     }
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int target = 70;
+        int[] arr = {9, 2, 8, 5, 4, 3, 1, 0, 7, 10, 6};
+        int target = 7;
         int result = search(arr, target);
         if (result == -1) {
             System.out.println("Not found");
