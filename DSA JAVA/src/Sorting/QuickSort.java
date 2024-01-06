@@ -10,20 +10,18 @@ public class QuickSort {
     }
     public static int partition(int arr[], int low, int high) {
             int pivot=arr[high];
-            int i=low-1;
-        for (int j = low; j < high; j++) {
-            if(arr[j]<pivot){
+            int i=low;
+            int j=low;
+            while (i<=high) {
+                if(arr[i]<=pivot){
+                    int temp=arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=temp;
+                    j++;
+                }
                 i++;
-                int temp=arr[i];
-                arr[i]=arr[j];
-                arr[j]=temp;
             }
-        }
-        i++;
-        int temp=arr[i];
-        arr[i]=pivot;
-        arr[high]=temp;
-        return i;
+        return j-1;
     }
         public static void main(String[] args) {
         int arr[]={ 6, 3, 9, 5, 2, 8};
