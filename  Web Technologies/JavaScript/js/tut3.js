@@ -1,11 +1,11 @@
 console.log('tut3');
 // Variables in js
 // var, let, const
-var name = 'harry';
+var name = 'sanket';
 var channel;
 var marks = 3454;
 marks = 0;
-channel = 'CodeWithHarry'
+channel = 'Sanketpujari'
 console.log(name, channel, marks);
 // Rules for creating JavaScript Variables
 /*
@@ -17,7 +17,7 @@ var city = 'Delhi';
 console.log(city);
 
 const ownersName = 'Hari Ram';
-// ownersName = 'Harry'; // Cannot do this (error)
+// ownersName = 'Sanket'; // Cannot do this (error)
 console.log(ownersName);
 const fruit = 'Orange';
 
