@@ -12,8 +12,8 @@ let element = document.getElementById('myfirst');
 // element = element.childNodes;
 // element = element.parentNode;
 element.style.color = 'red';
-element.innerText = 'Harry is a good boy';
-element.innerHTML = '<b>Harry is a good boy</b>';
+element.innerText = 'Sanket is a good boy';
+element.innerHTML = '<b>Sanket is a good boy</b>';
 // console.log(element.innerText);
 
 

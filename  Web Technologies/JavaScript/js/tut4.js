@@ -32,7 +32,7 @@ console.log("Data type is " + (typeof myarr));
 
 // Object Literals
 let stMarks = {
-    harry: 89,
+    Sanket: 89,
     Shubham: 36,
     Rohan: 34
 }
