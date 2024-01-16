@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { StateClassComponent } from './StateClassComponent';
 
 class ClassComponent extends Component {
 
@@ -16,6 +17,7 @@ class ClassComponentTwo extends React.Component{
         return (
             <>
                 <h1>Class ComponentTwo</h1>
+                <StateClassComponent/>
             </>
         );
     }
