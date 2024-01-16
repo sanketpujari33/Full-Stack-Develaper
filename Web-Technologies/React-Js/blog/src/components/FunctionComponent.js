@@ -1,4 +1,12 @@
 function FunctionComponent() {
+    return (
+        <>
+            <h1>Function Component</h1>
+            <User />
+        </>
+    );
+}
+function User() {
     function Appale(){
         return (
             <>
@@ -8,16 +16,8 @@ function FunctionComponent() {
     }
     return (
         <>
-            <h1>Function Component</h1>
-            {<Appale/>}
-            <User />
-        </>
-    );
-}
-function User() {
-    return (
-        <>
             <h1>User Component</h1>
+            {<Appale/>}
         </>
     );
 }
