@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropsWithClassComponent from './PropsWithClassComponent';
 import { StateClassComponent } from './StateClassComponent';
 
 class ClassComponent extends Component {
@@ -8,6 +9,7 @@ class ClassComponent extends Component {
             <>
                 <h1>Class Component First</h1>
                 <ClassComponentTwo/>
+                <PropsWithClassComponent/>
             </>
         );
     }
