@@ -1,4 +1,5 @@
 import EventFuctionalComponent from "./EventFuctionalComponent";
+import GetInputBoxValue from "./GetInputBoxValue";
 import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 
 function FunctionComponent() {
@@ -8,6 +9,7 @@ function FunctionComponent() {
             <User />
             <EventFuctionalComponent/>
             <PropsWithFunctionalComponent/>
+            <GetInputBoxValue/>
         </>
     );
 }
