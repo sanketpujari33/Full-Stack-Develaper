@@ -1,4 +1,5 @@
 import EventFuctionalComponent from "./EventFuctionalComponent";
+import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 
 function FunctionComponent() {
     return (
@@ -6,6 +7,7 @@ function FunctionComponent() {
             <h1>Function Component</h1>
             <User />
             <EventFuctionalComponent/>
+            <PropsWithFunctionalComponent/>
         </>
     );
 }
