@@ -1,8 +1,11 @@
+import EventFuctionalComponent from "./EventFuctionalComponent";
+
 function FunctionComponent() {
     return (
         <>
             <h1>Function Component</h1>
             <User />
+            <EventFuctionalComponent/>
         </>
     );
 }

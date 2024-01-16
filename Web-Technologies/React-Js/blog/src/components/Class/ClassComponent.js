@@ -5,7 +5,7 @@ class ClassComponent extends Component {
     render() {
         return (
             <>
-                <h1>Class Component Frist</h1>
+                <h1>Class Component First</h1>
                 <ClassComponentTwo/>
             </>
         );
