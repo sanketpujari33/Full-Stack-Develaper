@@ -1,4 +1,5 @@
 import './App.css';
+import ClassComponent from './components/ClassComponent';
 import FunctionComponent from './components/FunctionComponent';
 import logo from './logo.svg';
 
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header>
       <FunctionComponent/>
+      <ClassComponent/>
     </div>
   );
 }
