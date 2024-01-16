@@ -1,5 +1,6 @@
 import EventFuctionalComponent from "./EventFuctionalComponent";
 import GetInputBoxValue from "./GetInputBoxValue";
+import HideAndShowElemrnt from "./HideAndShowElement";
 import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 
 function FunctionComponent() {
@@ -10,6 +11,7 @@ function FunctionComponent() {
             <EventFuctionalComponent/>
             <PropsWithFunctionalComponent/>
             <GetInputBoxValue/>
+            <HideAndShowElemrnt/>
         </>
     );
 }
@@ -21,6 +23,7 @@ function User() {
             </>
         );
     }
+    // {9922999789}
     return (
         <>
             <h1>User Component</h1>
