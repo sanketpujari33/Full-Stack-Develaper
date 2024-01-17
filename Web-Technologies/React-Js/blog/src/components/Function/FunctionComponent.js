@@ -1,3 +1,4 @@
+import ConditionalRendering from "./ConditionalRendering";
 import EventFuctionalComponent from "./EventFuctionalComponent";
 import GetInputBoxValue from "./GetInputBoxValue";
 import HandleFormInReact from "./HandleFormInReact";
@@ -14,7 +15,7 @@ function FunctionComponent() {
             <PropsWithFunctionalComponent/>
             <GetInputBoxValue/>
             <HideAndShowElemrnt/>
-            
+            <ConditionalRendering/>
         </>
     );
 }
