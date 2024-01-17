@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentDidUpdate } from "./ComponentDidUpdate";
+import { ShouldComponentUpdate } from "./ShouldComponentUpdate";
 // import { ComponentDidMount } from "./ComponentDidMount";
 // import { CunstructorLifeCycle } from './CunstructorLifeCycle';
 // import { RenderLifeCyle } from "./RenderLifeCyle";
@@ -12,9 +12,9 @@ function LifeCycleMethod() {
         {/*<CunstructorLifeCycle/>
         <RenderLifeCyle name={name} />
         <button onClick={() => setName("SanketPujari")}>Update Name</button>
-        <ComponentDidMount/>*/}
-        <ComponentDidUpdate/>
-
+        <ComponentDidMount/>
+        <ComponentDidUpdate/>*/}
+        <ShouldComponentUpdate/>
         </div>
     );
 }
