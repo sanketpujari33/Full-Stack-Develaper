@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ComponentDidMount } from "./ComponentDidMount";
 import { CunstructorLifeCycle } from './CunstructorLifeCycle';
 import { RenderLifeCyle } from "./RenderLifeCyle";
 
@@ -9,6 +10,7 @@ function LifeCycleMethod() {
       <h1>LifeCycle Method</h1><CunstructorLifeCycle/>
       <RenderLifeCyle name={name} />
       <button onClick={() => setName("SanketPujari")}>Update Name</button>
+      <ComponentDidMount/>
     </div>
   );
 }
