@@ -4,11 +4,13 @@ import EventFuctionalComponent from "./EventFuctionalComponent";
 import GetInputBoxValue from "./GetInputBoxValue";
 import HandleFormInReact from "./HandleFormInReact";
 import HideAndShowElemrnt from "./HideAndShowElement";
+import PassFunctionAsProps from "./PassFunctionAsProps";
 import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 function FunctionComponent() {
     return (
-        <>
+        <div style={{backgroundColor:"gray", margin:0, padding:0}}>
             <h1>Function Component</h1>
+            <PassFunctionAsProps/>
             <BasicFormValidation/>
             <HandleFormInReact/>
             <User />
@@ -17,7 +19,8 @@ function FunctionComponent() {
             <GetInputBoxValue/>
             <HideAndShowElemrnt/>
             <ConditionalRendering/>
-        </>
+            
+        </div>
     );
 }
 function User() {

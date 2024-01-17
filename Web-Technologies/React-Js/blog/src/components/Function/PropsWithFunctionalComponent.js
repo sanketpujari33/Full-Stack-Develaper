@@ -12,7 +12,7 @@ function PropsWithFunctionalComponent() {
     );
 }
 function Student(props){
-    console.warn(props)
+    console.warn(props);
     return (
         <>
             <h1>Student Component</h1>
