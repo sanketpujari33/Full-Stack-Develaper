@@ -29,7 +29,7 @@ export class ComponentDidUpdate extends React.Component {
             <div>
                 <h1>ComponentDidUpdate</h1>
                 <h2>{this.state.count}</h2>
-                    <button onClick={()=>this.setState({count:1})}>Update</button>
+                <button onClick={()=>this.setState({count:1})}>Update</button>
             </div>
         );
     };
