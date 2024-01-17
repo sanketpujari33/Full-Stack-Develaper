@@ -10,7 +10,7 @@ function HandleFormInReact() {
         e.preventDefault();
     }
     return (
-        <>
+        <div style={{margin:30, padding:30, backgroundColor:"greenyellow"}}>
             <h1>Handle Form In React</h1>
             <form onSubmit={getFormData}>
                 <input type="text" placeholder="Enter Name" onChange={(e) => setName(e.target.value)} /><br /><br />
@@ -24,7 +24,7 @@ function HandleFormInReact() {
                 <input type="checkbox" onChange={(e) => setTerm(e.target.checked)} /><span>Accept Term and Conditions</span><br /><br />
                 <button type="submit">Submit</button><br /><br />
             </form>
-        </>
+        </div>
     );
 }
 

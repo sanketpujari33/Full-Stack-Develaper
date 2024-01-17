@@ -1,14 +1,15 @@
+import BasicFormValidation from "./BasicFormValidation";
 import ConditionalRendering from "./ConditionalRendering";
 import EventFuctionalComponent from "./EventFuctionalComponent";
 import GetInputBoxValue from "./GetInputBoxValue";
 import HandleFormInReact from "./HandleFormInReact";
 import HideAndShowElemrnt from "./HideAndShowElement";
 import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
-
 function FunctionComponent() {
     return (
         <>
             <h1>Function Component</h1>
+            <BasicFormValidation/>
             <HandleFormInReact/>
             <User />
             <EventFuctionalComponent/>
