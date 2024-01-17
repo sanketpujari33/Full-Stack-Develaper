@@ -4,6 +4,7 @@ function StateFunctionComponent() {
     function updateData() {
         setData(data + 1);
     }
+    
     return (
         <>
             <h1>State Function Component</h1>
