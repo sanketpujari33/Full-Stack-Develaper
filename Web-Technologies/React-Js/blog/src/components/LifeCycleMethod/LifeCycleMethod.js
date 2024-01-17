@@ -1,5 +1,6 @@
 import React from "react";
-import ComponentWillUnmount from "./ComponentWillUnmount";
+import GetSnapshotBeforeUpdate from "./GetSnapshotBeforeUpdate";
+// import ComponentWillUnmount from "./ComponentWillUnmount";
 // import { ComponentDidMount } from "./ComponentDidMount";
 // import { CunstructorLifeCycle } from './CunstructorLifeCycle';
 // import { RenderLifeCyle } from "./RenderLifeCyle";
@@ -14,8 +15,9 @@ function LifeCycleMethod() {
         <button onClick={() => setName("SanketPujari")}>Update Name</button>
         <ComponentDidMount/>
         <ComponentDidUpdate/>
-        <ShouldComponentUpdate/>*/}
-        <ComponentWillUnmount/>
+        <ShouldComponentUpdate/>
+        <ComponentWillUnmount/>*/}
+        <GetSnapshotBeforeUpdate/>
         </div>
     );
 }
