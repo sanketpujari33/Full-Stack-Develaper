@@ -1,4 +1,5 @@
 import BasicFormValidation from "./BasicFormValidation";
+import Bootstrap from "./Bootstrap";
 import ConditionalRendering from "./ConditionalRendering";
 import EventFuctionalComponent from "./EventFuctionalComponent";
 import GetInputBoxValue from "./GetInputBoxValue";
@@ -7,26 +8,28 @@ import HideAndShowElemrnt from "./HideAndShowElement";
 import PassFunctionAsProps from "./PassFunctionAsProps";
 import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 import StyleType from "./StyleType";
-
 function FunctionComponent() {
     return (
-        <div style={{backgroundColor:"gray", margin:0, padding:0}}>
+        <div style={{ backgroundColor: "gray", margin: 0, padding: 0 }}>
             <h1>Function Component</h1>
-            <PassFunctionAsProps/>
-            <BasicFormValidation/>
-            <HandleFormInReact/>
+            <PassFunctionAsProps />
+            <BasicFormValidation />
+            <HandleFormInReact />
             <User />
-            <EventFuctionalComponent/>
-            <PropsWithFunctionalComponent/>
-            <GetInputBoxValue/>
-            <HideAndShowElemrnt/>
-            <ConditionalRendering/>
-            <StyleType/>
+            <EventFuctionalComponent />
+            <PropsWithFunctionalComponent />
+            <GetInputBoxValue />
+            <HideAndShowElemrnt />
+            <ConditionalRendering />
+            <StyleType />
+
+            <Bootstrap />
+
         </div>
     );
 }
 function User() {
-    function Appale(){
+    function Appale() {
         return (
             <>
                 <h1>Inner Function Component </h1>
@@ -37,7 +40,7 @@ function User() {
     return (
         <>
             <h1>User Component</h1>
-            {<Appale/>}
+            {<Appale />}
         </>
     );
 }
