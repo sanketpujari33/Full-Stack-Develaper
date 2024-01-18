@@ -6,6 +6,8 @@ import HandleFormInReact from "./HandleFormInReact";
 import HideAndShowElemrnt from "./HideAndShowElement";
 import PassFunctionAsProps from "./PassFunctionAsProps";
 import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
+import StyleType from "./StyleType";
+
 function FunctionComponent() {
     return (
         <div style={{backgroundColor:"gray", margin:0, padding:0}}>
@@ -19,7 +21,7 @@ function FunctionComponent() {
             <GetInputBoxValue/>
             <HideAndShowElemrnt/>
             <ConditionalRendering/>
-            
+            <StyleType/>
         </div>
     );
 }

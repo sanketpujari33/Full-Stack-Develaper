@@ -1,16 +1,16 @@
 import "./App.css";
 // import LifeCycleMethod from "./components/LifeCycleMethod/LifeCycleMethod";
 // import ClassComponent from "./components/class/ClassComponent";
-// import FunctionComponent from './components/function/FunctionComponent';
-import Hook from './components/hook/Hook';
+import FunctionComponent from './components/function/FunctionComponent';
+// import Hook from './components/hook/Hook';
 
 function App() {
   return (
     <div className="App">
-      {/* <FunctionComponent/> */}
+       <FunctionComponent/>
       {/* <ClassComponent /> */}
       {/* <LifeCycleMethod/> */}
-      <Hook/>
+       {/* <Hook/> */}
     </div>
   );
 }
