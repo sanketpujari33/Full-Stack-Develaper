@@ -1,4 +1,5 @@
 import ArrayListing from "./ArrayListing";
+import NestedList from "./NestedList";
 // import BasicFormValidation from "./BasicFormValidation";
 // import Bootstrap from "./Bootstrap";
 // import ConditionalRendering from "./ConditionalRendering";
@@ -24,8 +25,9 @@ function FunctionComponent() {
             <HideAndShowElemrnt />
             <ConditionalRendering />
             <StyleType /> 
-            <Bootstrap /> */}
-            <ArrayListing/>
+            <Bootstrap /> 
+            <ArrayListing/>*/}
+            <NestedList/>
         </div>
     );
 }
