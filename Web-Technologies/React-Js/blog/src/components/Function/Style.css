@@ -1,4 +1,14 @@
-.primary{
+/* .primary{
     background-color: burlywood;
     color: blueviolet;
+} */
+/* .table{
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+} */
+th{
+    background-color: crimson;
+    color: black;
+    padding: 20px;
 }
