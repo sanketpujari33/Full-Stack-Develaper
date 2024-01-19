@@ -11,7 +11,9 @@
 // import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 // import StyleType from "./StyleType";
 // import ReuseComponent from "./ReuseComponent";
-import ReactFragment from "./ReactFragment";
+// import ReactFragment from "./ReactFragment";
+
+import SendDataChildToParent from "./SendDataChildToParent";
 
 function FunctionComponent() {
     return (
@@ -30,8 +32,9 @@ function FunctionComponent() {
             <Bootstrap /> 
             <ArrayListing/>
             <NestedList/>
-            <ReuseComponent/>*/}
-            <ReactFragment/>
+            <ReuseComponent/>
+            <ReactFragment/>*/}
+            <SendDataChildToParent/>
         </div>
     );
 }
