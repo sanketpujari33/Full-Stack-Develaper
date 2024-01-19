@@ -1,5 +1,5 @@
-import ArrayListing from "./ArrayListing";
-import NestedList from "./NestedList";
+// import ArrayListing from "./ArrayListing";
+// import NestedList from "./NestedList";
 // import BasicFormValidation from "./BasicFormValidation";
 // import Bootstrap from "./Bootstrap";
 // import ConditionalRendering from "./ConditionalRendering";
@@ -11,9 +11,11 @@ import NestedList from "./NestedList";
 // import PropsWithFunctionalComponent from "./PropsWithFunctionalComponent";
 // import StyleType from "./StyleType";
 
+import ReuseComponent from "./ReuseComponent";
+
 function FunctionComponent() {
     return (
-        <div style={{ backgroundColor: "gray", margin: 0, padding: 0 }}>
+        <div>
             <h1>Function Component</h1>
             {/* <PassFunctionAsProps />
             <BasicFormValidation />
@@ -26,8 +28,9 @@ function FunctionComponent() {
             <ConditionalRendering />
             <StyleType /> 
             <Bootstrap /> 
-            <ArrayListing/>*/}
-            <NestedList/>
+            <ArrayListing/>
+            <NestedList/>*/}
+            <ReuseComponent/>
         </div>
     );
 }
