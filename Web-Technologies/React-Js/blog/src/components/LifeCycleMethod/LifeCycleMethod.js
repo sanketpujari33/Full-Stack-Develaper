@@ -1,5 +1,5 @@
 import React from "react";
-import GetSnapshotBeforeUpdate from "./GetSnapshotBeforeUpdate";
+import GetSnapshotBeforeUpdates from "./GetSnapshotBeforeUpdates";
 // import ComponentWillUnmount from "./ComponentWillUnmount";
 // import { ComponentDidMount } from "./ComponentDidMount";
 // import { CunstructorLifeCycle } from './CunstructorLifeCycle';
@@ -17,7 +17,7 @@ function LifeCycleMethod() {
         <ComponentDidUpdate/>
         <ShouldComponentUpdate/>
         <ComponentWillUnmount/>*/}
-        <GetSnapshotBeforeUpdate/>
+        <GetSnapshotBeforeUpdates/>
         </div>
     );
 }
