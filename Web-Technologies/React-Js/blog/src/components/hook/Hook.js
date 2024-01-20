@@ -3,8 +3,7 @@
 // import ForwardRefFunctionComponent from "./ForwardRefFunctionComponent";
 // import UseMemoFunctionComponent from "./UseMemoFunctionComponent";
 // import UseRefFunctionComponent from "./UseRefFunctionComponent";
-
-import ControlledComponent from "./ControlledComponent";
+// import ControlledComponent from "./ControlledComponent";
 import UncontrolledComponent from "./UncontrolledComponent";
 
 function Hook() {
