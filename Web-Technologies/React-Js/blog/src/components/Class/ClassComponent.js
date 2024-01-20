@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import PropsWithClassComponent from './PropsWithClassComponent';
 // import { StateClassComponent } from './StateClassComponent';
 import PuresComponents from './PuresComponents';
+import UseRefClassComponent from './UseRefClassComponent';
 class ClassComponent extends Component {
 
     render() {
@@ -10,7 +11,8 @@ class ClassComponent extends Component {
                 <h1>Class Component First</h1>
                     {/* <ClassComponentTwo/> */}
                     {/* <PropsWithClassComponent/> */}
-                    <PuresComponents/>
+                    {/* <PuresComponents/> */}
+                    <UseRefClassComponent/>
 
             </>
         );
