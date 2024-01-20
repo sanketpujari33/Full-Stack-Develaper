@@ -4,7 +4,9 @@
 // import UseMemoFunctionComponent from "./UseMemoFunctionComponent";
 // import UseRefFunctionComponent from "./UseRefFunctionComponent";
 // import ControlledComponent from "./ControlledComponent";
-import UncontrolledComponent from "./UncontrolledComponent";
+// import UncontrolledComponent from "../function/UncontrolledComponent";
+
+import HighOrderComponent from "../function/HighOrderComponent";
 
 function Hook() {
     return ( <>
@@ -15,7 +17,8 @@ function Hook() {
         {/* <UseRefFunctionComponent/> */}
         {/* <ForwardRefFunctionComponent/> */}
         {/* <ControlledComponent/> */}
-        <UncontrolledComponent/>
+        {/* <UncontrolledComponent/> */}
+        <HighOrderComponent/>
     </> );
 }
 
