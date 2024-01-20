@@ -1,11 +1,13 @@
 // import StateFunctionComponent from "./StateFunctionComponent";
-import UseEffectFunctionComponent from "./UseEffectFunctionComponent";
+// import UseEffectFunctionComponent from "./UseEffectFunctionComponent";
+import UseMemoFunctionComponent from "./UseMemoFunctionComponent";
 
 function Hook() {
     return ( <>
         <h1>Hook</h1>
         {/* <StateFunctionComponent/>*/}
-        <UseEffectFunctionComponent/>
+        {/* <UseEffectFunctionComponent/> */}
+        <UseMemoFunctionComponent/>
     </> );
 }
 
