@@ -1,7 +1,8 @@
 // import StateFunctionComponent from "./StateFunctionComponent";
 // import UseEffectFunctionComponent from "./UseEffectFunctionComponent";
-import UseMemoFunctionComponent from "./UseMemoFunctionComponent";
-import UseRefFunctionComponent from "./UseRefFunctionComponent";
+import ForwardRefFunctionComponent from "./ForwardRefFunctionComponent";
+// import UseMemoFunctionComponent from "./UseMemoFunctionComponent";
+// import UseRefFunctionComponent from "./UseRefFunctionComponent";
 
 function Hook() {
     return ( <>
@@ -9,7 +10,8 @@ function Hook() {
         {/* <StateFunctionComponent/>*/}
         {/* <UseEffectFunctionComponent/> */}
         {/* <UseMemoFunctionComponent/> */}
-        <UseRefFunctionComponent/>
+        {/* <UseRefFunctionComponent/> */}
+        <ForwardRefFunctionComponent/>
     </> );
 }
 
