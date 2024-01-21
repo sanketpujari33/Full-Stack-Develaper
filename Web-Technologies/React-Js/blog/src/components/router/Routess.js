@@ -13,6 +13,7 @@ import Page404 from '../pages/Page404';
 import Login from '../pages/Login';
 import ProtectRoute from '../pages/ProtectRoute';
 import APIMethod from '../pages/APIMethod';
+import PreviousState from '../pages/PreviousState';
 
 
 function Routess() {
@@ -29,6 +30,7 @@ function Routess() {
                     <Route path="/user/:name" element={<User />} />
                     <Route path="/filter" element={<SerachParamHook />} />
                     <Route path="/api" element={<APIMethod/>} />
+                    <Route path="/previous" element={<PreviousState/>} />
                     <Route path='/contact/' element={<Contact />} >
                         <Route path='company' element={<Company />} />
                         <Route path='channel' element={<Channel />} />
