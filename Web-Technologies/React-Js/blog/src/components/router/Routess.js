@@ -15,6 +15,7 @@ import ProtectRoute from '../pages/ProtectRoute';
 import APIMethod from '../pages/APIMethod';
 import PreviousState from '../pages/PreviousState';
 import PreviousProps from '../pages/PreviousProps';
+import StateWithObject from '../pages/StateWithObject';
 
 
 function Routess() {
@@ -32,7 +33,7 @@ function Routess() {
                     <Route path="/filter" element={<SerachParamHook />} />
                     <Route path="/api" element={<APIMethod/>} />
                     <Route path="/previousstate" element={<PreviousState/>} />
-                    <Route path="/previousprops" element={<PreviousProps/>} />
+                    <Route path="/statewithobject" element={<StateWithObject/>} />
                     <Route path='/contact/' element={<Contact />} >
                         <Route path='company' element={<Company />} />
                         <Route path='channel' element={<Channel />} />

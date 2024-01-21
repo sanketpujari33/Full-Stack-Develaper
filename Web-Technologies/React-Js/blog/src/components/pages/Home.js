@@ -22,6 +22,7 @@ export default function Home() {
       <Link to="/api">Go to API Page</Link><br/><br/>
       <Link to="/previousstate">Go to PreviousState Page</Link><br/><br/>
       <Link to="/previousprops">Go to PreviousProps Page</Link><br/><br/>
+      <Link to="/statewithobject">Go to State With Object Page</Link><br/><br/>
       {/* <button onClick={()=>navigate('/about')}>Go to About Page</button><br/><br/>
       <button onClick={()=>navigate('/filter')}>Go to Filter Page</button> */}
       <button onClick={()=>navToPage('/about')}>Go to About Page</button><br/><br/>
