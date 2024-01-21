@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -15,6 +19,11 @@
 .nav-link{
   color: #841fdd;
   text-decoration: none;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 .App-header {
   background-color: #282c34;
