@@ -19,6 +19,7 @@ export default function Home() {
       <p>This is a Home page of our awesome App</p>
       <p>And Here we are learning about Router</p>
       <Link to="/about">Go to About Page</Link><br/><br/>
+      <Link to="/todo">Go to todo Page</Link><br/><br/>
       {/* <button onClick={()=>navigate('/about')}>Go to About Page</button><br/><br/>
       <button onClick={()=>navigate('/filter')}>Go to Filter Page</button> */}
       <button onClick={()=>navToPage('/about')}>Go to About Page</button><br/><br/>

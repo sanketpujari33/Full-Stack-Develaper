@@ -12,6 +12,7 @@ import SerachParamHook from './SerachParamsHook';
 import Page404 from '../pages/Page404';
 import Login from '../pages/Login';
 import ProtectRoute from '../pages/ProtectRoute';
+import APIGetMethod from '../pages/APIGetMethod';
 
 function Routess() {
     return (
@@ -26,6 +27,7 @@ function Routess() {
                     <Route path="/user/:name" element={<User />} />
                     <Route path="/user/:name" element={<User />} />
                     <Route path="/filter" element={<SerachParamHook />} />
+                    <Route path="/todo" element={<APIGetMethod/>} />
                     <Route path='/contact/' element={<Contact />} >
                         <Route path='company' element={<Company />} />
                         <Route path='channel' element={<Channel />} />
