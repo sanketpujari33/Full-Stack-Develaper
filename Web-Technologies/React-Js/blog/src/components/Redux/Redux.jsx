@@ -1,10 +1,11 @@
 import React from 'react'
-import  Home  from './components/Home';
+import '../../App.css'
+import {User} from './User'
 function Redux(){
     return (
-        <div>
+        <div className='App'>
             <h1>Redux</h1>
-            <Home/>
+            <User/>
         </div>
     )
 }
