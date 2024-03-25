@@ -1,0 +1,77 @@
+Eclipse IDE and java Basics Part-1
+-----------------------------------
+IDEs
+-----
+    - IDE stands For Integrated Development Environment
+    - IDEs are used to develop the applications easily and rapidly
+
+    Popular Java IDEs
+    ------------------
+        - Eclipse
+        - IntelliJ
+        - JDeveloper
+        - JBuilder
+        - My Eclipse
+
+    Download and Install Eclipse IDE
+    --------------------------------
+            Google: eclipse ide Download
+            url: https://www.eclipse.org/downloads
+
+    Developing a Java Application in Eclipse
+    ----------------------------------------
+        - Create a Java Project
+            Click on FIle -> New -> Project -> Java Project
+
+            Project Name : MyProj
+
+            and click Finish
+
+            Create module-info.java= Click Don't create
+        - Create a class in Java Project (MyProj)
+        Right click on MyProj -> New -> Class
+
+        Name: Welcome
+
+            and make click to main()
+            and click finish
+
+        - Type the following code in Welcome.java
+
+            public class Welcome {
+                public static void main(String[] args){
+                    System.out.println("Welcome");
+                }
+            }
+
+        - Run the application, Welcome.java
+                Right click on Welcome.java -> Run As -> Java Application
+
+                Which opens a console and display "Welcome" in console
+
+        Eclipse Shortcuts
+        -----------------
+             - public static void main(String[] args) {}
+                shortcut : type main and press ctrl + space + Enter Key
+
+             - System.out.println();
+                shortcut : type sysout and ctrl + press
+
+             - To run
+                shortcut : ctrl + f11
+
+             - To comment single line (//)
+                 shortcut : ctrl + /
+
+             - To comment multiple line (/*.........*/)
+                              shortcut : select the line and press ctrl + Shift + /
+
+             - To increase font size
+                    shortcut : ctrl + +
+
+             - To decrease font size
+                    shortcut : ctrl + -
+
+             - To format the code
+                    shortcut : ctrl + shift + f
+

@@ -16,7 +16,7 @@ Date:06/12/2023
                              ...
                         }
             - Through inheritance we can achieve reusalility of the code
-            - Java does not support multiple inheritance due to ambiguites means in java a class
+            - Java does not support multiple inheritance due to ambiguities means in java a class
                 can extend only one class
 
                 Example:
@@ -31,7 +31,7 @@ Date:06/12/2023
                  Fruit (Apple, Mango)
                  Account (Saving Account, Current Account)
 
-            - Inheritance is "is-a"  relationship
+            - Inheritance is " "  relationship
 
             has-a relationship
             ------------------

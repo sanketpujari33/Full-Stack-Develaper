@@ -20,7 +20,6 @@ public class StaticDemo {
         MyClass mc1=new MyClass();
         mc1.xxx();
         mc1.display();
-
         MyClass mc2=new MyClass();
         mc2.display();
         mc2.yyy();

@@ -1,28 +1,5 @@
 Date:05/12/2023
 ---------------
- Primitive Data Type
--------------------------
-
- ---------------------------------------------------    Declaration of Variables
- |   Data Type  |  Size (in bits)  |  Default Value | ----------------------------
- ---------------------------------------------------    - In order to allocate memory space for variables we
- |    byte      |        8 (1byte) |       0        |       need to declare the variable
- |    short     |       16 (2byte) |       0        |    Syntax
- |    int       |       32 (4byte) |       0        |    -------
- |    long      |       64 (8byte) |      0L        |    Ex:                  |--------------------|---------------|
- |    float     |       32 (4byte) |     0.0f       |        int a,b;         | c/c++     garbage  | java   Default|
- |    double    |       64 (8byte) |     0.0d       |        char c;          |  int n;  /  or     |  int /  value |
- |    char      |       16 (2byte) |   '\u0000'     |        float f;         |    |3465|  unknown |  | 0 |        |
- |    boolean   |   not precisely  |     false      |        boolean b1=true  |      n      value  |    n          |
- |              |   defined(1byte) |                |        boolean b2=false |____________________|_______________|
- ---------------------------------------------------     Default value  |----- -128 to 127 (range)
-                                                        --------------  |    |---- -32768 to 32767 (range)
-                                                        Integral Type: byt, short, int, long --> 0
-                                                        floating Type: float, double --> 0.0
-                                                        char: ''
-                                                        boolean: false
-
-
 Points on data Type
 ---------------------
    -Default value are applicable only to the data members(declared within a class) of
@@ -57,7 +34,7 @@ Type Casting
 ----------------
   - Converting from one primitive data type into another primitive data type or
      converting from one reference data type to into another reference data type
-     is colled as Type Casting
+     is called as Type Casting
 
 Type of Casting
 ----------------

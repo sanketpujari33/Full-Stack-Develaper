@@ -88,6 +88,12 @@ Date:07/12/2023
 
 Access Modifiers
 -----------------
+            - private
+            - default (no need to specify)
+            - protected
+            - public
+
+
                 - private
                     - A class cannot be private
                         Example:

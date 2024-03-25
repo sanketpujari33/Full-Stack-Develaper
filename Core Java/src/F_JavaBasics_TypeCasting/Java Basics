@@ -1,0 +1,119 @@
+Date:05/12/2023
+---------------
+ Java Basics
+---------------
+
+    Comments are used to document a program and ignored by compiler
+
+    Types Of comments
+    ------------------
+            Single line comment => //
+            Multiline comment => /*......*/
+
+     Ex:
+            // To find area of a rectangle
+
+     ex:
+        /*
+            to find gross salary and
+            net salary of an employee
+        */
+
+
+     Keyword
+     --------
+           - A Keyword is a reserved word whose meaning is known to the compiler directly
+           - n java all Keywords are small case letters
+
+      ex:
+            class, public, static, void, if, else, switch, while, do, for,
+            break, continue, try, catch, private, default etc
+
+
+    Variable
+    --------
+            A variable is an identifier which allocates some memory space
+
+    Rules for Identifiers (variable name/ method name/ class name)
+    --------------------------------------------------------------
+        - can contain A-Z, a-z, 0-9, -, $
+        - cannot start with a digit (0-9)
+        - cannot be a keyword
+
+    Valid Identifiers
+    -----------------
+        rollNum
+        emp_Name
+        itemNum123
+        $empSalary
+
+    Invalid Identifiers
+    ----------------------
+    student Name (space is not allowed)
+    123rollNum   (cannot start with a digit)
+    custNo#      (# is not allowed)
+    while        (cannot be a keyword)
+
+    Data Type
+    -----------
+                - Primitive Data Types
+                - Reference Data Type
+
+    Primitive Data Type
+   -------------------------
+
+    ---------------------------------------------------    Declaration of Variables
+    |   Data Type  |  Size (in bits)  |  Default Value | ----------------------------
+    ---------------------------------------------------    - In order to allocate memory space for variables we
+    |    byte      |        8 (1byte) |       0        |       need to declare the variable
+    |    short     |       16 (2byte) |       0        |    Syntax
+    |    int       |       32 (4byte) |       0        |    -------
+    |    long      |       64 (8byte) |      0L        |    Ex:                  |--------------------|---------------|
+    |    float     |       32 (4byte) |     0.0f       |        int a,b;         | c/c++     garbage  | java   Default|
+    |    double    |       64 (8byte) |     0.0d       |        char c;          |  int n;  /  or     |  int /  value |
+    |    char      |       16 (2byte) |   '\u0000'     |        float f;         |    |3465|  unknown |  | 0 |        |
+    |    boolean   |   not precisely  |     false      |        boolean b1=true  |      n      value  |    n          |
+    |              |   defined(1byte) |                |        boolean b2=false |____________________|_______________|
+    ---------------------------------------------------     Default value  |----- -128 to 127 (range)
+                                                           --------------  |    |---- -32768 to 32767 (range)
+                                                           Integral Type: byt, short, int, long --> 0
+                                                           floating Type: float, double --> 0.0
+                                                           char: ''
+                                                           boolean: false
+
+
+    Reference Data Types
+    ---------------------
+        - Classes (predefined classes/ user defined classes)
+                class MyClass {
+                    // Class definition
+                }
+
+                MyClass obj = new MyClass(); // obj is a reference variable of type MyClass
+
+
+        - Arrays
+                int[] arr = new int[5]; // arr is a reference variable of type int array
+
+
+        - Interfaces
+                interface MyInterface {
+                    // Interface definition
+                }
+
+                class MyClass implements MyInterface {
+                    // Class definition
+                }
+
+                MyInterface obj = new MyClass(); // obj is a reference variable of type MyInterface
+
+        - Enums
+                enum Day {
+                    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+                }
+
+                Day today = Day.MONDAY; // today is a reference variable of type Day
+
+        - Reference Wrappers
+            Integer num = new Integer(10); // num is a reference variable of type Integer
+

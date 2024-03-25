@@ -39,7 +39,7 @@ Point on if Statement
 --------------------------
         - For if, else is optional
         - For else, if is mandatory
-        - If {} are not used then if considers only one statement means for one statemrnt
+        - If {} are not used then if considers only one statement means for one statement
            using {} is optional
 
            Example:

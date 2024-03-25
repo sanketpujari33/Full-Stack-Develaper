@@ -22,7 +22,7 @@ Loops
                     ...
                     st-n;
                     }
-        Note: if no {} then it considers only one stargument
+        Note: if no {} then it considers only one statement
     Example:
             1 2 3 ... 9 10
              int i = 1;
@@ -31,7 +31,7 @@ Loops
                  SOP(i);
                  i++;
                }
-    1. WAP to display even number feom 1 to 100
+    1. WAP to display even number from 1 to 100
      output
      ------
       2 4 6 8 ... 98 100

@@ -9,13 +9,13 @@ Switch Statement
   ------
         switch (expression)
             {
-            case opt1: statement;
+            case opt-1: statement;
                         break;
-            case opt2: statement;
+            case opt-2: statement;
                         break;
-            case opt3: statement;
+            case opt-3: statement;
                         break;
-            case optn: statement;
+            case opt-n: statement;
                         break;
                default: statement;
              }

@@ -2,7 +2,7 @@ mysql -u YourMysqlUsername -p
 
 show databases;
 
-Create batabase learn;
+Create database learn;
 
 show databases;
 

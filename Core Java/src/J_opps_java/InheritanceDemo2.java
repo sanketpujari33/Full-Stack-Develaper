@@ -13,7 +13,7 @@ class Bases{
 }
 class Deriveds extends Bases{
     int k;
-    void input(int k){// overloaded method
+    void input(int k) {// overloaded method
         this.k=k;
     }
     void display(){  // overriding method

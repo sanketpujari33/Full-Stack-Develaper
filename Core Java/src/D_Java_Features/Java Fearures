@@ -57,7 +57,7 @@ Java Features
              - Size of int data type --> 2 bytes on 32-bit/4 bytes on 64-bit OS
              Java
              ----
-             - Size of int data type --> 4 bytes on 2-bit/4 bytes on 64-bit OS
+             - Size of int data type --> 4 bytes on 32-bit/4 bytes on 64-bit OS
 
         7- Secure
             - java is secure as java does not support as pointers violate security
