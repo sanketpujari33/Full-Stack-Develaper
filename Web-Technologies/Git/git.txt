@@ -2,41 +2,41 @@ master -------A(a.txt, b.txt, c.txt)------------------------------------> PRODUC
 develop -------A(a.txt, b.txt, c.txt)------------------------------------> Developers -> Used fot everything(Testing, developing, deploying)
 Cloned branches :-
 	with user.name? && user.email?
-		-> Siman Naidu & saiman.naidu@gmail.com and branch name :- siman_branch
-		-> Preethi & preethi@gmail.com and branch name :- preethi_branch
+		-> Sanket Pujari & sanketpujari33@gmail.com and branch name :- sanket_branch
+		-> Shekhar & shekhar@gmail.com and branch name :- shekhar_branch
 
 
 Local Branch -> git clone master url
 -----------------------------------------
-A(a.txt, b.txt, c.txt) -> Siman -> user.name? && user.email?
-A(a.txt, b.txt, c.txt) -> Adarsh
-A(a.txt, b.txt, c.txt) -> Preeti
+A(a.txt, b.txt, c.txt) -> Sanket -> user.name? && user.email?
+A(a.txt, b.txt, c.txt) -> Nitin
+A(a.txt, b.txt, c.txt) -> Shekhar
 
 master(Remote) -------A(a.txt, b.txt, c.txt)v1-----B(a.txt, b.txt, c.txt)v2------------------------------->
 
 Commands :- git pull && git add . && git commit && git push
 
-A(a.txt, b.txt, c.txt) -> Siman(Local) -> a.txt -> 2 lines -> git push -> B(a.txt, b.txt, c.txt)
-A(a.txt, b.txt, c.txt) -> Adarsh(Local) -> git pull -> B(a.txt, b.txt, c.txt)
-A(a.txt, b.txt, c.txt) -> Preeti(Local)  -> 	git pull -> B(a.txt, b.txt, c.txt)
+A(a.txt, b.txt, c.txt) -> Sanket(Local) -> a.txt -> 2 lines -> git push -> B(a.txt, b.txt, c.txt)
+A(a.txt, b.txt, c.txt) -> Nitin(Local) -> git pull -> B(a.txt, b.txt, c.txt)
+A(a.txt, b.txt, c.txt) -> Shekhar(Local)  -> 	git pull -> B(a.txt, b.txt, c.txt)
 
 master(Remote) -------A(a.txt, b.txt, c.txt)-----B(a.txt, b.txt, c.txt)-----------C(a.txt, b.txt, c.txt)v3-------------------->
 
-B(a.txt, b.txt, c.txt) -> Siman(Local) -> git pull -> C(a.txt, b.txt, c.txt)
-B(a.txt, b.txt, c.txt) -> Adarsh(Local) ->  c.txt -> 5 lines -> git push -> C(a.txt, b.txt, c.txt)
-B(a.txt, b.txt, c.txt) -> Preeti(Local)  -> 	git pull -> C(a.txt, b.txt, c.txt)
+B(a.txt, b.txt, c.txt) -> Sanket(Local) -> git pull -> C(a.txt, b.txt, c.txt)
+B(a.txt, b.txt, c.txt) -> Nitin(Local) ->  c.txt -> 5 lines -> git push -> C(a.txt, b.txt, c.txt)
+B(a.txt, b.txt, c.txt) -> Shekhar(Local)  -> 	git pull -> C(a.txt, b.txt, c.txt)
 
 master(Remote) -------A(a.txt, b.txt, c.txt)-----B(a.txt, b.txt, c.txt)-----C(a.txt, b.txt, c.txt)-----D(a.txt, b.txt, c.txt)------------>
 
-C(a.txt, b.txt, c.txt) -> Siman(Local) -> git pull -> D(a.txt, b.txt, c.txt)
-C(a.txt, b.txt, c.txt) -> Adarsh(Local) ->   git pull -> D(a.txt, b.txt, c.txt)
-C(a.txt, b.txt, c.txt) -> Preeti(Local)  -> b.txt -> 10 lines -> git push -> D(a.txt, b.txt, c.txt)
+C(a.txt, b.txt, c.txt) -> Sanket(Local) -> git pull -> D(a.txt, b.txt, c.txt)
+C(a.txt, b.txt, c.txt) -> Nitin(Local) ->   git pull -> D(a.txt, b.txt, c.txt)
+C(a.txt, b.txt, c.txt) -> Shekhar(Local)  -> b.txt -> 10 lines -> git push -> D(a.txt, b.txt, c.txt)
 
 
 A(a.txt, b.txt, c.txt) -> Master
-B(a.txt, b.txt, c.txt) -> Master + Siman
-C(a.txt, b.txt, c.txt)-> Master + Siman + Adarsh
-D(a.txt, b.txt, c.txt)-> Master + Siman + Adarsh + Preeti
+B(a.txt, b.txt, c.txt) -> Master + Sanket
+C(a.txt, b.txt, c.txt)-> Master + Sanket + Nitin
+D(a.txt, b.txt, c.txt)-> Master + Sanket + Nitin + Shekhar
 
 
 Verify this :-
@@ -47,8 +47,8 @@ Verify this :-
  git config --global core.editor code
 
 
- git config --global user.name “Siman Naidu”
- git config --global user.email saiman.naidu@gmail.com
+ git config --global user.name “Sanket Pujari”
+ git config --global user.email sanketpujari@gmail.com
 
 
 develop -------A(a.txt, b.txt, c.txt)------------------------------------>
@@ -78,8 +78,7 @@ local_develop	-------A(a.txt, b.txt, c.txt)------------------------------------>
 		(Local Repo)		local_develop	-------A(a.txt, b.txt, c.txt, d.txt)------------------------------------>
 		(Remote Repo) 			 develop  -------A(a.txt, b.txt, c.txt, d.txt)------------------------------------>
 
-	git clone https://github.com/raghavendramj/NS_Github_Prac.git
-
+	git clone https://github.com/Sanketpujari33/NS_Github_Prac.git
 
 2. Create a local repository and then link it with remote repository.
 	---------------------------------------------------------------------
@@ -101,9 +100,9 @@ local_develop	-------A(a.txt, b.txt, c.txt)------------------------------------>
 				new file:   second.txt
 	8. git commit -m "This is my first local commit"
 	9. git push -> FAILED -> fatal: No configured push destination.
-	10. Goto https://github.com/raghavendramj/ and create a repository. -> https://github.com/raghavendramj/NS_RemoteAndLocalLink.git
+	10. Goto https://github.com/Sanketpujari33/ and create a repository. -> https://github.com/Sanketpujari33/NS_RemoteAndLocalLink.git
 	11. Set the remote
-			Command :- git remote add origin https://github.com/raghavendramj/NS_RemoteAndLocalLink.git
+			Command :- git remote add origin https://github.com/Sanketpujari33/NS_RemoteAndLocalLink.git
 	12. git push --set-upstream origin master
 
 
@@ -125,7 +124,7 @@ Branching Techniques:-
 		git checkout -b second (Set the remote branch automatically)
 		
 3. git add secondFiles.txt
-	git commit -m "Commited from this branch-second"
+	git commit -m "Committed from this branch-second"
 	git push --set-upstream origin second
 
 4. git checkout master

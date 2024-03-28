@@ -1,7 +1,7 @@
 Date:05/12/2023
 ---------------
-Full stack Java
-----------------
+Full stack Java And MERN, MEAN
+--------------------------------
 - Core Java/ Java SE
 	- Java SE Stand for Java Standard Edition
 	- Used to develop Standalone/ desktop application
@@ -35,7 +35,15 @@ Full stack Java
         - TypeScript
         - XML
         - JSON
+        - React (JavaScript, TypeScript)
+        - ReduxToolkit (JavaScript, TypeScript)
         - Angular
+
+- Web Technologies / Server Side/ Back End
+        - Nodejs
+        - Express
+        - MongoDB
+        - MySQL
 
 - Advanced Java / Java EE
         - Java EE stands for Java Enterprise Edition
