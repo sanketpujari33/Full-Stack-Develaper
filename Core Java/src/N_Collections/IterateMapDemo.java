@@ -11,6 +11,7 @@ public class IterateMapDemo {
         map.put("mouse",300);
         map.put("ups", 2000);
         map.put("speekers",1000);
+
         System.out.println(map);// {keyboard=500, mouse=300, speekers=1000, ups=2000, monitors=5000}
         Set<String> keys =map.keySet();
         for (String key : keys) {

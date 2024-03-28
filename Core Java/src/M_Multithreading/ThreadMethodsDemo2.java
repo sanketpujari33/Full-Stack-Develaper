@@ -6,9 +6,8 @@ class ThreadX extends Thread
     {
         Thread t= Thread.currentThread();
         t.setName("ThreadX");
-        for (int i = 1; i < 10; i++) {
+        for (int i = 10; i >=1 ; i--) {
             System.out.println(t.getName() + ":" + i);
-
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
@@ -24,15 +23,21 @@ class ThreadY extends Thread
         Thread t = Thread.currentThread();
         t.setName("ThreadY");
         for (int i = 10; i >=1 ; i--) {
-            System.out.println(t.getName()+":"+i);
+            System.out.println(t.getName() + ":" + i);
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+
     }
 }
 public class ThreadMethodsDemo2 {
     public static void main(String[] args) {
-        ThreadX t= new ThreadX();
-            t.start();
-        ThreadY t2= new ThreadY();
-        t2.start();
+            ThreadX t1= new ThreadX();
+            t1.start();
+            ThreadY t2= new ThreadY();
+            t2.start();
     }
 }

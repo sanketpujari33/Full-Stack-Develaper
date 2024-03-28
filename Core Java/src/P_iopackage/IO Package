@@ -38,11 +38,11 @@ Stream
         +-FileInputStream              +-FileOutputStream         +-FileReader       +-FileWriter
         |                              |                          |                  |
         +-BufferedInputStream          +-BufferedOutputStream     +-BufferedReader   +-BufferedWriter
-        |                              |                          |                  |
+        |                              |
         +-DataInputStream              +-DataOutputStream
         |                              |
         +-ObjectInputStream            +-ObjectOutputStream
-        |                              |
+
 
      - The Top most two abstract classes under byte stream are
         - InputStream
@@ -109,7 +109,7 @@ Subclasses under OutputStream
   Subclasses under Writer
   -------------------------
                 - FileWriter
-                        - To cereate a new file and write the data onto the file
+                        - To create a new file and write the data onto the file
 
                 - BufferedWriter
                          - To increase the performance of write operations
@@ -122,7 +122,7 @@ Serialization
 ---------------
          - The process of writing objects onto the data file in called as serialization
          - The process of reading objects from the data file in called as deserialization
-         - objectOutputStream class is used to write an object onto the data file using the writeObect();
+         - objectOutputStream class is used to write an object onto the data file using the writeObject();
          - ObjectInputStream class is used to read an object from the data file using the readObject();
          - In order to serialize an object of a class, the class should implement Serialization
             Interface else it will throw "NotSerializableException"

@@ -19,8 +19,8 @@ Function Interface
 
                 Example:
                         - Runnable -> run()
-                        - comparable -> comareTo()
-                        - Comparator -> comare()
+                        - comparable -> compareTo()
+                        - Comparator -> compare()
 
                 Refer Program LambdaDemo.java
 

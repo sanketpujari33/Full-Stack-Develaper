@@ -16,7 +16,7 @@ Type of Error
             - Runtime Error or Exceptions
             - An exception is a runtime  error which occurs during program execution
                 and termination the program abnormal
-            - Exception Handling is used to avoid abnormal tesmination of application
+            - Exception Handling is used to avoid abnormal termination of application
                 and makes the program robust(strong)
 
 Five Keywords in Exception Handling
@@ -109,6 +109,12 @@ Exception Hierarchy
                                 |   |
                                 |   +-- UnsupportedOperationException
                                 |   |
+                                |   +-- StringIndexOutOfBoundsException
+                                |   |
+                                |   +-- NegativeArraySizeException
+                                |   |
+                                |   +-- NumberFormatException
+                                |   |
                                 |   +-- ...
                                 |
                                 +-- InterruptedException
@@ -134,22 +140,31 @@ Exception Hierarchy
                                 +-- ...
 
 
-       Categories of Exception
-                 |
-       +---------+---------+
-       |                   |
-     Checked            UnChecked
-       |                   |
- Otherthan Runtime         +--ALL RuntimeException
-    Exceptions  that       |
-       |                   + ArthmeticException
-    IOException            |
-       |                   + NumberFormatException
-   SQLException            |
-       |                   + etc.
-      etc                  |
-  are checked           are unchecked
-  Exceptions              Exceptions
+                         Categories of Exception
+                                   |
+                         +---------+---------+
+                         |                   |
+                       Checked            UnChecked
+                         |                   |
+                   Otherthan Runtime         +--ALL RuntimeException
+                      Exceptions  that       |
+                         |                   + ArithmeticException
+                      IOException            |
+                         |                   + NumberFormatException
+                     SQLException            |
+                         |                   + etc.
+                        etc                  |
+                   are checked           are unchecked
+                    Exceptions              Exceptions
+
+
+                       Refer Program CheckedExceptionsDemo.java
+
+
+Categories Of Exceptions
+-------------------------
+            - Checked Exception
+            - Unchecked Exception
 
 Checked Exception
 -------------------
@@ -158,14 +173,17 @@ Checked Exception
     - If a method throws an exception then this method need to be caught (try and catch)
         or declared to be thrown (throws)
 
-       Refer Program CheckedExceptionsDemo.java
-Runtie Exception
+Unchecked Exception
+-----------------------
+    - All Runtime Exception like
+
+Runtime Exception
 ------------------
            - The exceptions which occur during program execution are Runtime exceptions
            - All Runtime exceptions are subclasses of runtime exceptions class
            - All Runtime exceptions are categorized as Unchecked exceptions
 
-       Refer Program RuntieExceptionDemo.java
+       Refer Program RuntimeExceptionDemo.java
 
   - ArithmeticException
             - Trying to divide a number by zero

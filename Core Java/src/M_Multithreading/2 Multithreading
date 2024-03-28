@@ -45,6 +45,42 @@ Synchronization
             |                               |   |                                 |
             | // Outside synchronized code  |   | // Outside synchronized code    |
             ----------------------------------   -----------------------------------
+     ex:
+
+                  X
+                     \
+                      \
+  Joint account          5000
+                      /
+                     /
+                  Y
+
+            t1 - X checks balance - 5000
+            t2 - X withdraws -1000
+            t3 - Y checks balance - 4000
+            t4 - Y withdraws - 1000
+            ...
+            ...
+            t12 - X checks balance - 1000
+            t13 - Y checks balance - 1000
+            t14 - X withdraw - 1000
+            t15 - Y withdraws - insufficient balance (concurrency problem)
+
+
+    X
+      \
+       \
+        \
+Synchronized void makeWithdrawal(int amt)
+        /     {
+       /         // check balance
+      /           ...
+    Y             ...
+                 // withdraw
+                 ...
+                 ...
+                 }
+
 
  - When two or more Threads access the some resource then there is a chance of
     getting concurrency problems
@@ -72,14 +108,16 @@ Synchronization
 
             }
         - In a synchronized context (method/block) only one thread will be running
-            which degreades the performance of application
+            which degrades the performance of application
 
             Refer program SynchronizationDemo.java
 
 
  Inter Thread communication
  --------------------------
+
                 Thread1 -> Task -> result -> Thread2
+
                 - it is done using wait(), notify() and notifyAll() methods
                 - These method belong to object class
                 - When wait() is invoked on thread, the other Threads will goto block state

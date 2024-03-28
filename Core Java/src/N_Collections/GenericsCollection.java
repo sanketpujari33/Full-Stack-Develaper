@@ -17,5 +17,18 @@ public class GenericsCollection {
                  3
                   */
         }
+        LinkedList <String> list1 = new LinkedList<String>();
+        list1.add("aaa");
+        list1.add("bbb");
+        list1.add("ccc");
+        System.out.println(list1);
+        for(String i : list1){
+            System.out.println(i);
+                 /*
+                 aaa
+                 bbb
+                 ccc
+                  */
+        }
     }
 }

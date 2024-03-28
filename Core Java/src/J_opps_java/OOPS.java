@@ -160,6 +160,7 @@ class Student{
      String name;
     static String school;
     public static void setSchoolName(String schoolName){
+//        name=schoolName; error
         school=schoolName;
     }
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList al = new ArrayList();
-        al.add(10);
+        al.add(10);// Autoboxing - added in java 5 version
         al.add(20);
         al.add("xxx");
         al.add("yyy");
@@ -24,7 +24,7 @@ public class ArrayListDemo {
     }
 }
 /*
-    Converting respective primitive type into reference type or vice-versa atomatically
-    this feature is known as atoboxing
+    Converting respective primitive type into reference type or vice-versa automatically
+    this feature is known as autoboxing
 
  */

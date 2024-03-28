@@ -23,7 +23,7 @@ public class CustomExceptionDemo {
         Customer customer = new Customer();
         try
         {
-            customer.setAge(10);
+            customer.setAge(4);
         }
         catch (AgeException e)
         {

@@ -62,7 +62,7 @@ Steps in JDBC
     In order to connect to mysql database we need to set the classpath/buildpath
     to "mysql-connector-java-8.2.0.jar" into the project as follows
             Right click on MyProject -> Build Path -> configure Build Path ->
-            Click the tab Labraries -> select ClassPath -> Click add External jars ->
+            Click the tab Libraries -> select ClassPath -> Click add External jars ->
             Select "mysql-connector-java-8.2.0.jar" from the folder -> click open ->
             Click Apply and close
 

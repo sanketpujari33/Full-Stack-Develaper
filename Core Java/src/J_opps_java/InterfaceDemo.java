@@ -1,5 +1,8 @@
 package J_opps_java;
 
+interface Object{
+
+}
 interface Shapes{
         void draw();
        default void fill(){
@@ -7,18 +10,18 @@ interface Shapes{
         }
 
 }
-class Crircle implements Shapes{
+class Circles implements Shapes, Object{
     public void draw(){
-        System.out.println("Drawing Crircle");
+        System.out.println("Drawing Circle");
     }
 }
 public class InterfaceDemo {
     public static void main(String[] args) {
-        Shapes s=new Crircle();
+        Shapes s=new Circles();
         s.draw();
         s.fill();
     }
 }
 /*
-When implementing (overridung)) interface methods then the overriden method should be public
+When implementing (overriding) interface methods then the override method should be public
 */

@@ -4,7 +4,9 @@ import java.util.*;
 import java.util.stream.*;
 public class StreamapiDemo {
     public static void main(String[] args) {
+        // Way of Traversing/Iterating
         List<String> list1=  List.of("apple", "mango", "orange");
+        //Using traditional for loop
         for (int i = 0; i < list1.size(); i++) {
             System.out.println(list1.get(i));
         }
@@ -12,8 +14,10 @@ public class StreamapiDemo {
         for (String s: list1){
             System.out.println(s);
         }
-//        forEach() -add in java 8 version
+         //   forEach() -add in java 8 version
         list1.forEach(s -> System.out.println(s));
+
+        // Method references - added in java 8 version
         list1.forEach(System.out::println);
 
         // Creating stream using List

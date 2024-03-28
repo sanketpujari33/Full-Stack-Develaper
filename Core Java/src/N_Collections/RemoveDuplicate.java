@@ -19,6 +19,7 @@ public class RemoveDuplicate {
         mobileNos.add(7777);
         mobileNos.add(1111);
         mobileNos.add(5555);
+        System.out.println(mobileNos);//[1111, 2222, 3333, 4444, 5555, 6666, 2222, 7777, 1111, 5555]
         */
         //Collection Factory Methods - of() - added in java 9 version
         List<Integer> mobileNos= List.of(1111, 2222, 3333, 4444, 5555, 6666, 2222, 7777, 1111, 5555);

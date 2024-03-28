@@ -2,7 +2,7 @@ package L_ExceptionHandling;
 
 public class ExecutionDemo {
     public static void main(String[] args)  {
-        System.out.println("Bigin of Program");
+        System.out.println("Begin of Program");
         int n1 = Integer.parseInt(args[0]);
         int n2 = Integer.parseInt(args[1]);
         try {
@@ -20,5 +20,5 @@ String [] args is used to store command line arguments
     Run
     ---
         > java ExecutionDemo 10 5
-            10 and 5 are command lline arguments
+            10 and 5 are command line arguments
 */

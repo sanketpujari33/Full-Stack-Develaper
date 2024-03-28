@@ -10,14 +10,17 @@ Collections
                     we can collect the elements of Variable size (not fixed)
                 - In Array we can collect only similar  type of elements where as in collections
                     we can collect different type of elements
-                - In Arrays we caan collect primitive type as well as reference type of elements
+                - In Arrays we can collect primitive type as well as reference type of elements
                     where as in collections we can collect only reference type of elements
 
 Collections Hierarchy
 -----------------------
         Refer diagram Collections Hierarchy
 
-                            Collection (Interface)
+                                            Collections Hierarchy
+                                                      |
+                                 +--------------------+------------------+
+                                |                                        |
                           Collection (Interface)                       Map (Interface)
                                 |                                       |
                   +-------------+--------------+              +---------+---------+
@@ -30,10 +33,10 @@ Collections Hierarchy
         ArrayList  LinkedList   |               |         |          |
                                 |        PriorityQueue    |          |
                    _____________|                         |          |
-                  |                                       |          |
-    +-------------------------+                        TreeMap       |
+                  +                                       |          |
+    +-------------|-----------+                        TreeMap       |
     |                         |                                      |
-  HashSet                   SortrdSet                                |
+  HashSet                   SortedSet                                |
     |                         |                                  NavigableMap
 LinkedHashSet               TreeSet                              (Interface)
                                                                      |
@@ -41,9 +44,6 @@ LinkedHashSet               TreeSet                              (Interface)
                                                                  (Interface)
                                                                      |
                                                                 ConcurrentHashMap
-
-
-
 
 
 
@@ -73,7 +73,7 @@ ArrayList vs LinkedList
           from of nodes (A node is divided into two parts: element values and link to the next node)
         - In case of ArrayList, the cost of insert and delete operations are more where as
           in case of Linklist, the code of insert and delete operations are less
-        - ArrayList occupies less memory than linkedlist
+        - ArrayList occupies less memory than Linklist
 
 HashSet
 --------
@@ -91,9 +91,9 @@ TreeSet
  --------
         HashMap is unordered based on keys and no duplicate Keys
 
-LinkesHashMap
+LinksHashMap
 ---------------
-            LinkesHashMap is ordered based on keys and no duplicate Keys
+            LinksHashMap is ordered based on keys and no duplicate Keys
 
 TreeMap
 ----------

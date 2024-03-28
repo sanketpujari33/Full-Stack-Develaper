@@ -3,7 +3,7 @@ package P_iopackage;
 import java.io.*;
 public class DataInputStreamDemo {
     public static void main(String[] args) throws IOException {
-        FileInputStream fis = new FileInputStream("file2.txt");
+        FileInputStream fis = new FileInputStream("D:/Documents/Full-Stack-Develaper/Core Java/src/P_iopackage/file2.txt");
         DataInputStream dis = new DataInputStream(fis);
         int n= dis.readInt();
         System.out.println(n);//10

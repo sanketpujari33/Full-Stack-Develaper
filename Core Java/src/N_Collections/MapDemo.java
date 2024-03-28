@@ -10,7 +10,7 @@ public class MapDemo {
         map.put("keyboard",500);
         map.put("mouse",300);
         map.put("ups", 2000);
-        map.put("speekers",1000);
+        map.put("sppeekers",1000);
         System.out.println(map);// {keyboard=500, mouse=300, speekers=1000, ups=2000, monitors=5000}
 
         // LinkedHashMap

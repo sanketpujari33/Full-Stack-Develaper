@@ -15,7 +15,7 @@ Methods of List interface
 
 Additional methods in LinkedList class
 ---------------------------------------
-            - addFrist()
+            - addFirst()
             - addLast()
             - removeFirst()
             - removeLast()
@@ -47,7 +47,7 @@ Classes under Set interface
 
         Refer program SetDemo.java
 
-WAP to remove duplicate moblie number from the given list of moblie numbers
+WAP to remove duplicate mobile number from the given list of mobile numbers
         Refer program RemoveDuplicate.java
 
 

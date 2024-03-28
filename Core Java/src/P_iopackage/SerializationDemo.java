@@ -20,18 +20,20 @@ class Book implements Serializable
 }
 public class SerializationDemo {
     public static void main(String[] args) throws Exception {
-            FileOutputStream fos = new FileOutputStream("book.txt");
+         //Serialization
+            FileOutputStream fos = new FileOutputStream("D:/Documents/Full-Stack-Develaper/Core Java/src/P_iopackage/book.txt");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             Book b=new Book(111,"Learn Spring", 500.0);
             oos.writeObject(b);
             oos.close();
             fos.close();
-            //DeSerialization
-        FileInputStream fis = new FileInputStream("book.txt");
-        ObjectInputStream ois = new ObjectInputStream(fis);
-        Book b1=(Book) ois.readObject();
-        System.out.println(b1); // invokes toString() implicitly
-        ois.close();
-        fis.close();
+
+        //DeSerialization
+           FileInputStream fis = new FileInputStream("D:/Documents/Full-Stack-Develaper/Core Java/src/P_iopackage/book.txt");
+           ObjectInputStream ois = new ObjectInputStream(fis);
+           Book b1=(Book)ois.readObject();
+           System.out.println(b1); // invokes toString() implicitly
+           ois.close();
+           fis.close();
     }
 }

@@ -24,4 +24,5 @@ public class InterThreadDemo {
         System.out.println("sum ="+ ts.sum);
     }
 }
+
 // Runnable state --> main thread, ts thread

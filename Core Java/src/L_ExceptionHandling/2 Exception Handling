@@ -27,7 +27,7 @@ Try with Multiple catch blocks
                      Refer Program MultipleCatchDemo.java
        Note
        -----
-              -  In try with multiple catch blocks the order of catch blocks cnnot be from
+              -  In try with multiple catch blocks the order of catch blocks cannot be from
                   super class to subclass
 
        Finally block
@@ -87,9 +87,9 @@ Method of Throwable class
     - String getMassage() --> returns the Message of exception
     - void printStackTrace() --> Display the root cause of exception
 
- User Defind Exception / Custom Exceptions
+ User Defined Exception / Custom Exceptions
  ------------------------------------------
-                        - User Defind Exception are created by creating a class  which is subclass of
+                        - User Defined Exception are created by creating a class  which is subclass of
                             Exceptions class
 
                           Example:

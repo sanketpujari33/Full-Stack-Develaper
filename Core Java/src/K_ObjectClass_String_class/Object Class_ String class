@@ -39,7 +39,7 @@ Object class
         - A string is a collection of characters
         - In Java, String is immutable (like a constant)
 
-            Refer Digram String
+            Refer Diagram String
 
 
                                   String Class
@@ -57,6 +57,11 @@ Object class
                                 +-------------------+
                                 |        ...        |     <--- Other String objects in the heap
                                 +-------------------+
+
+            - This objects which are no longer referenced are ready for garbage collection and these
+              Objects will be destroyed during garbage collection process by the garbage collector
+            - Java is automatic garbage collection
+
 
 Methods of String class
 ------------------------
@@ -95,13 +100,17 @@ Methods of String class
 
 - String Representation:
 
-                        toString(): Returns string representation of the object.
+                - toString():
+                          - Returns string representation of the object.
+                          ex:
+                                int p=33;
+                                SOP(p.toString()); // "33"
 
 
 
                 - charAt()
                         - Used to return the char at the given index
-                        eg:
+                        ex:
                             String s= "Hello";
                             SOP(s.charAt(1));//e
 
@@ -123,7 +132,7 @@ Methods of String class
                          abc is less than xyz
 
                 - concat()
-                        - Used to join/ concate one string with another string
+                        - Used to join/ concat one string with another string
                             ex:
                                 String s1 = "Hello";
                                 String s2 = "World";
@@ -146,15 +155,15 @@ Methods of String class
                                 SOP(s.endWith("come"));//true
                                 SOP(s.startWith("Wel"));//true
 
-                - equals() and equalsIngnoreCase()
+                - equals() and equalsIgnoreCase()
                              -Used to check for the equality of two strings
                                 - equals() --> case sensitive
-                                - equalsIngnoreCase() --> not case sensitive
+                                - equalsIgnoreCase() --> not case sensitive
                             ex:
                                  String s1 = "HeLLo";
                                  String s2 = "hello";
                                  SOP(s1.equals(s2));//false
-                                 SOP(s1.equalsIngnoreCase(s2));//true
+                                 SOP(s1.equalsIgnoreCase(s2));//true
                 - indexOf()
                             - Used to return the index of given substring from the given string
                             ex:
@@ -170,7 +179,7 @@ Methods of String class
 
                 - split()
                         - Used to divide the given string into substrings based on the given
-                            delimeter (space, comma, colon, semicolon, etc)
+                            delimiter (space, comma, colon, semicolon, etc)
                             ex:
                                 String s1 = "Java is oo programming language";
                                 String[] strArray = s1.split(" ");
@@ -235,6 +244,120 @@ Task
         - Browse API of Math class
           google : math class in java
 
+Trigonometric Functions
+-------------------------
+                sin(double a):
+                           - Returns the sine of the specified angle.
+                           ex:
+                            double sineValue = Math.sin(Math.PI / 6); // Returns 0.5 (sin(π/6) = 0.5)
+
+                cos(double a):
+                            - Returns the cosine of the specified angle.
+                            ex:
+                              double cosineValue = Math.cos(Math.PI / 3); // Returns 0.5 (cos(π/3) = 0.5)
+
+                tan(double a):
+                            - Returns the tangent of the specified angle.
+                            ex:
+                               double tangentValue = Math.tan(Math.PI / 4); // Returns 1.0 (tan(π/4) = 1.0)
+
+                asin(double a):
+                            - Returns the arcsine of the specified value.
+                            ex:
+                                double arcsineValue = Math.asin(0.5); // Returns π/6 (arcsin(0.5) = π/6)
+
+                acos(double a):
+                            - Returns the arccosine of the specified value.
+                            ex:
+                                double arccosineValue = Math.acos(0.5); // Returns π/3 (arccos(0.5) = π/3)
+
+                atan(double a):
+                            - Returns the arctangent of the specified value.
+                            ex:
+                                double arctangentValue = Math.atan(1.0); // Returns π/4 (arctan(1.0) = π/4)
+
+Exponential and Logarithmic Functions:
+--------------------------------------
+                exp(double a):
+                           - Returns Euler's number raised to the power of the specified value.
+                           ex:
+                              double expValue = Math.exp(2); // Returns approximately 7.389 (e^2 ≈ 7.389)
+
+                log(double a):
+                           - Returns the natural logarithm (base e) of the specified value.
+                           ex:
+                             double logValue = Math.log(10); // Returns approximately 2.303 (ln(10) ≈ 2.303)
+
+                log10(double a):
+                            - Returns the base 10 logarithm of the specified value.
+                            ex:
+                                double log10Value = Math.log10(100); // Returns 2.0 (log10(100) = 2)
+
+                pow(double a, double b):
+                             - Returns the value of the first argument raised to the power of the second argument.
+                             ex:
+                                double powValue = Math.pow(2, 3); // Returns 8.0 (2^3 = 8)
+
+
+Rounding Functions:
+--------------------
+               ceil(double a):
+                          - Returns the smallest (closest to negative infinity) double value that is greater
+                            than or equal to the argument and is equal to a mathematical integer.
+                          ex:
+                            double ceilValue = Math.ceil(5.25); // Returns 6.0
+
+               floor(double a):
+                         - Returns the largest (closest to positive infinity) double value that is less than or equal
+                           to the argument and is equal to a mathematical integer.
+                           ex:
+                              double floorValue = Math.floor(5.75); // Returns 5.0
+
+               round(float a):
+                        - Returns the closest integer to the argument, rounding to the nearest integer value.
+                        ex:
+                            int roundValue = Math.round(5.5f); // Returns 6
+
+               round(double a):
+                        - Returns the closest long to the argument, rounding to the nearest integer value.
+                        ex:
+                           long roundDoubleValue = Math.round(5.5); // Returns 6
+
+Other Useful Functions:
+-----------------------
+              sqrt(double a):
+                       - Returns the square root of the specified value.
+                       ex:
+                        double sqrtValue = Math.sqrt(25); // Returns 5.0
+
+              abs(int a), abs(long a),
+               abs(float a), abs(double a):
+
+                      - Returns the absolute value of the specified value.
+                      ex:
+                        int absValue = Math.abs(-10); // Returns 10
+
+              max(int a, int b), max(long a, long b),
+              max(float a, float b), max(double a, double b):
+
+                      - Returns the greater of two values.
+                      ex:
+                        int maxValue = Math.max(10, 20); // Returns 20
+
+              min(int a, int b), min(long a, long b),
+              min(float a, float b), min(double a, double b):
+
+                      - Returns the smaller of two values.
+                       ex:
+                         int minValue = Math.min(10, 20); // Returns 10
+
+              random():
+                    - Returns a random double value between 0.0 (inclusive) and 1.0 (exclusive).
+                    ex:
+                       double randomValue = Math.random(); // Returns a random value between 0.0 and 1.0
+
+
+
 Wrapper Classes
 ----------------
            - For every primitive type there is a corresponding reference data type
@@ -243,11 +366,11 @@ Wrapper Classes
              ex:
                     Integer n = 100
                             n = 200;
-                     - In the above code, two Interger object will be created and the
+                     - In the above code, two Integer object will be created and the
                        object (100) is ready for garbage collection
            - Wrapper class are final means we cannot create subclasses for wrapper classes
                 ex:
-                    class MyClass extends Interger {}// error
+                    class MyClass extends Integer {}// error
             - Wrapper classes are used to convert reference type into primitive type
                 called as parsing
                 ex:

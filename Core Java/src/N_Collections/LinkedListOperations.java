@@ -87,3 +87,4 @@ public class LinkedListOperations {
         scanner.close();
     }
 }
+

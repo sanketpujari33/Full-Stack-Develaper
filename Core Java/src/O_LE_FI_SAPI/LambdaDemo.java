@@ -30,9 +30,18 @@ public class LambdaDemo {
         p.call();
        */
         // Lambda Expressions
-//        Phone p=(n)->{System.out.println("Calling"+n);};
-//            p.call(45454);
-        Phone p=n->System.out.println("Calling"+n);
+//        Phone p=()->{System.out.println("Calling");};
+//            p.call();
+//        Phone p=()->System.out.println("Calling");
+//        p.call();
+
+//        Phone p=(int no)->System.out.println("Calling "+no);
+//        p.call(45454);
+
+//        Phone p=(no)->System.out.println("Calling "+no);
+//        p.call(45454);
+
+        Phone p=no->System.out.println("Calling "+no);
         p.call(45454);
     }
 

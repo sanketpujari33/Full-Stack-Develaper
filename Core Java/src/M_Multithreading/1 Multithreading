@@ -42,14 +42,35 @@ Using Thread class
 State Transition Diagram of a Thread
 -------------------------------------
                     Refer diagram Thread States
-                                                                I/O Operations
-                                                                 sleep()
-                               start()           run()           wait()
-                    New (born) ------> Runnable ------> Running ------> Blocked
-                                        ^           |          |
-                                        |           v          |
-                                        +------> Terminated <+
-                                                   (Dead)
+
+                                                                   I/O Operations
+                                                                   notify()
+                               start()           run()             notifyAll()
+                    New (born) ------> Runnable ------> Running -----------------> Blocked
+                                        ^           |          |    sleep()
+                                        |           v          |    wait()
+                                        +------> Terminated <+--
+                                            stop() (Dead)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+                      new    MyThread t= new MyThread();
+                       |              \
+                       | start();      \
+            run()      |                \
+ Running ------------ Runnable---------- Dead
+                       |                 /
+ After I/O Operations  |  I/O Operations/
+                       |               /
+ After sleep()         |  sleep()     /
+                       |             /
+ notify/ notifyAll()   |  wait()    /
+                       |           /
+                       |          /
+                   Blocked
+-------------------------------------------------------------------------------------------------------------------
+
+
 
 Method of Thread class
 ----------------------
@@ -67,7 +88,7 @@ Method of Thread class
 
 Thread[#1,main,5,main]
 -----------------------
-            Thread -0 --> Name of the thread (default name)
+            Thread-0 --> Name of the thread (default name)
             5 --> Priority of the thread (default priority)
             main --> thread group (Collection of threads)
 

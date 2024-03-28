@@ -41,19 +41,22 @@ SQL Concepts / Database Concept
                 - SQL Server (Microsoft)
                 - Sybase     (Microsoft)
 
-   Download and install MySQL Database Server v8
-   ------------------------------------------------
+   Download and install MySQL Database Server version 8
+   -----------------------------------------------------
 
             port number : 3306
             username : root
             password : root
 
    Creating a Database
+
    ---------------------
                 mysql> create database database-Name;
 
                 example:
-                mysql> create database java16;
+                        mysql> create database java16;
+
+            Note: In SQL every statement should end with a semicolon (;).
 
    Use/ change database
    --------------------
@@ -98,7 +101,7 @@ drop table command
                  used to delete the table
      syntax
      -------
-            drop tabble table-name
+            drop table table-name
 
      example:
                drop table book;
@@ -146,7 +149,7 @@ TCL Commands:
 
 Note
 -----
-     - In MySQL, by default the transaction are autocommited
+     - In MySQL, by default the transaction are autocommit
 
  Setting autocommit mode to false/off
  ------------------------------------

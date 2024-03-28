@@ -16,7 +16,7 @@ abstract class Vechicle{
 }
 public class AbdtractDemo {
     public static void main(String[] args) {
-        //Vehicle vehicle=new Vehicle();// Error
+//        Vehicle vehicle=new Vehicle();// Error
         Vechicle v=new Car1();
         v.drive();
         v.applyBreak();

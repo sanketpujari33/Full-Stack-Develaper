@@ -1,6 +1,6 @@
 package L_ExceptionHandling;
 
-public class RuntieExceptionDemo {
+public class RuntimeExceptionDemo {
     public static void main(String[] args) {
 //        ArithmeticException
 //        int num = 10/0;

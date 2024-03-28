@@ -1,5 +1,7 @@
 package L_ExceptionHandling;
 
+import java.io.IOException;
+
 public class MultipleCatchDemo {
     public static void main(String[] args) {
 
@@ -30,6 +32,8 @@ public class MultipleCatchDemo {
         catch (Exception e)
         {
             System.err.println("Exception occurred");
+        }finally {
+            System.out.println("complete program");
         }
     }
 }

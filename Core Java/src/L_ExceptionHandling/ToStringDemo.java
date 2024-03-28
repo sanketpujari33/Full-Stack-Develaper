@@ -11,7 +11,9 @@ class Product // extends object
         this.pname = pname;
         this.price = price;
     }
-    Product(){}
+    Product(){
+        
+    }
     public String toString(){
         return pid+" "+pname+" "+price;
     }

@@ -6,7 +6,6 @@ class WithdrawException extends Exception {
         super(message);
     }
 }
-
 // Account class with withdraw method
 class Account {
     private double balance;
