@@ -12,7 +12,7 @@ Full stack Java And MERN, MEAN
 		- JAva Basics
 			- Keywords, variables, data types, operators, if, switch case;,
 			  while loop, do... while loop, for loop
-		- Array
+		- I_Array
 		- Java OOP(Object Oriented Programming)
 		    - Class, object, methods, function, construct,static keyword, package, inheritance,
 		      polymorphism, final keyword, inner classes, access modifiers,

@@ -6,9 +6,9 @@ Collections
 
  Arrays vs Collections
  ----------------------
-                - In Array we can collect the elements of fixed size where as in collections
+                - In I_Array we can collect the elements of fixed size where as in collections
                     we can collect the elements of Variable size (not fixed)
-                - In Array we can collect only similar  type of elements where as in collections
+                - In I_Array we can collect only similar  type of elements where as in collections
                     we can collect different type of elements
                 - In Arrays we can collect primitive type as well as reference type of elements
                     where as in collections we can collect only reference type of elements
@@ -30,7 +30,7 @@ Collections Hierarchy
                   |             |               |              |                  |
            +------+------+      |               |         +----+-----+            +
            |             |      |               |         |          |       LinkedHashMap
-        ArrayList  LinkedList   |               |         |          |
+        S_ArrayList  LinkedList   |               |         |          |
                                 |        PriorityQueue    |          |
                    _____________|                         |          |
                   +                                       |          |
@@ -66,14 +66,14 @@ List vs Set
         unOrdered -> 7,4,6,8,5
         sorted  -> 4,5,6,7,8 /8,7,6,5,4
 
-ArrayList vs LinkedList
+S_ArrayList vs LinkedList
 -------------------------
-        - In ArrayList the elements are stored in continuous memory locations where as
+        - In S_ArrayList the elements are stored in continuous memory locations where as
           in Linklist the elements are stored in non-continuous memory locations in the
           from of nodes (A node is divided into two parts: element values and link to the next node)
-        - In case of ArrayList, the cost of insert and delete operations are more where as
+        - In case of S_ArrayList, the cost of insert and delete operations are more where as
           in case of Linklist, the code of insert and delete operations are less
-        - ArrayList occupies less memory than Linklist
+        - S_ArrayList occupies less memory than Linklist
 
 HashSet
 --------

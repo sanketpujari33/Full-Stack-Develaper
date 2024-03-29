@@ -24,7 +24,7 @@ let d: boolean = true;
 
 console.log(d);
 
-// Array in TypeScripts
+// I_Array in TypeScripts
 
 let data = ["sanket", "Pujari", "Shekhar", "Nitin", 10, false];
 data.push(true);
@@ -35,10 +35,10 @@ let DataString: string[] = ["sanket", "Pujari", "Shekhar", "Nitin"];
 // DataString.push(554114)
 console.log(DataString);
 
-let e: Array<number> = [1, 2, 3, 4, 5];
+let e: I_Array<number> = [1, 2, 3, 4, 5];
 console.log(e);
 
-let f: Array<string> = ["hello", "world"];
+let f: I_Array<string> = ["hello", "world"];
 console.log(f);
 
 // Object in TypeScripts

@@ -1,5 +1,5 @@
-const score: Array<number> = []
-const names:Array<string> = []
+const score: I_Array<number> = []
+const names:I_Array<string> = []
 
 function identityOne(val: boolean | number): boolean | number{
     return val

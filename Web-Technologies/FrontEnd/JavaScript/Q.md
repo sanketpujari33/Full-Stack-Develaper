@@ -22,7 +22,7 @@ a.Can you give an example of one of the ways that working with this has changed 
 
 10. What is a closure, and how/why would you use one?
 
-11. Can you describe the main difference between the Array.forEach() loop and Array.map() methods and why you would pick one versus the other?
+11. Can you describe the main difference between the I_Array.forEach() loop and I_Array.map() methods and why you would pick one versus the other?
 
 12. What's a typical use case for anonymous functions?
 

@@ -83,7 +83,7 @@ Methods of String class
                            equalsIgnoreCase(String another): Compares string to another ignoring case.
                            compareTo(String another): Compares two strings lexicographically.
 
-- Searching and Retrieval:
+- M_Searching and Retrieval:
 
                            indexOf(int ch): Returns index of first occurrence of specified character.
                            indexOf(String str): Returns index of first occurrence of specified substring.
@@ -194,7 +194,7 @@ Methods of String class
                                  language
 
                 - toCharArray()
-                        - used to convert the given string into char Array
+                        - used to convert the given string into char I_Array
                             ex:
                                 String s1 = "Hello";
                                     char[] charArray= s.toCharArray();

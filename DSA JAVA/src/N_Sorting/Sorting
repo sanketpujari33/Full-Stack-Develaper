@@ -1,0 +1,34 @@
+Sorting in JAVA
+        Bubble Sort
+            Idea: if arr[i] > arr[i+1] swap them. To place the element in their
+                  respective position, we have to do the following operation N-1 times.
+                   Time Complexity: O(N2)
+
+        Selection Sort
+            Idea: The inner loop selects the minimum element in the
+                   unsorted array and places the elements in increasing order.
+                   Time complexity: O(N2)
+
+        Insertion Sort
+            Idea: Take an element from the unsorted array, place it in its
+                  corresponding position in the sorted part, and shift the
+                  elements accordingly.
+                   Time Complexity: O(N2)
+
+        MergeSort
+            Idea: Merge Sort is a divide-and-conquer algorithm. It divides
+                  the input array into two halves, sorts each half separately,
+                  and then merges the sorted halves.
+                  Time Complexity: O(n log n)
+
+        QuickSort
+            Idea: Quick Sort is also a divide-and-conquer algorithm. It selects
+                    a pivot element and partitions the array into two subarrays
+                    such that all elements less than the pivot are on its left,
+                    and all elements greater than the pivot are on its right.
+                    It then recursively sorts the subarrays.
+                    Time Complexity: O(n log n)
+                    average case, O(n^2)
+                    worst-case (rare)
+
+

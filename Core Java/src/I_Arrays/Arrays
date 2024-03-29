@@ -2,7 +2,7 @@ Date:06/12/2023
 ---------------
   Arrays
  ---------
-        An Array is a collection of elements of similarly data type
+        An I_Array is a collection of elements of similarly data type
         and stored in continuous memory locations
 
  Declaration
@@ -34,7 +34,7 @@ Date:06/12/2023
                     Refer diagram Arrays
 
 
-                                            Array
+                                            I_Array
                                             ------
                int[] n= new int[5];//5 is size
                                                    /n is the size of the array
@@ -44,8 +44,8 @@ Date:06/12/2023
                            0   1    2     3    5    }index
                          100  104  108   112  116   } Address
 
-               n[0]=10;              - Array elements are accessed using indexes and starts from 0
-               n[1]=20;              - Array initialization - int[] n={10,20,30,40,50};
+               n[0]=10;              - I_Array elements are accessed using indexes and starts from 0
+               n[1]=20;              - I_Array initialization - int[] n={10,20,30,40,50};
                n[2]=30;              - Length member- It is used to give the size of the array
                n[3]=50;              - Example:
                n[4]=50;                     SOP("Size ="+n.length);//size =5;
