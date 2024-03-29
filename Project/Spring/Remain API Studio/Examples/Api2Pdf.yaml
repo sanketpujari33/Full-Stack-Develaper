@@ -78,7 +78,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ApiResponseSuccess'
-          description: A JSON object containing the url to the PDF and other meta data
+          description: A JSON.txt object containing the url to the PDF and other meta data
         '401':
           content:
             application/json:
@@ -104,7 +104,7 @@ paths:
           required: true
           schema:
             type: string
-        - description: Specify output=json to receive a JSON output. Defaults to PDF file.
+        - description: Specify output=json to receive a JSON.txt output. Defaults to PDF file.
           in: query
           name: output
           schema:
@@ -119,7 +119,7 @@ paths:
               schema:
                 format: binary
                 type: string
-          description: A PDF file or a JSON object depending on the `output` query parameter
+          description: A PDF file or a JSON.txt object depending on the `output` query parameter
         '401':
           content:
             application/json:
@@ -154,7 +154,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ApiResponseSuccess'
-          description: A JSON object containing the url to the PDF and other meta data
+          description: A JSON.txt object containing the url to the PDF and other meta data
         '401':
           content:
             application/json:
@@ -187,7 +187,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ApiResponseSuccess'
-          description: A JSON object containing the url to the PDF and other meta data
+          description: A JSON.txt object containing the url to the PDF and other meta data
         '401':
           content:
             application/json:
@@ -220,7 +220,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ApiResponseSuccess'
-          description: A JSON object containing the url to the PDF and other meta data
+          description: A JSON.txt object containing the url to the PDF and other meta data
         '401':
           content:
             application/json:
@@ -254,7 +254,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ApiResponseSuccess'
-          description: A JSON object containing the url to the PDF and other meta data
+          description: A JSON.txt object containing the url to the PDF and other meta data
         '401':
           content:
             application/json:
@@ -280,7 +280,7 @@ paths:
           required: true
           schema:
             type: string
-        - description: Specify output=json to receive a JSON output. Defaults to PDF file.
+        - description: Specify output=json to receive a JSON.txt output. Defaults to PDF file.
           in: query
           name: output
           schema:
@@ -295,7 +295,7 @@ paths:
               schema:
                 format: binary
                 type: string
-          description: A PDF file or a JSON object depending on the `output` query parameter
+          description: A PDF file or a JSON.txt object depending on the `output` query parameter
         '401':
           content:
             application/json:
@@ -330,7 +330,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ApiResponseSuccess'
-          description: A JSON object containing the url to the PDF and other meta data
+          description: A JSON.txt object containing the url to the PDF and other meta data
         '401':
           content:
             application/json:

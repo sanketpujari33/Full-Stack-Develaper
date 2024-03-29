@@ -29,7 +29,7 @@ public class StreamapiDemo {
         Stream<String> stream2=set1.stream();
         stream2.forEach(System.out::println);
 
-        // creating stream using Arrays
+        // creating stream using Arrays.txt
         String [] strArray= {"xxx", "yyy", "zzz"};
         Stream<String> stream3 = Arrays.stream(strArray);
         stream3.forEach(System.out::println);

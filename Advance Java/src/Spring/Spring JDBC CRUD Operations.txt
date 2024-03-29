@@ -1,0 +1,59 @@
+Date: 18/12/2023
+-----------------
+Spring DAO Module
+-------------------
+            - DAO Stand for Data Access Object
+            - DAO is a class/interface with set of methods used to operate a database
+
+                            - Spring JDBC Module
+                            - Spring ORM Module (Hibernate)
+                            - Spring data JPA module
+
+  Spring JDBC Module
+ --------------------
+   Plain JDBC
+  --------------
+             - handle exceptions
+             - load the driver class
+             - establish the connection
+             - create statement
+             - execute statement
+             - close statement
+             - close connection
+
+  Spring JDBC
+ -------------
+            - execute statement
+                    - JdbcTemlate class of spring API is used for Spring JDBC
+
+ Example Application
+ --------------------
+            - Create a table "Student" in MySQL
+              mysql>create table Student (id int(3),name varchar(10), age int(2));
+
+            - Add the following project dependencies in pom.xml file of SpringProj
+
+                            <dependency>
+                                <groupId>org.springframework</groupId>
+                                <artifactId>spring-jdbc</artifactId>
+                                <version>6.1.2</version>
+                            </dependency>
+                            <dependency>
+                                <groupId>mysql</groupId>
+                                <artifactId>mysql-connector-java</artifactId>
+                                <version>8.0.33</version>
+                            </dependency>
+
+                            Refer program pom.xml
+
+            - Create an interface "StudentDao" in com.spring package of src/main/java folder of SpringProj
+                    Refer program StudentDao.java
+
+            - Create a Spring bean class "StudentDaoImpl" in com.spring package
+                   Refer program StudentDaoImpl.java
+
+            - Create Spring bean XML configuration file "jdbc.xml" in src/main/java folder folder
+                   Refer program jdbc.xml
+
+            - Create a test class "JdbcTest" in com.spring package
+                    Refer program JDBCTest.java (Run)

@@ -1,0 +1,55 @@
+Date: 06/01/2024
+----------------
+
+                    Collection of Classes And Interface
+                                    |
+                                Iterable
+                                    |
+                                Collection
+                                    |
+                    |---------------|-------------------|
+                  List            Queue                Set
+
+
+                  Methods On Collection
+                    - add
+                    - size
+                    - remove
+                    - iterate
+                    - addAll
+                    - removeAll
+                    - clear
+
+
+                       List Interface
+                             |
+                            List
+             |---------------|---------------|
+           S_ArrayList     LinkedList       Vector
+                                             |
+                                           V_Stack
+
+
+                  Queue Interface (FIFO)
+                            |
+                          Queue
+           |----------------|---------------|
+        PriorityQueue   LinkedList        Deque
+                                            |
+                                         ArrayDeque
+
+                        Set Interface
+                            |
+                           Set
+         |------------------|-------------------|
+       HashSet           LinkedHashSet       SortedSet
+                                                 |
+                                                TreeSet
+
+                           Map Interface
+                               |
+                              Map
+          |--------------------|-------------|-------------|
+        HashMap       LinkedHashMap      SortedMap      Hashtable
+                                             |
+                                           TreeMap

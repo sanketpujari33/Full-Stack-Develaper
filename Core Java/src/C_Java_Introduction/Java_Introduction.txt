@@ -1,0 +1,97 @@
+Date:05/12/2023
+---------------
+Java Introductions
+--------------------
+       - Java is an object-oriented programming language developed by the James Gosling
+         at the Sun Microsystems
+       - The Sun Microsystems is acquired by the Oracle Corporation in 2010
+
+Object-Oriented Concepts / Feature
+----------------------------------
+        - Object
+        - Classes
+        - Abstraction
+        - Encapsulation
+        - Inheritance
+        - Polymorphism
+
+Object
+-------
+
+    An object is a real time entity which has identity, state and behavior
+    refer diagram
+                            Object
+                                |
+                                |
+          ID-TS1234             |
+      /                         |
+     /                          |
+    /                      |- Make--------|
+   i10                     |- Model       |
+   Car ----state-----------|- color       | DataMember/Variable-properties/DataMembers/fields/ Attribute
+    \                      |- Price       |
+     \                     |- Capacity--- |
+      \
+       \
+        \                 |-drive() ------|
+         \                |-applyBreak() |
+          Behavior--------|-changeGear()  | Methods/ functions/ Operations
+                          |-revertGears() |
+                          |-stop()--------|
+
+
+
+Class
+------
+  A class is a Collection of data members and Methods
+
+  Example
+        class Person
+        {
+            //Data members
+            int age;
+            String name;
+            float age;
+           //Methods
+           eat(){---};
+           walk(){---};
+           }
+           age=20; error
+   The members (data members/methods) of thr class are accessed using objects
+   with dot(.) operator
+
+   creating objects
+   ----------------
+   syntax
+   -------
+   className objName= new ClassName();
+
+   Example
+    Person person= new Person(); //person is an object of class Person
+    p.age =20;
+    p.name="Ram";
+    p.height=5.9;
+    p.walk();
+    p.eat();
+
+Identifying Objects and classes
+--------------------------------
+    Mr.XXX Teaches Java at RRR Technologies. PPP attends Java Sessions.
+    Mrs.XXX Teaches Testing At the some company. QQQ attends Testing Sessions.
+
+Objects (Nouns)
+--------------
+    Mr.XXX
+    Java
+    RRR
+    PPP
+    Mrs.XXX
+    Testing
+    QQQ
+
+Classes (A class is a collection of related objects)
+----------------------------------------------------
+faculty (Mr.XXX And Mrs.XXX)
+Course (Java and Testing)
+Company (RRR)
+Student (PPP and QQQ)

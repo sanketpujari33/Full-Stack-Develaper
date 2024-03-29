@@ -220,7 +220,7 @@ paths:
       responses:
         '200':
           description: List documents and directories within the aspect.
-      summary: Retrieves a specific document from the BCLaws legislative repository (XML format)
+      summary: Retrieves a specific document from the BCLaws legislative repository (XML.txt format)
       tags:
         - document
   '/document/id/{aspectId}/{civixIndexId}/{civixDocumentId}/xml/search/{searchString}':
@@ -268,7 +268,7 @@ paths:
       responses:
         '200':
           description: List documents and directories within the aspect.
-      summary: Retrieves a specific document from the BCLaws legislative repository with search text highlighted (XML format)
+      summary: Retrieves a specific document from the BCLaws legislative repository with search text highlighted (XML.txt format)
       tags:
         - document
   '/search/{aspectId}/fullsearch':

@@ -1,0 +1,100 @@
+Date:08/12/2023
+---------------
+Collections
+----------------
+        Collections are used to collect the elements of variables size (not fixed)
+
+ Arrays vs Collections
+ ----------------------
+                - In I_Array we can collect the elements of fixed size where as in collections
+                    we can collect the elements of Variable size (not fixed)
+                - In I_Array we can collect only similar  type of elements where as in collections
+                    we can collect different type of elements
+                - In Arrays we can collect primitive type as well as reference type of elements
+                    where as in collections we can collect only reference type of elements
+
+Collections Hierarchy
+-----------------------
+        Refer diagram Collections Hierarchy
+
+                                            Collections Hierarchy
+                                                      |
+                                 +--------------------+------------------+
+                                |                                        |
+                          Collection (Interface)                       Map (Interface)
+                                |                                       |
+                  +-------------+--------------+              +---------+---------+
+                  |             |              |              |                   |
+                List           Set           Queue         SortedMap            HashMap
+             (Interface)    (Interface)    (Interface)    (Interface)             |
+                  |             |               |              |                  |
+           +------+------+      |               |         +----+-----+            +
+           |             |      |               |         |          |       LinkedHashMap
+        S_ArrayList  LinkedList   |               |         |          |
+                                |        PriorityQueue    |          |
+                   _____________|                         |          |
+                  +                                       |          |
+    +-------------|-----------+                        TreeMap       |
+    |                         |                                      |
+  HashSet                   SortedSet                                |
+    |                         |                                  NavigableMap
+LinkedHashSet               TreeSet                              (Interface)
+                                                                     |
+                                                                ConcurrentMap
+                                                                 (Interface)
+                                                                     |
+                                                                ConcurrentHashMap
+
+
+
+Collection vr MAP
+------------------
+              - Collection is used to collect the elements where as map is used to collect
+                elements in the form of key-value`
+               Ex:
+                collection -> ["apple", "orange", "mango"]
+
+                MAp -> {"eno": 111, "ename":"Sanket", "salary":8000.0}
+
+List vs Set
+    -List is ordered where as set is unordered
+    - List allow duplicate elements where as set does not allow duplicate elements
+
+    Example:
+        elements -> 5,8,6,4,7
+        ordered ->  5,8,6,4,7
+        unOrdered -> 7,4,6,8,5
+        sorted  -> 4,5,6,7,8 /8,7,6,5,4
+
+S_ArrayList vs LinkedList
+-------------------------
+        - In S_ArrayList the elements are stored in continuous memory locations where as
+          in Linklist the elements are stored in non-continuous memory locations in the
+          form of nodes (A node is divided into two parts: element values and link to the next node)
+        - In case of S_ArrayList, the cost of insert and delete operations are more where as
+          in case of Linklist, the code of insert and delete operations are less
+        - S_ArrayList occupies less memory than Linklist
+
+HashSet
+--------
+        - Hashset is unordered and no duplicate elements
+
+LinkedHashSet
+-------------
+        - LinkedHashSet is ordered and no duplicate elements
+
+TreeSet
+-------
+        TreeSet is sorted and no duplicate elements
+
+ HashMap
+ --------
+        HashMap is unordered based on keys and no duplicate Keys
+
+LinksHashMap
+---------------
+            LinksHashMap is ordered based on keys and no duplicate Keys
+
+TreeMap
+----------
+        TreeMap is sorted based on keys and no duplicate Keys

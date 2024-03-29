@@ -1,0 +1,137 @@
+
+
+Divyanshu Pathak
+54m ago
+This meeting is for the preparation of WIFY Technology interviews. Those who are not participating in this preparation are welcome to stay in the meeting or leave as they wish. Candidates who have been referred to this company must remain in the meeting.
+
+
+Neha Kashyap
+52m ago
+I am not referred for this company?
+
+
+Divyanshu Pathak
+52m ago
+1.⁠ ⁠What is ReactJs?
+
+ 2.⁠ ⁠What are some of the features of ReactJs?
+
+ 3.⁠ ⁠React lifecycle
+
+ 4.⁠ ⁠Explain Hooks in React and what are some hooks that you have used?
+
+ 5.⁠ ⁠Class based component vs functional component
+
+ 6.⁠ ⁠States in React? useState and useEffect
+
+
+Neha Kashyap
+51m ago
+no
+
+
+Neha Kashyap
+50m ago
+can i leave the meeting?
+
+
+ok sir
+
+
+sure sir
+
+
+Divyanshu Pathak
+42m ago
+-> Backend
+
+ 1.⁠ ⁠What is NodeJs?
+
+ 2.⁠ ⁠Where do you use NodeJs?
+
+ 3.⁠ ⁠What is an event?
+
+ 4.⁠ ⁠Which library is used to send email? (Nodemailer, npm)
+
+ 5.⁠ ⁠GET and POST
+
+ 6.⁠ ⁠Explain CRUD Operations
+
+
+Divyanshu Pathak
+17m ago
+Implement a Simple Asynchronous Operation in Node.js:
+
+Task: Write a Node.js script that reads a file asynchronously and logs its content to the console.
+
+
+saurabh Singh
+just now
+where sir
+
+
+mern stack q
+
+
+question
+
+
+Divyanshu Pathak
+just now
+General MERN V_Stack Questions
+
+Explain the MERN V_Stack. (Describe each component and how they work together)
+
+How does the MERN stack differ from the MEAN stack? (Focus on React vs Angular)
+
+MongoDB
+
+What is MongoDB and why would you use it over a traditional relational database like SQL?
+
+Explain sharding and replication in MongoDB.
+
+Express.js
+
+What is Express.js and why is it important in the MERN stack?
+
+How would you handle errors in an Express.js application?
+
+ReactJS
+
+Explain the virtual DOM in React.
+
+How do React Hooks improve functional components? (Include useState and useEffect as examples)
+
+Can you describe the lifecycle of a React component?
+
+Explain how you would manage state in a large React application.
+
+Node.js
+
+Why is Node.js preferred for the backend in the MERN stack?
+
+Explain the event-driven architecture of Node.js.
+
+How do you handle asynchronous operations in Node.js? (Discuss promises and async/await)
+
+SQL
+
+What are the differences between SQL and NoSQL databases?
+
+Explain joins in SQL and their types.
+
+How would you optimize SQL queries for performance?
+
+Integration and Best Practices
+
+How do you ensure the security of a MERN stack application? (Discuss authentication, JWT, etc.)
+
+Explain how you would integrate a SQL database in a MERN stack application. (Discuss when and why you might do this)
+
+What are some best practices for writing efficient and maintainable code in the MERN stack?
+
+Real-world Scenarios
+
+Describe a challenging problem you solved using the MERN stack.
+
+How would you scale a MERN stack application for a large number of users?

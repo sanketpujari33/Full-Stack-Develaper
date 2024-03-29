@@ -1,0 +1,81 @@
+Date:05/12/2023
+---------------
+Java Features
+--------------
+    1- Simple
+        - Java is simple as it contains most's of APIs (Application Programming Interface)/ Libraries
+        - Example:- Arrays.sort(N)
+
+    2- object Oriented
+        - Java is object-oriented (OO) as it supports all OO features like
+            objects, classes, abstraction, encapsulation, inheritance and Polymorphism
+
+    3- Robust
+            - Robust means strong
+            - In java we can develop robust applications using Exception Handling
+              which avoids abnormal termination of the application
+
+    4- platform Independent
+            - Refer Diagram platform independent
+
+                                                     Platform Independent
+         |---------------------------------------------------------------------------------------------------------|
+         |                                                   |                                                     |
+         |- A java program can run on any platform (OS);     |                                                     |
+         |- A java program is Write Once Run anywhere (WORA) |                                                     |
+         |- A java program is a Collections of classes       |                                                     |
+         |                                                   |                                                     |
+         | Example:-                                         | To Compile                                          |
+         |       X.java(Source Code)                         | >java x.java                                        |
+         |                                                   |   - creates A.class, B.class and C.class            |
+         |       Class A                                     |   - these class files are called as Byte code       |
+         |       {                                           |   - these Byte Codes are Platform Independent      |
+         |        Void main(){...}                           |- To run a java program at least one class should    |
+         |       }                                           |  contain main Method                                |
+         |       class B                                     |- main() is the entry point to run a java program.   |
+         |       {                                           |- We can run only .class files which contains main() |
+         |         Void main(){...}                          |To Run                                               |
+         |       }                                           |> Java A --> run the program from A class            |
+         |        class C                                    |> JAva B --> runs the program from B class main()    |
+         |       {                                           |> Java C --> Error -No main() found                  |
+         |                                                   |> java X --> Error -No class definition found        |
+         |       }                                           |                                                     |
+         |---------------------------------------------------------------------------------------------------------|
+
+        5- Interpreted
+            - Java command is an interpreter
+            - java interpreter executes the byte code line by line
+            - java command is a compiler
+            - java compiler converts java source code into byte code at a time
+
+        6- Portable
+            - Java is portable since the size of respective data type is name
+                on all platforms
+
+            C/C+
+            ----
+             - Size of int data type --> 2 bytes on 32-bit/4 bytes on 64-bit OS
+             Java
+             ----
+             - Size of int data type --> 4 bytes on 32-bit/4 bytes on 64-bit OS
+
+        7- Secure
+            - java is secure as java does not support as pointers violate security
+
+            C/C++
+            ----
+            A pointer is a variable which contains address af another variable
+            int n=10;
+            int *p =&n;// of n variable
+
+        8- Multithreading
+            - A thread is a lightweight process under execution within process
+            - Multithreading is used to increase the performance of the Application
+
+        9- Dynamic
+            - Memory allocation for arrays, objects is done during runtime (Dynamic)
+            - java is automatic garbage collections
+
+        10- Distributed
+            - Distribute application are used for the purpose of exchanging date
+             from one application to another application

@@ -3221,7 +3221,7 @@ paths:
                   example: This is where you will find videos and news updates from the staff
                   type: string
                 content_filter:
-                  description: 'A list of values describing the content in this video. Find the full list in the [/contentratings](https://developer.vimeo.com/api/endpoints/videos#GET/contentratings) endpoint. You must provide a comma-separated list if you are using a query string or an array if you are using JSON.'
+                  description: 'A list of values describing the content in this video. Find the full list in the [/contentratings](https://developer.vimeo.com/api/endpoints/videos#GET/contentratings) endpoint. You must provide a comma-separated list if you are using a query string or an array if you are using JSON.txt.'
                   items:
                     type: string
                   type: array
@@ -5073,7 +5073,7 @@ paths:
                       type: object
                   type: object
                 content_rating:
-                  description: 'One or more ratings, either as a comma-separated list or as a JSON array depending on the request format.'
+                  description: 'One or more ratings, either as a comma-separated list or as a JSON.txt array depending on the request format.'
                   enum:
                     - drugs
                     - language
@@ -9459,7 +9459,7 @@ paths:
                   example: This is where you will find videos and news updates from the staff
                   type: string
                 content_filter:
-                  description: 'A list of values describing the content in this video. Find the full list in the [/contentratings](https://developer.vimeo.com/api/endpoints/videos#GET/contentratings) endpoint. You must provide a comma-separated list if you are using a query string or an array if you are using JSON.'
+                  description: 'A list of values describing the content in this video. Find the full list in the [/contentratings](https://developer.vimeo.com/api/endpoints/videos#GET/contentratings) endpoint. You must provide a comma-separated list if you are using a query string or an array if you are using JSON.txt.'
                   items:
                     type: string
                   type: array
@@ -11846,7 +11846,7 @@ paths:
                       type: object
                   type: object
                 content_rating:
-                  description: 'One or more ratings, either as a comma-separated list or as a JSON array depending on the request format.'
+                  description: 'One or more ratings, either as a comma-separated list or as a JSON.txt array depending on the request format.'
                   enum:
                     - drugs
                     - language

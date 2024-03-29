@@ -3,17 +3,17 @@ Date:09/12/2023
 HTML
 -----
         - HTML stands for Hypertext Markup Language
-        - HTML is used to develap static web pages
+        - HTML is used to develop static web pages
         - A HTML file is a collection of tags/elements
-        - A Tag contains a open tag and close tag
+        - A Tag contains an open tag and close tag
 
         syntax
         -------
                <tagname> -> open tag
                </tagname> -> close tag
 
-               Examle:
-                    <b>Welcome</b> -> Welcome is presented as bold on broweser
+               Example:
+                    <b>Welcome</b> -> Welcome is presented as bold on browser
 
 Structure of a HTML file
 -------------------------
@@ -58,7 +58,7 @@ Paragraph tag
                using <p> tag we can align the text to left (default), center and right using align attribute
                     Refer programs Paragraphs.html
 
-Fromatting tags
+Formatting tags
 -----------------
             <b> -> bold
             <i> -> italic
@@ -69,7 +69,7 @@ Fromatting tags
             <font> -> to set the font style, size and color of the text
             <pre>  -> preformatted text
 
-                Refer programs Fromatting.html
+                Refer programs Formatting.html
 
 list
 ----
@@ -135,10 +135,10 @@ list
 
                 Refer program Image.html
 
- Creating HyperLinks/Hypertexts
+ Creating HyperLinks/Hypertext's
  -------------------------------
                         A hyperlink is a text/image when clicked opens another HTML file
-                        - <a> , anchor tag is used to cereate the hyperlinks
+                        - <a> , anchor tag is used to create the hyperlinks
                         Example:
                                 <a href="Page2.html"Pag2</a>
 
@@ -151,7 +151,7 @@ list
                                     - Page2.html
  Creating Tables
  ----------------
-            A table is a collection of data in the from of rows and columns
+            A table is a collection of data in the form of rows and columns
                     Refer diagram Tables
 
                     -------------------------------------------------

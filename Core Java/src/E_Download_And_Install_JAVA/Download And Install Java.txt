@@ -1,0 +1,84 @@
+Date:05/12/2023
+---------------
+Download and install Java
+-------------------------
+        Refer document Download and Install Java
+        C:\Program Files\Java\ jdk-version \ JAVA_HOME
+
+        java.exe and javac.exe commands are present in JAVA_HOME\bin folder
+
+        Download and install java on macOS
+        ----------------------------------
+        http://www.youtube.com/watch?v=45eteIKCCTA
+
+        Developing a java application at terminal on macOs
+        ----------------------------------------------------
+        http://www.youtube.com/watch?v=54qu9Su2Gos
+
+
+Developing a Java Application at command prompt
+------------------------------------------------
+    - Open command prompt by typing "cmd" in search
+        c:\>
+
+    - Create a folder/directory "JavaPrograms" as follows
+     c:\> md JavaPrograms
+        md means make directory
+
+     - Change the folder to "JavaPrograms" as follows
+        c:\> cd JavaPrograms
+        c:\JavaPrograms>
+            cd means Change directory
+
+     - Create a Java source code file, Welcome.java as follows
+        c:\JavaPrograms>notepad Welcome.java
+
+     - Type The following code in Welcome.java
+     // TO display Welcome message onto the screen
+
+     class Welcome{
+     	public static void main(String[] args)
+     	{
+     	System.out.println("Welcome");
+     	}
+     }
+
+     Note: Save the file (ctrl+s)
+
+     - Compile the java source code file, Welcome.java as follows
+        c:\JavaPrograms>javac Welcome.java
+            which creates Welcome.class file called as byte code
+
+     - Run the java Byte code, Welcome.class as follows
+            c:\JAvaPrograms> java Welcome
+            Which displays "welcome" message on to the screen
+
+
+     Note
+     -----
+        - Every statement in java should end with a semicolon (;)
+        - Java is case-sensitive programming language means there is a difference between
+         upper case and lower case letters
+
+     ex:
+        System.out.println("Hello World");
+
+        output
+        -------
+        Hello World
+
+        ex:
+            int sum = 100;
+            System.out.println(sum);
+
+            output
+            --------
+            100
+
+        ex:
+                int total = 500;
+                System.out.println("Total Marks = "+ total);
+
+                output
+                ------
+                    Total Marks = 500

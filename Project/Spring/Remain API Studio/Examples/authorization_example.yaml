@@ -910,7 +910,7 @@
                   },
                   "content_rating" : {
                     "type" : "string",
-                    "description" : "One or more ratings, either as a comma-separated list or as a JSON array depending on the request format.",
+                    "description" : "One or more ratings, either as a comma-separated list or as a JSON.txt array depending on the request format.",
                     "enum" : [ "drugs", "language", "nudity", "safe", "unrated", "violence" ]
                   },
                   "description" : {

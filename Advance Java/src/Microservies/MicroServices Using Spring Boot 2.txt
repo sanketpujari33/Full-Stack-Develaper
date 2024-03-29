@@ -1,0 +1,102 @@
+Date:20/12/2023
+---------------
+            - Create a Spring Starter Project "school-service" in STS
+              Click on file -> new -> Spring Starter Project
+
+                                name : school-service
+                                Type: maven
+                                java version: 17
+                                group: school-service
+                                Artifact: school-service
+                                Package: com.school.service
+                                    Click next
+                                In Project Dependencies and "Spring web" and Click Finish
+
+- Update application.properties file of school-service to update the tomcat server port number
+        Refer program application.properties
+- Create a REST controller class "SchoolServiceController" is com.school.service package of src/main/java
+        of school-service
+        Refer program SchoolServiceController.java
+
+        - Run "school-services" as Spring Boot App
+                            Right click on school-services -> Run as -> Spring Boot App
+
+            - Open browser and type the following APIs
+                    http://localhost:22222/getSchoolDetails/abcschool
+                    http://localhost:22222/getSchoolDetails/xyzschool
+
+
+Configure Eureka Server in STS
+---------------------------------
+            - Create a Spring Starter Project "discovery-eureka-server" in STS
+
+                                Click on file -> new -> Spring Starter Project
+
+                                            name : discovery-eureka-server
+                                            Type: maven
+                                            java version: 17
+                                            group: discovery-eureka-server
+                                            Artifact: discovery-eureka-server
+                                            Package: com.discovery.eureka.server
+                                                Click next
+                                            In Project Dependencies and "Eureka Server" and Click Finish
+
+                                  - Update pom.xml file of "discovery-eureka-server"
+                                            Refer program pom.xml
+
+
+
+                    - Update DiscoveryEurekaServerApplication.java file of "discovery-eureka-server" package by adding
+                    the following annotation
+                             @EnableEurekaServer
+                           Refer program DiscoveryEurekaServerApplication.java
+
+                    - Update application.properties file of "discovery-eureka-server"
+                         Refer program application.properties
+
+                    - Stop all other services
+                    - Run "discovery-eureka-server" as Spring Boot App
+                    - Open browser and type the following url
+                            http://localhost:8761
+
+                    Note
+                    -----
+                        Observe the instance currently registered with Eureka -> No instances Available
+
+
+Register "student-services" and "school-services" into Eureka Server Register
+----------------------------------------------------------------------------
+                - Update pom.xml file of student-service
+                    Refer program pom.xml
+
+                - Update application.properties file of student-service
+                    Refer program application.properties
+
+                - Update pom.xml file of school-service
+                    Refer program pom.xml
+
+                - Update application.properties file of school-service
+                    Refer program application.properties
+
+                - Run student-service and school-service and Spring Boot App
+
+                - Open browser and type the following url
+                        http://localhost:8761
+                Note
+                -----
+                    Observe the instance currently registered with Eureka -> student-service and school-service
+
+                - Update SchoolServiceController.java file of com.school.service of school-service
+                    Replace "http://localhost:1111" with "http://student-service"
+                    Refer program SchoolServiceController.java
+
+
+[clientService] --Port: 1111--> [TomcatServer2]
+[clientService] --Port: 2222--> [TomcatServer1]
+[EurekaServer] --Lookup for Client Microservice 1--> [ClientService1]
+[EurekaServer] --Lookup for Client Microservice 2--> [ClientService2]
+[EurekaServer] --Port: 8761--> [EurekaServer]
+[EurekaServer] --Registers Client Microservice 1--> [ClientService1]
+[EurekaServer] --Registers Client Microservice 2--> [ClientService2]
+[ClientService1] --Port: 3333--> [TomcatServer3]
+[ClientService2] --Port: 4444--> [TomcatServer4]

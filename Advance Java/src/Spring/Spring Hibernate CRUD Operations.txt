@@ -1,0 +1,41 @@
+Date:18/12/2023
+-----------------
+Spring ORM Module (Hibernate)
+---------------------------------
+                    - ORM stand for object Relational Mapping
+                    - Hibernate is an ORM Framework
+                    - HibernateTemplate class of Spring API is Used for Spring Hibernate
+
+ Example Application
+-----------------------
+                    - Add the following dependencies in pom.xml file of SpringProj
+                    <dependency>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring-orm</artifactId>
+                        <version>6.0.11</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.hibernate</groupId>
+                        <artifactId>hibernate-core</artifactId>
+                        <version>6.2.7.Final</version>
+                    </dependency>
+
+                    Refer program pom.xml
+                    - Create a POJO class "Employee" in com.spring package of src/main/java folder of
+                        SpringProj
+                         Refer program Employee.java
+
+                    - Create Hibernate XML mapping file "emp.hbm.xml" in src/main/java folder
+                         Refer program emp.hbm.xml
+
+                    - Create  an interface "EmployeeDao" in com.spring package
+                           Refer program EmployeeDao.java
+
+                    - Create a Spring bean class "EmployeeDaoImpl" in com.spring package
+                            Refer program EmployeeDaoImpl.java
+
+                    - Create Spring bean XML configuration file "spring-hibernate.xml" src/main/java folder
+                            Refer program spring-hibernate.xml
+
+                    - Create a Test class "SpringHibernateTest" in com.spring package
+                            Refer program SpringHibernateTest.java
