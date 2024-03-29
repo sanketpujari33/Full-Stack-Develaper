@@ -1,0 +1,9 @@
+Homework Problems
+        Qs. Write a program to find if a number is a power of 2 or not.
+
+        Qs. Write a program to toggle a bit a position = “pos” in a number “n”.
+
+        Qs. Write a program to count the number of 1’s in a binary representation of the number.
+
+        Qs. Write 2 functions => decimalToBinary() & binaryToDecimal() to convert a number from
+               one number system to another. [BONUS]
