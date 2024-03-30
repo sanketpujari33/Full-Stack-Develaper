@@ -73,7 +73,7 @@ Creating object
         Constructors
         --------------
                 - A constructor is a special method whose name is same as the class name
-                    used to initialize the object and does not return anything not even void
+                  used to initialize the object and does not return anything not even void
 
                       Example:
                                    class Sample

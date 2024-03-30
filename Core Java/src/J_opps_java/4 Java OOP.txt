@@ -152,7 +152,7 @@ Access Modifiers
                              Example:
                                     protected class MyClass{}// error
                         - protected keyword is used for data members, methods and inner classes
-                        - protected members are accessible within the same package sand subclass of another package
+                        - protected members are accessible within the same package and subclass of another package
                                 Example:
                                         package pack1;
                                        public class A

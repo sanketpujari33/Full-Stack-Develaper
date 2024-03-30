@@ -17,8 +17,8 @@ Components of Java EE
                 - EJB (Enterprise Java Beans)
 
     - Java EE applications are used by multiple clients(users) and in order to make
-      the Java EE application to be used by multiple clients we need tp deploy(copy).
-      the application   onto the server
+      the Java EE application to be used by multiple clients we need tp deploy(copy)
+      the application onto the server
 
 Types of Servers
 ------------------
@@ -46,11 +46,11 @@ Types of Servers
 
  Technologies used to develop server side dynamic web applications
  -----------------------------------------------------------------
- - Servlets
- - JSP
- - ASP.NET
- - PHP
- - Django (using python)
+                - Servlets
+                - JSP
+                - ASP.NET
+                - PHP
+                - Django (using python)
 
  Servlets Hierarchy
  -------------------
@@ -59,7 +59,7 @@ Types of Servers
                                                  |    Implements
               +----------------------------------------------------------+
               |                                                          |
-      Servlet Interface Methods(abstract)                         GenericServlet class
+      Servlet Interface Methods(abstract)                abstract GenericServlet class
       - int()                                                       |    |
       - service()                                                   |    +- All methods of Servlet interface
       - destroy()                                                   |    |   are overridden, except service()
@@ -67,13 +67,11 @@ Types of Servers
       - getServletConfig()                                          |    +- service() is abstract
       - getServletContext()                                         |
                                                                     |
-                                                                  HttpsServlet class
+                                                        abstract HttpsServlet class
                                                                     |
                                                                     +- service() is overridden
                                                                     |
                                                                     +- doGet() and doPost()
-                                                                    |
-
 
 
       Servlet Architecture
@@ -113,7 +111,17 @@ Types of Servers
                                 |         Client (Browser)           |
                                 +------------------------------------+
 
+----------------------------------------------------------------------------------------------------------------
 
+                                Client                                 Server
+                               -----------       request             ------------
+                               |         |  -------------------->    |          |
+                               | Browser |                           | Servlets |
+                               |         |  <--------------------    |          |
+                               -----------       Response            ------------
+
+
+----------------------------------------------------------------------------------------------------------
 Servlet Lifecycle
 ---------------------
             - Life cycle is a collection of methods which are executed in an order automatically
@@ -133,7 +141,7 @@ creating a servlet
 ---------------------
             - By creating a class which extends Generic Servlet class
                     or
-             - By creating a class extends HttpServlet class
+            - By creating a class extends HttpServlet class
 
  Using GenericServlet class
  ----------------------------

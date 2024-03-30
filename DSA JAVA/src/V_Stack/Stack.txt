@@ -1,0 +1,32 @@
+Stack
+-----
+        Operations:
+                   Push 0(1)
+                   Pop 0(1);
+                   Peek 0(1);
+
+        ----------- <---------(Top)
+        |    cs   |     |
+        -----------     |
+        | Biology |     |
+        -----------     |
+        |chemistry|     | Stack
+        -----------     |
+        | Physics |     |
+        -----------     |
+        |   Math  |     |
+        -----------     \/
+
+    Implementation
+    --------------
+                Array
+                    - Fixed size Array
+                    - stack hectic process using fixed size array
+
+                      |1|2|3|4|5|6|7|8|9|10|
+
+                ArrayList
+                    - ArrayList variable size
+
+                Linked List
+                    - Linked List variable size

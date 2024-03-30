@@ -31,7 +31,7 @@ Date:06/12/2023
                  Fruit (Apple, Mango)
                  Account (Saving Account, Current Account)
 
-            - Inheritance is " "  relationship
+            - Inheritance is "is-a"  relationship
 
             has-a relationship
             ------------------

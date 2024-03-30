@@ -1,6 +1,7 @@
 package V_Stack;
 
 import java.util.Stack;
+//LIFO
 
 public class StackClass {
 //    static  class Node {
