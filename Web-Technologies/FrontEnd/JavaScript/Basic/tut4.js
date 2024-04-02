@@ -1,3 +1,4 @@
+console.log("tut4");
 // Primitive data types
 
 // String

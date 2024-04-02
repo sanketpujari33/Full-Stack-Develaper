@@ -1,0 +1,142 @@
+Date: 15/12/2023
+-------------------
+JSP
+----
+    - JSP stand for java server pages
+    - JSP is used to develop server side dynamic Web applications like servlets
+
+ Servlets vs JSP
+-----------------
+   - In case of Servlet, Java code contains HTML code Where as in case of
+     JSP,HTML code contains Java code
+   - In case of Servlets, if the code is modified we need to recompile
+     and redeploy the application where as in case of JSP, if the code
+     is modified we need not recompile and redeploy the application
+   -JSP Code is less than Servlet as in JSP we can use JASP tags,
+    JSP Implicit objects and JSTL
+
+JSP Life Cycle
+----------------
+        - jspInit()
+            - called only once when JSP page is loaded
+        - _jspService()
+             - called for every request
+             - cannot be overridden
+        - jspDestroy()
+             - called only once when JSP page is destroyed
+
+ JSP Tags
+ ---------
+        -Directive Tags
+                - Page directive tag    --> <%@page ....%>
+                - include directive Tag --> <%include ...%>
+                - taglib directive tag  --> <%@taglib ...%>
+        - Scriptlet Tags
+                - Declaration tag --> <%! ...%>
+                - Expression tag  --> <%= ...%>
+                - Script Tag      --> <% ... %>
+        - Action Tags
+                - <jsp:include>
+                - <jsp:forward>
+                - <jsp:param>
+                - <jsp:useBean>
+                - <jsp:setProperty>
+                - <jsp:getProperty>
+        - Custom Tags (self Learning)
+                - used to create user defined tags in JSP
+
+  Directive Tags
+  -------------------
+  Page Directive Tag
+  --------------------
+                - <%@page ...%>
+                - used to import java packages
+                Ex:
+                        <%@page import="java.util.*"%>
+                        <%@page import="java.sql.*"%>
+                                or
+                        <%@page import="java.util.*,java.sql.*"%>
+                        Refer Program Date.
+
+  Include Directive tag
+  ----------------------
+            - <%include ...%>
+                - used to include other JSP files
+                Ex:
+                    <%include file="header.jsp" %>
+
+                    Refer programs
+                        - header.jsp
+                        - footer.jsp
+                        - includedemo.jsp (run)
+  Scriptlet tags
+------------------
+Declaration Tag
+-----------------
+            - <%!....%>
+            - used to declare variables and to define methods
+                Ex:
+                    <% int n=100; %>
+                    <%! void xxx()
+                    {
+                    ...
+                    }
+                    %> ! void jspInit()
+                    {
+                    ...
+                    }
+                    %>
+  Expression tag
+-------------------
+            - <%=...%>
+            - used to access the value of the variable and to call methods
+            - the code goes into _jspService()
+                    Ex:
+                        <%= n %> //100 is displayed on browser
+                        <%= xxx() %>
+                        <%= new java.util.Date() %>
+ Script Tag
+-------------
+            - <% ... %>
+            - used to include java statements
+            - the code goes into _jspService()
+              Ex:
+                <%
+                   for (int i=1; i<=10; i++)
+                   out.println(i);
+                %>
+            - out is an implicit object of JSP, and it is an object of class JspWriter
+            - JSP is a subclass of PrintWriter
+
+ - Create an HTML file which accepts a number from user.
+ - create a JSP file which read the number from HTML file and displays
+    the factorial of the given number
+
+            Refer programs
+                    - fact.html
+                    - Factorial.jsp
+
+    - Create an HTML file which accepts a color from user.
+    - Create a JSP File which reads the color from HTML file and sets the
+        background of webpage with the given color
+
+        Refer diagram
+                      +------------------+       +-------------------+
+                      | color_input.html |       | setBackground.jsp |
+                      +------------------+       +-------------------+
+                                |                           |
+                                |    User submits color     |
+                                +-------------------------->|
+                                |                           |
+                                |                           |
+                                |   Sets background color   |
+                                |<--------------------------+
+                                |                           |
+            Refer programs
+                            - color.html(run)
+                            - BGColor.jsp
+    Note
+  --------
+            Request is an implicit of JSP which is an object of HttpServletRequest interface
+            response is an implicit object of JSP which is an object of HttpServletResponse
+            interface
