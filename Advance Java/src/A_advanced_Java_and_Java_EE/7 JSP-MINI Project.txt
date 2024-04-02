@@ -1,0 +1,27 @@
+Date: 16/12/2023
+-----------------
+        - Create an HTML file which accepts the customer details like
+         customer name, username, password, age and email.
+        - create a JSP page which inserts the customer details in customer
+            database table
+        - Create a table "Customer" in mySQL
+                    mySQL> Create table Customer (custname varchar(10), username varchar(10),
+                                        password varchar(10), age int(2), email varchar(20));
+        - Create a Javabean class "Customer" in mypack package of WebProj
+                Refer program Customer.java
+        - Create a welcome page "customer.html" in Webproj
+                Refer program customer.html
+        - Create a JSP file "SaveCustomer.jsp" in WebProj
+                Refer Program SaveCustomer.jsp
+        - Create a class "InsertCustomer" in mypack package
+                Refer program InsertCustomer.jsp
+        - Create a JSP File "DisplayCustomer.jsp" in WebProject
+                Refer program DisplayCustomer.jsp
+
+        - Run The Application customer.html
+
+  Hibernate - 3
+  Web Services - 2
+  Spring - 6
+  Microservices - 2
+  Angular - 3
