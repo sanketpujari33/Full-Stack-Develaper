@@ -5,6 +5,8 @@ Stack
                    Pop 0(1);
                    Peek 0(1);
 
+                   LIFO structure
+
         ----------- <---------(Top)
         |    cs   |     |
         -----------     |
