@@ -45,7 +45,7 @@ public class ImplementationHashMap {
         }
 
         @SuppressWarnings("unchecked")
-        private void rehash() {
+        private void rehash() {//Separation Chaining Collision Technique
             LinkedList<Node> oldBucket[] = buckets;
             buckets = new LinkedList[N * 2];
             for (int i = 0; i < N * 2; i++) {
