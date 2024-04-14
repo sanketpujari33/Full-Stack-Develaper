@@ -17,7 +17,7 @@ class Deriveds extends Bases{
         this.k=k;
     }
     void display(){  // overriding method
-        super.display();//invoke base class display();
+        super.display();//invoke bases class display();
         System.out.println("k="+k );
     }
 }

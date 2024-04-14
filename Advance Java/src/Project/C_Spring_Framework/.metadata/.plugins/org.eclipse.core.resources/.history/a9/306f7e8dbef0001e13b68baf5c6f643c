@@ -1,0 +1,9 @@
+package com.mock.service.test;
+
+public class Snippet {
+	public static void main(String[] args) {
+		package com.mock.service.test;
+		
+	}
+}
+

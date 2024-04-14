@@ -1,6 +1,6 @@
 package I_Array;
 
-public class FindMinimum {
+public class  FindMinimum {
     public static int findMinimum(int arr[]){
         int min=arr[0];
         for (int i = 1; i < arr.length; i++) {

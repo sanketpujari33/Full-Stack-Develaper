@@ -9,10 +9,8 @@ public class TicketBookingService {
 private TicketBookingDAO ticketBookingDAO;
 	
 public Ticket createTicket(Ticket ticket) {
-	
 	return ticketBookingDAO.save(ticket);
 }
-
 public Ticket getTicketById(Integer ticketId) {
 	return ticketBookingDAO.findById(ticketId).get();
 }

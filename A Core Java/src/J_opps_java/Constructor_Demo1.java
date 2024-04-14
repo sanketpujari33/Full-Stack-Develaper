@@ -3,6 +3,7 @@ package J_opps_java;
 class Sample {
     int i;
     int j;
+    Sample(){}//default constructor,add implicitly
     Sample(int i, int j) {
         // constructor
         this.i=i;
