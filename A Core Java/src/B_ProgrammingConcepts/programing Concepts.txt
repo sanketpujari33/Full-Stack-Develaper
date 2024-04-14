@@ -42,7 +42,7 @@ Keywords
 
 Datatype
 ---------
-      Tpe of data the variable holds is called as datatype
+      Type of data the variable holds is called as datatype
 
       Example
         int

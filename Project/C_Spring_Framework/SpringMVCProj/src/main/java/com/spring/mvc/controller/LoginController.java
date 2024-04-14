@@ -1,7 +1,6 @@
 package com.spring.mvc.controller;
 
 import javax.servlet.http.HttpServletRequest;
-
 import com.spring.mvc.model.LoginAction;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

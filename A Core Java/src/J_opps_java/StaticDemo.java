@@ -1,6 +1,6 @@
 package J_opps_java;
 
-class  MyClass{
+ class  MyClass{
     int m; // instance or non-static variable
     static int n; // class or static variable
     void xxx(){ //instance or non-static variable

@@ -10,7 +10,6 @@ public class WelcomeServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		response.setContentType("text/html");//optional - default content type
 		out.println("Welcome to Servlets");
-		
 		out.println("<font face=\"arial\" size=\"5\" color=\"blue\">Hello World</font>");
 	}
-}
+}`

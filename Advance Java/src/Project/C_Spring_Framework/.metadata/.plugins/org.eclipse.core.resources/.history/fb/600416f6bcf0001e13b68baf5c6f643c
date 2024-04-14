@@ -1,0 +1,14 @@
+package com.service.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StringConvertTest {
+
+	@Test
+	void testConvertToInt() {
+		fail("Not yet implemented");
+	}
+
+}

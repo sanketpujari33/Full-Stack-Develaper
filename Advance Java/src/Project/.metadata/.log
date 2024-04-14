@@ -1,0 +1,445 @@
+!SESSION 2024-04-14 13:15:00.801 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-14 13:15:08.574
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-04-14 13:16:28.676
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-14 13:16:28.676
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-14 13:16:52.701
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sanke'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:19.300
+!MESSAGE Classpath changed for project: SpringProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:21.941
+!MESSAGE Classpath changed for project: MockProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:21.948
+!MESSAGE Classpath changed for project: SpringBootProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:21.949
+!MESSAGE Classpath changed for project: SpringMVCProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:21.950
+!MESSAGE Classpath changed for project: SpringProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:21.952
+!MESSAGE Classpath changed for project: WebProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:41.226
+!MESSAGE Classpath changed for project: FirstMavenProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:41.972
+!MESSAGE Classpath changed for project: WebProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:42.160
+!MESSAGE Classpath changed for project: Hibernate6Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:42.950
+!MESSAGE Classpath changed for project: Hibernate6Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:42.958
+!MESSAGE Classpath changed for project: SpringBootRESTCRUDProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:42.959
+!MESSAGE Classpath changed for project: jynit5Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:43.629
+!MESSAGE Classpath changed for project: school-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:44.060
+!MESSAGE Classpath changed for project: school-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:44.067
+!MESSAGE Classpath changed for project: student-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:45.082
+!MESSAGE Classpath changed for project: discovery-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:18:46.228
+!MESSAGE Classpath changed for project: discovery-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:19:14.672
+!MESSAGE Classpath changed for project: FirstMavenProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:19:14.753
+!MESSAGE Classpath changed for project: FirstMavenProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:19:26.855
+!MESSAGE Classpath changed for project: Hibernate6Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:19:26.930
+!MESSAGE Classpath changed for project: Hibernate6Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:19:35.846
+!MESSAGE Classpath changed for project: MockProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:09.467
+!MESSAGE Classpath changed for project: SpringBootProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:09.483
+!MESSAGE Boot project ADDED: SpringBootProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:09.484
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:09.750
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:09.750
+!MESSAGE Classpath changed for project: SpringBootProj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-14 13:20:10.192
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Sanke/OneDrive/Documents/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1713081010187
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:10.193
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-14 13:20:10.994
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2180
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:25.917
+!MESSAGE Classpath changed for project: SpringBootRESTCRUDProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:25.945
+!MESSAGE Boot project ADDED: SpringBootRESTCRUDProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:26.247
+!MESSAGE Classpath changed for project: SpringBootRESTCRUDProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:33.666
+!MESSAGE Classpath changed for project: SpringMVCProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:33.670
+!MESSAGE Boot project ADDED: SpringMVCProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:33.851
+!MESSAGE Classpath changed for project: SpringMVCProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:53.937
+!MESSAGE Classpath changed for project: SpringProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:53.946
+!MESSAGE Boot project ADDED: SpringProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:20:54.362
+!MESSAGE Classpath changed for project: SpringProj
+
+!ENTRY org.eclipse.wst.validation 4 0 2024-04-14 13:20:55.984
+!MESSAGE CHKJ3000E: WAR Validation Failed: org.eclipse.jst.j2ee.commonarchivecore.internal.exception.DeploymentDescriptorLoadException: WEB-INF/web.xml
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: org.eclipse.jst.j2ee.commonarchivecore.internal.exception.DeploymentDescriptorLoadException: WEB-INF/web.xml
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2024-04-14 13:20:55.989
+!MESSAGE WEB-INF/web.xml
+!STACK 0
+org.eclipse.jst.j2ee.commonarchivecore.internal.exception.DeploymentDescriptorLoadException: WEB-INF/web.xml
+Stack trace of nested exception:
+org.eclipse.emf.common.util.WrappedException: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 10; Element type "web-app" must be declared.
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMRenderer.loadDocument(EMF2DOMRenderer.java:82)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMRenderer.doLoad(EMF2DOMRenderer.java:63)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.basicDoLoad(TranslatorResourceImpl.java:156)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.doLoad(CompatibilityXMIResourceImpl.java:186)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.load(CompatibilityXMIResourceImpl.java:277)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.load(TranslatorResourceImpl.java:432)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:830)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1083)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getResource(ArtifactEdit.java:725)
+	at org.eclipse.jst.j2ee.internal.archive.operations.ComponentLoadStrategyImpl.getMofResource(ComponentLoadStrategyImpl.java:614)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.ArchiveImpl.getMofResource(ArchiveImpl.java:761)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.ModuleFileImpl.getDeploymentDescriptorResource(ModuleFileImpl.java:63)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.strategy.XmlBasedImportStrategyImpl.primLoadDeploymentDescriptor(XmlBasedImportStrategyImpl.java:39)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.strategy.War22ImportStrategyImpl.loadDeploymentDescriptor(War22ImportStrategyImpl.java:93)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.strategy.War22ImportStrategyImpl.importMetaData(War22ImportStrategyImpl.java:87)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.WARFileImpl.getDeploymentDescriptor(WARFileImpl.java:150)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:334)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 10; Element type "web-app" must be declared.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1835)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:728)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at org.eclipse.wst.common.internal.emf.utilities.DOMUtilities.loadDocument(DOMUtilities.java:560)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMRenderer.loadDocument(EMF2DOMRenderer.java:75)
+	... 26 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:16.299
+!MESSAGE Classpath changed for project: discovery-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:16.301
+!MESSAGE Boot project ADDED: discovery-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:37.708
+!MESSAGE Classpath changed for project: jynit5Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:37.967
+!MESSAGE Classpath changed for project: jynit5Proj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:47.159
+!MESSAGE Classpath changed for project: school-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:47.176
+!MESSAGE Boot project ADDED: school-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:51.003
+!MESSAGE Classpath changed for project: student-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:21:51.008
+!MESSAGE Boot project ADDED: student-service
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2024-04-14 13:25:14.017
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-04-14 13:25:14.017
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-14 13:25:14.017
+!MESSAGE Unable to read repository at https://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2023-12/202312061001/plugins/org.eclipse.jst.ws.cxf.consumption.core_1.1.0.v202308010145.jar.
+!STACK 0
+java.util.concurrent.ExecutionException: java.net.SocketException: Connection reset
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1012)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:999)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2024-04-14 13:25:14.017
+!MESSAGE Unable to read repository at https://ftp.yz.yamagata-u.ac.jp/pub/eclipse//releases/2023-12/202312061001/plugins/org.eclipse.wst.json.bower.core_1.1.0.v202308160419.jar.
+!STACK 0
+java.util.concurrent.ExecutionException: java.io.IOException: /192.168.0.104:52484: GOAWAY received
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1012)
+	at org.eclipse.ecf.provider.filetransfer.httpclientjava.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:999)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: /192.168.0.104:52484: GOAWAY received
+	at java.net.http/jdk.internal.net.http.Http2Connection.handleGoAway(Http2Connection.java:1008)
+	at java.net.http/jdk.internal.net.http.Http2Connection.handleConnectionFrame(Http2Connection.java:873)
+	at java.net.http/jdk.internal.net.http.Http2Connection.processFrame(Http2Connection.java:748)
+	at java.net.http/jdk.internal.net.http.frame.FramesDecoder.decode(FramesDecoder.java:155)
+	at java.net.http/jdk.internal.net.http.Http2Connection$FramesController.processReceivedData(Http2Connection.java:232)
+	at java.net.http/jdk.internal.net.http.Http2Connection.asyncReceive(Http2Connection.java:674)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.processQueue(Http2Connection.java:1310)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.runOrSchedule(Http2Connection.java:1328)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.onNext(Http2Connection.java:1354)
+	at java.net.http/jdk.internal.net.http.Http2Connection$Http2TubeSubscriber.onNext(Http2Connection.java:1288)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$DelegateWrapper.onNext(SSLTube.java:210)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:492)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onNext(SSLTube.java:295)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:316)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:198)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:444)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:268)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SESSION 2024-04-14 13:33:59.729 -----------------------------------------------
+eclipse.buildId=4.21.0.202312011804
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/Users/Sanke/OneDrive/Documents/Project/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-04-14 13:34:10.900
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2024-04-14 13:34:25.454
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-04-14 13:34:25.454
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-14 13:34:38.432
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sanke'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.802
+!MESSAGE Classpath changed for project: FirstMavenProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.804
+!MESSAGE Classpath changed for project: MockProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.826
+!MESSAGE Boot project ADDED: SpringBootProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.827
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.981
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.984
+!MESSAGE Boot project ADDED: SpringBootRESTCRUDProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:42.994
+!MESSAGE Boot project ADDED: SpringMVCProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:43.000
+!MESSAGE Boot project ADDED: SpringProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:43.001
+!MESSAGE Boot project ADDED: discovery-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:43.003
+!MESSAGE Boot project ADDED: school-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:43.005
+!MESSAGE Boot project ADDED: student-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-14 13:34:43.082
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes;D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:D:\Downloads\Windows\Software\sts-4.21.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.51.0.202312011752\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Sanke/OneDrive/Documents/Project/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1713081883080
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:43.084
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:44.873
+!MESSAGE Classpath changed for project: SpringMVCProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:44.876
+!MESSAGE Classpath changed for project: SpringProj
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:44.879
+!MESSAGE Classpath changed for project: discovery-eureka-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-14 13:34:44.881
+!MESSAGE Classpath changed for project: jynit5Proj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-04-14 13:34:44.937
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22804

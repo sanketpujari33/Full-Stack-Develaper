@@ -1,0 +1,5 @@
+package com.rest.springboot.dao;
+
+public class TicketBookingDAO {
+
+}

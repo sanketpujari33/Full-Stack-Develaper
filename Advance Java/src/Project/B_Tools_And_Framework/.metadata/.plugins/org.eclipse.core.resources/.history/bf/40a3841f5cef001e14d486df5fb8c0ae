@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+   <hibernate-configuration>
+ 		<session-factory>
+ 		<!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/java08</property>
+		<property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">1998</property>
+        
+        <!-- <property name="connection.driver_class">com.mysql.jdbcDriver</property> -->
+        <!--<property name="connection.url">jdbc:hsqldb:mysql://localhost/cmevents?autoReconnect=true</property> -->
+        
+       <!-- dialect means SQL command syntax -->
+ 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+ 		<property name="hibernate.connection.autocommit">false</property>
+ 		<property name="hibernate.show_sql">true</property>
+ 		<property name="hibernate.hbm2ddl.auto">create</property>
+ 		<!-- to use exising table -->
+ 		<property name="hibernate.hbm2ddl.auto">update</property>
+ 		<mapping resource="student.hbm.xml"/>
+ 		<mapping class="com.hibernate.Employee"/>
+		</session-factory>
+   </hibernate-configuration>

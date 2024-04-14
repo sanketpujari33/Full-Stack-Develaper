@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;om.discovery.eureka.server&apos; to &apos;com.discovery.eureka.server&apos;&#x0D;&#x0A;- Original project: &apos;discovery-eureka-server&apos;&#x0D;&#x0A;- Original element: &apos;discovery-eureka-server/src/main/java/om.discovery.eureka.server&apos;&#x0D;&#x0A;- Renamed element: &apos;discovery-eureka-server/src/main/java/com.discovery.eureka.server&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;om.discovery.eureka.server&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;om.discovery.eureka.server" name="com.discovery.eureka.server" qualified="false" references="true" stamp="1712053867173" textual="false" version="1.0"/>
+</session>
