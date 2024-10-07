@@ -1,0 +1,491 @@
+
+Part of Speech
+---------------
+1] Noun
+2] Pronoun
+3] Adjective
+4] Verb
+5] Adverb
+6] Preposition
+7] Conjuction
+8] Interjection
+
+
+1] Noun
+---------
+    What is Noun ?
+    - Noun is the name of a person, a place an animal or a thing.
+
+    for Example:
+            1. This is a table.
+            2. Is there any water in that glass.
+
+    Types Of Noun
+    --------------
+    1} Common Noun
+    2} Proper Noun
+    3} Abstract Noun
+
+ 1} Common Noun
+ ---------------
+          Common Noun is a noun referring to a place or a thing in a general sence.
+
+          ex: I saw a movie today.
+                      -----
+               She lives in City.
+                            ----
+
+ 2} Proper Noun
+ ----------------
+            Proper Noun is a name of a particular person, place or thing.
+
+            ex: I saw Harry Potter Today.
+                     -------------
+                She lives in Mumbai.
+                             -------
+
+            Note: Proper Noun are always written with a capital letter at the beginning.
+
+
+3} Abstract Noun
+-----------------
+        Abstract Noun represents feeling ideas, qualities or concepts.
+
+        ex: Ram is very honest.
+                        ------
+            I am happy to see you.
+                 -----
+
+2] Pronoun
+-----------
+        Pronoun is a word take place of a Noun
+        {I , You, He, She, It, We, They}
+
+  noun: Ex: Ram is a good boy.
+            Ram is my Friend.
+            Ram like to play.
+
+  Pronoun: Ex: Ram is a good boy.
+               He is my Friend.
+               He is like to play.
+
+        I - I used for MySelf
+         ex: I am a boy.
+             I am a Student.
+
+       You - You is used for Singulare and Plural.
+          ex: You are looking very handsome.
+              You are a Developer.
+
+       He - He is used a boy or a male.
+          ex: He is my father.
+              He is a Developer.
+
+       She - She used for a girl or a female.
+          ex: She is my mother.
+              She is a Housewife
+
+       It - It used For one animal and thing.
+          ex: It is my pet animale.
+              It is a Chair.
+
+       We - We used for more than one person.
+          ex: We are Friend.
+              We love to play football.
+
+       They - They is used for more than one person, animal or things.
+            ex: They are my family.
+                They all love each other.
+
+ 3] Adjective
+ -------------
+        Adjective is a word that describe a none or Pronoun.
+
+        ex: Rohan is a boy - Rohan is a clever Boy
+        {Good, bad, smart, active, Clever - Adjective}
+
+        ex: Riya is poor but honest.
+                    ----    -------
+
+      Type Of Adjective
+      -----------------
+
+            1. Adjective of Quality
+            2. Adjective of Quantity
+            3. Adjective of Number
+            4. Demonstrative Adjective
+            5. Interrogative Adjective
+            6. Possesive Adjective
+
+      1. Adjective of Quality
+      ------------------------
+                It is a word that describe a quality of person or thing.
+
+                ex: I have a cute dog.
+                            ------
+                    This is a large complex.
+                              -----
+      2. Adjective of Quantity
+      --------------------------
+                It is a word that describe quantity of noun or pronoun or thing.
+
+                ex: I have enough money.
+                           -------
+                    He did not eat any cake.
+                                   ----
+      3. Adjective of Number
+      ----------------------
+                It is a word that describe exact number of noun.
+
+                ex: Meena has three apples.
+                              ------
+                    Ramesh came first in the class.
+                                ------
+
+      4. Demonstrative Adjective
+      --------------------------
+                It is a word that point out a person, thing or Animal.
+
+                ex: That ball is mine.
+                    ----
+                    Those flowers are beautiful.
+                    -----
+
+      5. Interrogative Adjective
+      ---------------------------
+                Wh words are used with noun to ask questions are called Interrogative Adjective
+                { When, What, Which, Whose, Where,... }
+
+                ex: Whose bag is this?
+                   --------
+                    What you want to eat?
+                    ----
+
+
+      6. Possesive Adjective
+      --------------------------
+                It is word that are used to show Ownership.
+                    { his, My, Our, her, their, his,... }
+                   1. Yash left his book at home.
+                                ----
+                   2. This is my sister.
+                             ----
+
+
+4] Verb
+----------
+        Verb describe the action or the state of the subject.
+                          ------        -----
+
+                          Verb
+                            |
+               |------------------------------|
+          Main Verb                    Auxiliary Verb
+        (Action Verb)                   (Helping Verb)
+
+
+        1. Main Verb (Action Verb)
+        ----------------------------
+                Main verb describe tha action of the subject
+                { eat, read, write, run, jump }
+
+                ex: Rohan is swiming.
+                    Subject   Verb
+
+                    What they are doing?
+                    They are playing.
+
+                    Children reads book regularly.
+                             -----
+                    I ride bicycle everyday.
+                     -----
+            Main varb- word that actually shows that action or activity of subject and
+                       it gives complete meaning of the sentence.
+                       can stand alone in the sentence.
+
+                       ex: car stops.
+                               ----
+                           he runs.
+                             -----
+
+        2. Auxilary varb (Helping verb)
+            -------------------------
+                Word that describe the situation or state of the subject is called Auxiliary or helping verb.
+                and they give more meaning to the main verb but they can not stand alone.
+                can not stand alone in the sentence.
+                ex: Ramesh is playing.
+                     Sub  H.v M.V - Present
+
+                     Ramesh is happy. -Present
+                     Ramesh was happy. - Past
+                     Ramesh will be happy - Future
+
+               1. Present Helping Verbs
+               -------------------------
+                        is, am, are, has, have, has been, have been, do, does, can
+                        should, must, etc.
+
+               2. Past Helping Verbs
+               ----------------------
+                        was, were, did, had, had been, could, could have, should have,
+                         must have etc.
+
+               3. Future Helping verbs
+               -----------------------
+                        will, will have, will have to etc
+
+
+5] Adverb (AD + VERB)
+------------------------
+        Adverb is a word that tells something more about a verb and Modify adjectives
+        and adverb in any sentence.
+                      Adverb
+                        |
+               |--------|-----------|
+             Verb    Adjective   Adverb
+
+             ex: Rohan runs slowly
+                   S    V    Adverb
+
+        Types Of Adverb
+        -----------------
+
+                    1. How
+                    2. When
+                    3. Where
+                    4. How often
+                    5. How much
+
+        1. Adverb Of manner (How)
+        -----------------------
+        ex: he swims well.
+            how is swims - Well
+
+            Shilpa danced nicely.
+            how Shilpa danced - Nicely
+
+           ( ex: quickly, bravely, hard, fast etc)
+
+        2. Adverb of Time (When)
+        ----------------------
+                He is coming tomorrow.
+                when is coming - Tomorrow
+
+                I recently bought a new car.
+                when we are bought a new car - Recently
+
+                (ex: Before, after, early, soon, today etc)
+
+        3. Adverb of place (Where)
+        -------------------------
+                He is going there.
+                Where is going - There.
+
+                They are dancing outside.
+                Where are dancing - Outside
+
+                (ex: here, inside, above, up etc)
+
+        4. Adverb of Frequency or number (How often)
+        --------------------------------------------
+                He always help me.
+                How oftenly help you. - Always
+
+                She read this book twice
+                How oftenly read this book - Twice
+
+                (ex: once, sometimes, thrice, etc)
+
+        5. Adverb of degree or quantity ( How much)
+        -------------------------------------------
+                 She is too lazy
+                 How much She is lazy - Too
+
+                 Reena is very clever
+                 How mach Reena is clever - Very
+
+                 (ex: very, too, a little etc)
+
+        6. Interrogative Adverb
+        -----------------------
+                 It used to ask questions
+
+                 ex: When will you go to school ? - When
+                     Where do you live ? - Where
+
+                 (ex: How, When, Why, Where etc)
+
+        7. Adverb of Conjuction
+        -----------------------
+               Connect clauses, phrases or words
+
+               ex: I work hard; therefore, I scored good marks. - Therefore
+                   Get up early in the morning; otherwise, you will be late for the office. - Otherwise
+
+               (ex: also, thus, likewise, still etc)
+
+        how can find this an Adjective and an Adverb
+                Sometime we add ---ly to and adjective to get an adverb.
+
+                ex: Geeta is nice - (adjective)
+                     noun   -----
+                   She danced nicely - (adverb)
+                       verb   ------
+
+        Adverb - Adverb
+
+        The teacher quiet easily solved the problem.
+                    ----  -----
+
+6] Preposition (Pre + positions)
+--------------------------------
+        What is Preposition?
+        A Preposition is a word placed before a noun or pronoun to show its relation to some other
+        word in the sentence.
+
+        ex: The ball is under the chair
+                       ------
+
+
+        Types of preposition
+        ---------------------------
+         There are three types of preposition
+         -------------------------------------
+                    1] Preposition of place
+                    2] Preposition of Time
+                    3] Preposition of Direction
+
+                                          Type Of Preposition
+                                                 |
+                 ------------------------------------------------------------------------
+                  |                              |                                     |
+         Preposition of place            Preposition of Time               Preposition of Direction
+
+
+         1] Preposition of place (Where)
+         ------------------------
+                      It indicates where something or someone is called Preposition of place
+
+                      ex: Tina is standing against a wall -- against
+                          The books are on the table -- on
+                          The books are under the table --- under
+
+                          (ex: above, in on, at.. etc)
+
+         2] Preposition of Time (When)
+         ------------------------------
+                      It indicates when an event happens or happened such Prepositions are called Preposition of Time
+
+                        ex: The store closes at 7 O'clock -- At
+                            Ram swims on Monday. -- on
+
+                        (ex: in, before, after .. etc.)
+
+         3] Preposition of Direction (Where)
+         ----------------------------
+                      It indicates direction in which someone or something comes or goes such prepositions are called
+                      Preposition of Direction
+
+                      ex: The boy is going to the Market. -- to
+                          The boy is coming from the Market. --  from
+
+                      (ex:to, into, of...etc)
+
+         Practice activity :
+
+                            The office starts in an hour -- in
+                            The spoon is on the table -- on
+                            It get cold at night -- at
+                            He went to Delhi last week -- to
+                            She went up the hill -- up
+
+
+7] Conjuction (Word + joint + Sentences)
+----------------
+        What is conjuction?
+                 Conjuction is a word that joins words, phrases or sentences.
+
+          Ex: Seeta and Geeta Went to see a movie. -- and
+              Would you like tea or coffee? -- or
+              Mohan is poor but honest. -- but
+
+        Important Conjuctions
+                    for
+                    and
+                    nor
+                    but
+                    or
+                    yet
+                    so
+
+                For - We used to like because or to tell reason.
+                      ex: I drank some water, for i was thirsty.
+
+                and - We use and to add word it presents idea that are similar
+                      ex: I like chocolate and cake.
+
+                nor - We nor to say not. it presents negative idea with another.
+                      ex: My Father does not get angry at me nor my mother.
+
+                but - We use but show contrast. It presents opposite idea.
+                      ex: My sister can ride a bicycle, but she can't drive.
+
+                or - We use or to show an option it presents an alternative idea or choice.
+                     ex: You can pay your bill by cash or credit card.
+
+               Yet - It presents an outcome or contrast.
+                     ex: I ran fast yet I come last.
+
+               so - We use so to express a result.
+                    ex: I studied hard so I passed the exam.
+
+        Practice Activity
+        ------------------
+
+                He can play cricket and football very well. -- and
+                There are lot of cars, so parking can be difficult -- so
+                She studied hard, but she didn't pass her exam. -- but
+                Be There on time, or you will miss the bus. -- or
+                She was very tired, so she went to bed early. -- so
+
+
+8] Interjection
+----------------
+       What is Interjection?
+            Interjection is a short sound or word that use to show spontaneous feeling or to express an
+            emotion of a person that originates due to sudden joy, surprise, pain, etc.
+
+            Ex: WOW! What a beautiful rose. --WOW!
+                OUCH! I got toothache. -- OUCH!
+
+       Important Points
+       ------------------
+                1. It generally ends with an exclamation mark (!)
+                2. Intersection is a separate word that is not connected to the rest of the sentence
+
+                ex: Hurray! We won the Match.
+
+       Interjection of greetings
+                Hey! Hello! Hi!
+
+                Hello! nice to meet you.
+
+       Interjection of Praise
+
+                Great! Well Done! Brilliant!
+                Great! Well Done! Brilliant!
+
+                Well Done! You did a great job.
+
+       Interjection of Attention
+                Listen! Look! Shh!
+
+                Look! It's an Elephant.
+
+       Interjection of Surprise
+                    What! Ah! Oh! Wow!
+
+                    What!  I can't believe it.
+
+
+       Interjection :- Interjection Means Spontaneous feelings or emotions of a person.

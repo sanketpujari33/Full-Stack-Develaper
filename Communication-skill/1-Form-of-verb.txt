@@ -1,0 +1,38 @@
+Form Of Verb
+----------------
+      v1 - Main verb/ base/ Preset form
+      v2 - Past Form
+      v3 - Past participle form
+      V4 - ing form / Present participle form
+
+     1} Regular Verb - add -ed in 2nd and 3rd form
+     2} Irregular verb - 2nd and 3rd form are different
+
+Here is an extended list of regular and irregular verbs in their various forms, as requested, written in the format you wanted:
+
+| मराठी    | V1 (Main Verb) | V2 (Past form) | V3 (Past Participle) | V4 (Present Participle) |
+|---------|----------------|----------------|----------------------|-------------------------|
+| चालणे    | Walk           | Walked         | Walked               | Walking                 |
+| धावणे    | Run            | Ran            | Run                  | Running                 |
+| खेळणे    | Play           | Played         | Played               | Playing                 |
+| खाणे     | Eat            | Ate            | Eaten                | Eating                  |
+| घेणे      | Take           | Took           | Taken                | Taking                  |
+| बोलणे    | Speak          | Spoke          | Spoken               | Speaking                |
+| शिकणे    | Learn          | Learned/Learnt | Learned/Learnt       | Learning                |
+| येणे      | Come           | Came           | Come                 | Coming                  |
+| देणे      | Give           | Gave           | Given                | Giving                  |
+| बघणे     | See            | Saw            | Seen                 | Seeing                  |
+| जाणे      | Go             | Went           | Gone                 | Going                   |
+| होणे      | Be             | Was/Were       | Been                 | Being                   |
+| उडणे     | Fly            | Flew           | Flown                | Flying                  |
+| लिहिणे   | Write          | Wrote          | Written              | Writing                 |
+| पिणे     | Drink          | Drank          | Drunk                | Drinking                |
+| विचारणे  | Ask            | Asked          | Asked                | Asking                  |
+| बांधणे   | Build          | Built          | Built                | Building                |
+| विकणे    | Sell           | Sold           | Sold                 | Selling                 |
+| शिकवणे  | Teach          | Taught         | Taught               | Teaching                |
+| सांगणे   | Tell           | Told           | Told                 | Telling                 |
+| मिळवणे  | Get            | Got            | Got/Gotten           | Getting                 |
+| करणे     | Do             | Did            | Done                 | Doing                   |
+| उभे राहणे | Stand          | Stood          | Stood                | Standing                |
+

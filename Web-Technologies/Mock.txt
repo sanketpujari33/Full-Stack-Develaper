@@ -1,83 +1,34 @@
 
+What is ReactJs?
 
-Divyanshu Pathak
-54m ago
-This meeting is for the preparation of WIFY Technology interviews. Those who are not participating in this preparation are welcome to stay in the meeting or leave as they wish. Candidates who have been referred to this company must remain in the meeting.
+What are some of the features of ReactJs?
 
+React lifecycle
 
-Neha Kashyap
-52m ago
-I am not referred for this company?
+Explain Hooks in React and what are some hooks that you have used?
 
+Class based component vs functional component
+States in React? useState and useEffect
 
-Divyanshu Pathak
-52m ago
-1.⁠ ⁠What is ReactJs?
+What is NodeJs?
 
- 2.⁠ ⁠What are some of the features of ReactJs?
+Where do you use NodeJs?
 
- 3.⁠ ⁠React lifecycle
+What is an event?
 
- 4.⁠ ⁠Explain Hooks in React and what are some hooks that you have used?
+Which library is used to send email? (Nodemailer, npm)
 
- 5.⁠ ⁠Class based component vs functional component
+GET and POST
 
- 6.⁠ ⁠States in React? useState and useEffect
+Explain CRUD Operations
 
-
-Neha Kashyap
-51m ago
-no
-
-
-Neha Kashyap
-50m ago
-can i leave the meeting?
-
-
-ok sir
-
-
-sure sir
-
-
-Divyanshu Pathak
-42m ago
--> Backend
-
- 1.⁠ ⁠What is NodeJs?
-
- 2.⁠ ⁠Where do you use NodeJs?
-
- 3.⁠ ⁠What is an event?
-
- 4.⁠ ⁠Which library is used to send email? (Nodemailer, npm)
-
- 5.⁠ ⁠GET and POST
-
- 6.⁠ ⁠Explain CRUD Operations
-
-
-Divyanshu Pathak
-17m ago
 Implement a Simple Asynchronous Operation in Node.js:
 
 Task: Write a Node.js script that reads a file asynchronously and logs its content to the console.
 
 
-saurabh Singh
-just now
-where sir
-
-
-mern stack q
-
-
 question
 
-
-Divyanshu Pathak
-just now
 General MERN V_Stack Questions
 
 Explain the MERN V_Stack. (Describe each component and how they work together)
